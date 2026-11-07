@@ -74,7 +74,7 @@
   const AUTH_URL = "https://accounts.spotify.com/authorize";
   const TOKEN_URL = "https://accounts.spotify.com/api/token";
   const API = "https://api.spotify.com/v1";
-  const SCOPES = "user-modify-playback-state user-read-playback-state";
+  const SCOPES = "user-modify-playback-state user-read-playback-state user-read-private";
   const clientId = () => (CFG.SPOTIFY_CLIENT_ID || "").trim();
   // One redirect address for every page: the game's folder (index.html).
   const redirectUri = () => new URL("./", location.href).href;
@@ -96,6 +96,7 @@
       access_token: t.access_token,
       refresh_token: t.refresh_token || prev.refresh_token,
       expires_at: Date.now() + (t.expires_in || 3600) * 1000,
+      scope: t.scope || prev.scope || "",
     });
   }
 
@@ -113,7 +114,17 @@
 
   const spotify = (KZ.spotify = {
     isConfigured: () => !!clientId(),
-    isLoggedIn: () => !!(KZ.local.get("kz.token") || {}).refresh_token,
+    // A login from before a permission was added counts as logged out, so the page asks again.
+    isLoggedIn: () => {
+      const t = KZ.local.get("kz.token") || {};
+      if (!t.refresh_token) return false;
+      const have = String(t.scope || "").split(" ");
+      if (!SCOPES.split(" ").every((s) => have.includes(s))) {
+        KZ.local.del("kz.token");
+        return false;
+      }
+      return true;
+    },
 
     async login(returnTo) {
       const verifier = randomString(64);
@@ -228,7 +239,8 @@
 
     async search(query, limit = 10) {
       for (let attempt = 0; attempt < 4; attempt++) {
-        const q = new URLSearchParams({ q: query, type: "track", limit: String(limit), market: "from_token" });
+        // No "market": with a user login Spotify uses the listener's country anyway.
+        const q = new URLSearchParams({ q: query, type: "track", limit: String(limit) });
         const r = await spotify.api("GET", "/search?" + q);
         if (r.status === 429) {
           // Rate limit: wait as long as Spotify asks (at most 30 s), then retry.
