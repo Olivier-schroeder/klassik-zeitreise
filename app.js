@@ -121,8 +121,11 @@
     return el("div", { class: "panel warn stack" }, kids);
   }
 
+  // Version tag from the script address (index.html loads app.js?v=…), to see on a phone which version runs.
+  const VERSION = ((document.querySelector('script[src*="app.js"]') || {}).src || "").split("v=")[1] || "dev";
+
   function footerView() {
-    const items = [];
+    const items = [el("div", { style: "font-size:12px;opacity:.6" }, "Version " + VERSION)];
     if (spotify.isLoggedIn()) {
       items.push(
         el(
