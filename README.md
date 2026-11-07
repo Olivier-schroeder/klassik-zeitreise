@@ -114,4 +114,4 @@ score: sicher (>= 85 %), mittel, unsicher (< 65 %). Then tick "nur unsichere Aus
 listen, fix or confirm ("Passt ✓"), and download `cards.json`. Without a chosen recording
 the game uses the same scoring at play time.
 
-The game page has a "⏩ 15 s" button for pieces with a quiet beginning.
+The game page has a "⏩ 30 s" button for pieces with a quiet beginning.
