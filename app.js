@@ -70,7 +70,8 @@
           { class: "panel answer" },
           el("div", { class: "year" }, String(c.year)),
           el("div", { class: "composer" }, c.composer),
-          el("div", { class: "title" }, c.title)
+          el("div", { class: "title" }, c.title),
+          c.back_note ? el("div", { class: "egg" }, c.back_note) : null
         )
       );
     } else {

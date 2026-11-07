@@ -1,5 +1,113 @@
 [
   {
+    "id": "d7xzx",
+    "composer": "Gregorianischer Choral (Wipo von Burgund zugeschrieben)",
+    "title": "Victimae paschali laudes (Ostersequenz)",
+    "year": 1040,
+    "year_note": "ungefähr",
+    "query": "Gregorian Victimae paschali laudes",
+    "spotify": "spotify:track:6gtfibFMadVNMrgWZNCKH3",
+    "start_ms": 0,
+    "spotify_label": "Schola gregoriana mediolanensis, Giovanni Vianini",
+    "pinned": true
+  },
+  {
+    "id": "kjtwa",
+    "composer": "Hildegard von Bingen",
+    "title": "O virtus Sapientiae",
+    "year": 1150,
+    "year_note": "ungefähr",
+    "query": "Hildegard von Bingen O virtus Sapientiae",
+    "spotify": "spotify:track:1BiDQ3HmyjLbTm4u2eQb6R",
+    "start_ms": 0,
+    "spotify_label": "Sequentia, Barbara Thornton",
+    "pinned": true
+  },
+  {
+    "id": "pqy6e",
+    "composer": "Pérotin",
+    "title": "Viderunt omnes",
+    "year": 1198,
+    "year_note": "vollendet",
+    "query": "Perotin Viderunt omnes",
+    "spotify": "spotify:track:3DPvIw6xupTvdJ6bxXxYZV",
+    "start_ms": 0,
+    "spotify_label": "The Hilliard Ensemble",
+    "pinned": true
+  },
+  {
+    "id": "6pr95",
+    "composer": "Gregorianischer Choral",
+    "title": "Dies irae (Sequenz)",
+    "year": 1250,
+    "year_note": "ungefähr",
+    "query": "Gregorian Dies irae",
+    "spotify": "spotify:track:7AfWQ6Au8BmsW5XXBubaTk",
+    "start_ms": 0,
+    "spotify_label": "The Deller Consort, Alfred Deller",
+    "pinned": true
+  },
+  {
+    "id": "wypcn",
+    "composer": "Anonymus (England)",
+    "title": "Sumer is icumen in",
+    "year": 1260,
+    "year_note": "ungefähr",
+    "query": "Sumer is icumen in",
+    "spotify": "spotify:track:3UnTFSIJAkajHGWQ8GRDx1",
+    "start_ms": 0,
+    "spotify_label": "Huelgas Ensemble, Paul Van Nevel",
+    "pinned": true
+  },
+  {
+    "id": "zdqet",
+    "composer": "Alfons X. von Kastilien",
+    "title": "Cantigas de Santa Maria: Rosa das rosas",
+    "year": 1280,
+    "year_note": "ungefähr",
+    "query": "Alfonso Cantigas Rosa das rosas",
+    "spotify": "spotify:track:7mu9xsInDcpxErGgY10UO7",
+    "start_ms": 0,
+    "spotify_label": "Unicorn Ensemble",
+    "pinned": true
+  },
+  {
+    "id": "w2sj4",
+    "composer": "Guillaume de Machaut",
+    "title": "Messe de Nostre Dame: Kyrie",
+    "year": 1365,
+    "year_note": "ungefähr",
+    "query": "Machaut Messe de Nostre Dame Kyrie",
+    "spotify": "spotify:track:0sEJlAH2xPfPt5KWIsx2k8",
+    "start_ms": 0,
+    "spotify_label": "The Hilliard Ensemble",
+    "pinned": true
+  },
+  {
+    "id": "jbeuu",
+    "composer": "Llibre Vermell de Montserrat",
+    "title": "Stella splendens",
+    "year": 1399,
+    "year_note": "ungefähr",
+    "query": "Llibre Vermell Stella splendens",
+    "spotify": "spotify:track:0JaeVKZQfg9Y0LAbr4yVSQ",
+    "start_ms": 0,
+    "spotify_label": "Jordi Savall",
+    "pinned": true
+  },
+  {
+    "id": "u9b4x",
+    "composer": "Guillaume Dufay",
+    "title": "Nuper rosarum flores",
+    "year": 1436,
+    "year_note": "Uraufführung",
+    "query": "Dufay Nuper rosarum flores",
+    "spotify": "spotify:track:6OPUNfV3jzgcbmbgyQd3zS",
+    "start_ms": 0,
+    "spotify_label": "The Hilliard Ensemble, Paul Hillier",
+    "pinned": true
+  },
+  {
     "id": "r945g",
     "composer": "Josquin des Prez",
     "title": "Ave Maria … virgo serena",
@@ -3186,6 +3294,19 @@
     "start_ms": 0
   },
   {
+    "id": "wnwre",
+    "composer": "Ernest Chausson",
+    "title": "Klaviertrio g-Moll op. 3, 2. Satz (Vite)",
+    "year": 1881,
+    "year_note": "vollendet",
+    "query": "Chausson Piano Trio G minor Op. 3 Vite",
+    "spotify": "spotify:track:6kBRDXNwzbxrtQwSGBnVuq",
+    "start_ms": 0,
+    "spotify_label": "Schwarzenberg Trio (decurio 2026)",
+    "pinned": true,
+    "back_note": "★ Aufnahme: decurio"
+  },
+  {
     "id": "43jx4",
     "composer": "Jacques Offenbach",
     "title": "Hoffmanns Erzählungen: Barcarole",
@@ -3443,8 +3564,11 @@
     "year": 1888,
     "year_note": "vollendet",
     "query": "Fauré Requiem Pie Jesu",
-    "spotify": "",
-    "start_ms": 0
+    "spotify": "spotify:track:7vrou3NRaqNgpOyckag132",
+    "start_ms": 0,
+    "spotify_label": "Freiburger Domsingknaben, Boris Böhmann, Jörg Schwab (2015)",
+    "pinned": true,
+    "back_note": "★ Freiburger Domsingknaben · Solo: Olivier Schröder"
   },
   {
     "id": "bpy9p",
@@ -4989,6 +5113,19 @@
     "start_ms": 0
   },
   {
+    "id": "zx4fv",
+    "composer": "Jacob Gade",
+    "title": "Jalousie „Tango Tzigane“",
+    "year": 1925,
+    "year_note": "vollendet",
+    "query": "Gade Jalousie Tango",
+    "spotify": "spotify:track:0hK1KLLNwzv9GudCMrUxVf",
+    "start_ms": 0,
+    "spotify_label": "Niklas Walentin, Philharmonie Südwestfalen, Nabil Shehata (decurio 2025)",
+    "pinned": true,
+    "back_note": "★ Aufnahme: decurio"
+  },
+  {
     "id": "gza46",
     "composer": "Alban Berg",
     "title": "Lyrische Suite, 1. Satz",
@@ -5037,6 +5174,19 @@
     "query": "Kodály Háry János Viennese Musical Clock | Kodaly Hary Janos Viennese Musical Clock",
     "spotify": "",
     "start_ms": 0
+  },
+  {
+    "id": "crhcf",
+    "composer": "Erwin Schulhoff",
+    "title": "Violinsonate Nr. 2, 2. Satz (Andante)",
+    "year": 1927,
+    "year_note": "vollendet",
+    "query": "Schulhoff Violin Sonata 2 Andante",
+    "spotify": "spotify:track:6SkxzdCFXNcXgSDFfrwdCi",
+    "start_ms": 0,
+    "spotify_label": "Severin Van Schmid, Zeno Minh Schmid (decurio 2024)",
+    "pinned": true,
+    "back_note": "★ Aufnahme: decurio"
   },
   {
     "id": "urrxc",

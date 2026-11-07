@@ -3,6 +3,16 @@
 # note: empty = year completed; UA = first performance (operas, ballets, stage music); Druck = first printing; Widmung = dedication copy; ca = approximate (exact year unknown)
 # check: 1 = year not certain, look it up before printing
 id	composer	title	year	note	check
+# ---------- Mittelalter und Gregorianik ----------
+d7xzx	Gregorianischer Choral (Wipo von Burgund zugeschrieben)	Victimae paschali laudes (Ostersequenz)	1040	ca
+kjtwa	Hildegard von Bingen	O virtus Sapientiae	1150	ca
+pqy6e	Pérotin	Viderunt omnes	1198
+6pr95	Gregorianischer Choral	Dies irae (Sequenz)	1250	ca
+wypcn	Anonymus (England)	Sumer is icumen in	1260	ca
+zdqet	Alfons X. von Kastilien	Cantigas de Santa Maria: Rosa das rosas	1280	ca
+w2sj4	Guillaume de Machaut	Messe de Nostre Dame: Kyrie	1365	ca
+jbeuu	Llibre Vermell de Montserrat	Stella splendens	1399	ca
+u9b4x	Guillaume Dufay	Nuper rosarum flores	1436	UA
 # ---------- Renaissance & frühes 17. Jahrhundert ----------
 r945g	Josquin des Prez	Ave Maria … virgo serena	1502	Druck
 qav64	Josquin des Prez	El Grillo	1505	Druck

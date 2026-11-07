@@ -175,6 +175,7 @@
       el("div", { class: "card-head" }, el("h2", {}, c.composer + ": " + c.title), el("span", { class: "yr" }, String(c.year) + (c.year_note ? " (" + c.year_note + ")" : ""))),
       c.check ? el("div", { class: "muted", style: "color:var(--danger)" }, "⚠ Jahr noch prüfen (z. B. Wikipedia), dann in data/pieces_*.tsv die 1 in der Spalte check löschen") : null,
       c.hint ? el("div", { class: "hint" }, "💡 " + c.hint) : null,
+      c.pinned ? el("div", { class: "hint" }, "📌 Feste Aufnahme (data/pinned.tsv)" + (c.back_note ? " · " + c.back_note : "")) : null,
       el(
         "div",
         { class: "muted" },

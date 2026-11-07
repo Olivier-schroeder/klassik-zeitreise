@@ -1,0 +1,16 @@
+# Fixed recordings: these cards always play exactly this Spotify track (wins over the picker page).
+# Tab-separated: id | spotify track | label (who plays) | back_note (optional, printed small on the card back and shown on "Lösung anzeigen")
+id	spotify	label	back_note
+d7xzx	spotify:track:6gtfibFMadVNMrgWZNCKH3	Schola gregoriana mediolanensis, Giovanni Vianini	
+kjtwa	spotify:track:1BiDQ3HmyjLbTm4u2eQb6R	Sequentia, Barbara Thornton	
+pqy6e	spotify:track:3DPvIw6xupTvdJ6bxXxYZV	The Hilliard Ensemble	
+6pr95	spotify:track:7AfWQ6Au8BmsW5XXBubaTk	The Deller Consort, Alfred Deller	
+wypcn	spotify:track:3UnTFSIJAkajHGWQ8GRDx1	Huelgas Ensemble, Paul Van Nevel	
+zdqet	spotify:track:7mu9xsInDcpxErGgY10UO7	Unicorn Ensemble	
+w2sj4	spotify:track:0sEJlAH2xPfPt5KWIsx2k8	The Hilliard Ensemble	
+jbeuu	spotify:track:0JaeVKZQfg9Y0LAbr4yVSQ	Jordi Savall	
+u9b4x	spotify:track:6OPUNfV3jzgcbmbgyQd3zS	The Hilliard Ensemble, Paul Hillier	
+ar4vx	spotify:track:7vrou3NRaqNgpOyckag132	Freiburger Domsingknaben, Boris Böhmann, Jörg Schwab (2015)	★ Freiburger Domsingknaben · Solo: Olivier Schröder
+zx4fv	spotify:track:0hK1KLLNwzv9GudCMrUxVf	Niklas Walentin, Philharmonie Südwestfalen, Nabil Shehata (decurio 2025)	★ Aufnahme: decurio
+crhcf	spotify:track:6SkxzdCFXNcXgSDFfrwdCi	Severin Van Schmid, Zeno Minh Schmid (decurio 2024)	★ Aufnahme: decurio
+wnwre	spotify:track:6kBRDXNwzbxrtQwSGBnVuq	Schwarzenberg Trio (decurio 2026)	★ Aufnahme: decurio

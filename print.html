@@ -24,6 +24,7 @@
     .back .year { font-size: 30pt; color: var(--gold); line-height: 1; margin: 3mm 0; }
     .back .note { font-family: system-ui, sans-serif; font-size: 6.5pt; color: #8a8576; text-transform: uppercase; letter-spacing: 0.08em; margin-top: -2mm; margin-bottom: 2mm; }
     .back .title { font-size: 8.5pt; line-height: 1.25; color: #3d3b36; }
+    .back .egg { font-family: system-ui, sans-serif; font-size: 6.5pt; color: var(--gold); margin-top: 2mm; letter-spacing: 0.02em; }
     .empty { border-color: transparent; }
     @media print {
       body { background: #fff; }
@@ -39,8 +40,8 @@
     <button onclick="window.print()">Drucken / als PDF speichern</button>
   </div>
   <div id="sheets"></div>
-  <script src="config.js?v=20261107c"></script>
-  <script src="common.js?v=20261107c"></script>
+  <script src="config.js?v=20261107d"></script>
+  <script src="common.js?v=20261107d"></script>
   <script>
     (async function () {
       const KZ = window.KZ, el = KZ.el;
@@ -82,7 +83,8 @@
               el("div", { class: "composer" }, c.composer),
               el("div", { class: "year" }, String(c.year)),
               c.year_note ? el("div", { class: "note" }, c.year_note) : null,
-              el("div", { class: "title" }, c.title)));
+              el("div", { class: "title" }, c.title),
+              c.back_note ? el("div", { class: "egg" }, c.back_note) : null));
           }
         }
         sheets.append(front, back);

@@ -117,6 +117,24 @@ def read_search(data: Path, ids: set[str]) -> tuple[dict, list[str]]:
     return out, errors
 
 
+def read_pinned(path: Path, ids: set[str]) -> tuple[dict, list[str]]:
+    """data/pinned.tsv: id | spotify:track:… | label | back_note."""
+    out, errors = {}, []
+    if not path.exists():
+        return out, errors
+    for n, line in enumerate(path.read_text(encoding="utf-8").splitlines(), 1):
+        if not line.strip() or line.startswith("#") or line.startswith("id\t"):
+            continue
+        card_id, uri, label, note = ([c.strip() for c in line.split("\t")] + ["", "", ""])[:4]
+        if card_id not in ids:
+            errors.append(f"{path.name}:{n}: unknown card id {card_id}")
+        elif not re.fullmatch(r"spotify:track:[A-Za-z0-9]{22}", uri):
+            errors.append(f"{path.name}:{n}: '{uri}' is not a spotify:track:… address")
+        else:
+            out[card_id] = {"spotify": uri, "label": label, "back_note": note}
+    return out, errors
+
+
 def make_query(row: dict) -> str:
     if row["query"]:
         return row["query"]
@@ -139,7 +157,7 @@ def main() -> int:
     for r in all_rows:
         if not r["composer"] or not r["title"]:
             errors.append(f"{r['_where']}: composer or title missing")
-        if not re.fullmatch(r"\d{3,4}", r["year"]) or not 1100 <= int(r["year"]) <= 2100:
+        if not re.fullmatch(r"\d{3,4}", r["year"]) or not 800 <= int(r["year"]) <= 2100:
             errors.append(f"{r['_where']}: year '{r['year']}' is not a year")
         if r["note"] not in NOTES:
             errors.append(f"{r['_where']}: note '{r['note']}' must be one of {sorted(n for n in NOTES if n)} or empty")
@@ -179,6 +197,11 @@ def main() -> int:
         print("\n".join(search_errors))
         return 1
 
+    pinned, pin_errors = read_pinned(DATA / "pinned.tsv", {r["id"] for r in all_rows})
+    if pin_errors:
+        print("\n".join(pin_errors))
+        return 1
+
     old = {c["id"]: c for c in json.loads(CARDS.read_text(encoding="utf-8"))} if CARDS.exists() else {}
     cards = []
     for r in all_rows:
@@ -206,6 +229,15 @@ def main() -> int:
             card["audio"] = prev["audio"]
         if r["check"] == "1":
             card["check"] = True
+        pin = pinned.get(r["id"])
+        if pin:
+            # fixed recording (data/pinned.tsv): always this track, never re-picked
+            card["spotify"] = pin["spotify"]
+            card["spotify_label"] = pin["label"] or card.get("spotify_label", "")
+            card["pinned"] = True
+            card.pop("auto_score", None)
+            if pin["back_note"]:
+                card["back_note"] = pin["back_note"]
         cards.append(card)
     cards.sort(key=lambda c: (c["year"], c["composer"], c["title"]))
 
