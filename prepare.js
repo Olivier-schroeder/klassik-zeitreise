@@ -64,7 +64,7 @@
         el("span", { class: "muted", id: "message" }, message)
       )
     );
-    const filterBox = el("input", { type: "text", class: "grow", placeholder: "Filter: Komponist, Titel oder Jahr", value: filter.text });
+    const filterBox = el("input", { type: "text", class: "grow", style: "min-width:280px", placeholder: "Filter: Komponist, Titel oder Jahr", value: filter.text });
     filterBox.addEventListener("input", () => {
       filter.text = filterBox.value;
       renderList();
