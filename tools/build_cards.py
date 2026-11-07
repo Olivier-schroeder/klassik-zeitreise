@@ -22,7 +22,7 @@ DATA = ROOT / "data"
 CARDS = ROOT / "cards.json"
 
 ID_CHARS = "abcdefghjkmnpqrstuvwxyz23456789"  # no 0/o, 1/l/i
-NOTES = {"": "vollendet", "UA": "Uraufführung", "Druck": "Erstdruck", "Widmung": "Widmung"}
+NOTES = {"": "vollendet", "UA": "Uraufführung", "Druck": "Erstdruck", "Widmung": "Widmung", "ca": "ungefähr"}
 COLUMNS = ["id", "composer", "title", "year", "note", "check", "query"]
 
 # Spellings Spotify knows better than the German ones on the cards.

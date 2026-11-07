@@ -3,7 +3,7 @@ id	composer	title	year	note	check
 pach3	Giuseppe Verdi	Rigoletto: La donna è mobile	1851	UA
 cx656	Franz Liszt	Grandes études de Paganini: La Campanella	1851
 4d7ug	Johann Strauss (Sohn)	Annen-Polka	1852
-qpmvp	Anton Rubinstein	Melodie in F	1852		1
+qpmvp	Anton Rubinstein	Melodie in F	1852
 xrht7	Giuseppe Verdi	La traviata: Libiamo ne' lieti calici	1853	UA
 j7w8j	Giuseppe Verdi	Il trovatore: Zigeunerchor	1853	UA
 4dvcz	Franz Liszt	Klaviersonate h-Moll	1853
@@ -19,7 +19,7 @@ vkgnp	Camille Saint-Saëns	Introduction et Rondo capriccioso	1863
 4xh88	Richard Wagner	Tristan und Isolde: Vorspiel	1865	UA
 zubnt	Franz von Suppé	Leichte Kavallerie: Ouvertüre	1866	UA
 gq36j	Bedřich Smetana	Die verkaufte Braut: Ouvertüre	1866	UA
-4vqe4	Max Bruch	Violinkonzert Nr. 1 g-Moll, 3. Satz	1867		1
+4vqe4	Max Bruch	Violinkonzert Nr. 1 g-Moll, 3. Satz	1867
 brx4v	Johann Strauss (Sohn)	An der schönen blauen Donau	1867
 u63n2	Modest Mussorgsky	Eine Nacht auf dem kahlen Berge	1867
 93ph8	Giuseppe Verdi	Don Carlos: Ouvertüre	1867	UA
@@ -35,7 +35,7 @@ px7xt	Johann Strauss (Sohn)	G'schichten aus dem Wienerwald	1868
 dtqs7	Anton Bruckner	Locus iste	1869
 gjvj9	Mili Balakirew	Islamey	1869
 qemt8	Johann Strauss (Sohn) und Josef Strauss	Pizzicato-Polka	1869
-2xysg	Pjotr Iljitsch Tschaikowsky	Romeo und Julia, Fantasie-Ouvertüre	1869		1
+2xysg	Pjotr Iljitsch Tschaikowsky	Romeo und Julia, Fantasie-Ouvertüre	1880
 bz3w2	Richard Wagner	Die Walküre: Walkürenritt	1870	UA
 abemh	Richard Wagner	Siegfried-Idyll	1870
 d3pns	Léo Delibes	Coppélia: Walzer	1870	UA
@@ -82,7 +82,7 @@ vn9an	Pjotr Iljitsch Tschaikowsky	Serenade für Streicher, 2. Satz (Walzer)	1880
 2ubkd	Max Bruch	Kol Nidrei	1880
 tgfpt	Alexander Borodin	Eine Steppenskizze aus Mittelasien	1880
 dav8q	Gabriel Fauré	Élégie für Violoncello	1880
-nn7zj	Anton Bruckner	Sinfonie Nr. 4 „Romantische“, 1. Satz	1880		1
+nn7zj	Anton Bruckner	Sinfonie Nr. 4 „Romantische“, 1. Satz	1880
 43jx4	Jacques Offenbach	Hoffmanns Erzählungen: Barcarole	1881	UA
 k25kk	Johannes Brahms	Klavierkonzert Nr. 2 B-Dur, 1. Satz	1881
 zf6v2	Alexander Borodin	Streichquartett Nr. 2: Notturno	1881
@@ -105,14 +105,14 @@ s4h3b	Camille Saint-Saëns	Sinfonie Nr. 3 „Orgelsinfonie“, Finale	1886
 2ttrx	Johannes Brahms	Doppelkonzert a-Moll, 1. Satz	1887
 p67ec	Nikolai Rimski-Korsakow	Capriccio espagnol	1887
 pg2eb	Hugo Wolf	Italienische Serenade	1887
-3rywm	Ignacy Jan Paderewski	Menuett G-Dur	1887		1
+3rywm	Ignacy Jan Paderewski	Menuett G-Dur	1887
 sg95d	Nikolai Rimski-Korsakow	Scheherazade: Das Meer und Sindbads Schiff	1888
 2bjd6	Pjotr Iljitsch Tschaikowsky	Sinfonie Nr. 5, 2. Satz	1888
 bpy9p	Gustav Mahler	Sinfonie Nr. 1 „Titan“, 3. Satz	1888
 fmgp8	Richard Strauss	Don Juan	1888
 n2hzw	César Franck	Sinfonie d-Moll, 1. Satz	1888
 ysfvf	Erik Satie	Gymnopédie Nr. 1	1888
-ar4vx	Gabriel Fauré	Requiem: Pie Jesu	1888		1
+ar4vx	Gabriel Fauré	Requiem: Pie Jesu	1888
 k26zz	Edward Elgar	Salut d'amour	1888
 7cqpr	Johann Strauss (Sohn)	Kaiserwalzer	1889
 cemga	Antonín Dvořák	Sinfonie Nr. 8 G-Dur, 3. Satz	1889
@@ -122,7 +122,7 @@ zfmh2	Pietro Mascagni	Cavalleria rusticana: Intermezzo	1890	UA
 8hyfj	Erik Satie	Gnossienne Nr. 1	1890
 eym5e	Claude Debussy	Rêverie	1890
 69dry	Johannes Brahms	Klarinettenquintett h-Moll, 2. Satz	1891
-k8hxs	Claude Debussy	Arabesque Nr. 1	1891		1
+k8hxs	Claude Debussy	Arabesque Nr. 1	1891
 6bbxp	Pjotr Iljitsch Tschaikowsky	Der Nussknacker: Tanz der Zuckerfee	1892	UA
 rezxu	Pjotr Iljitsch Tschaikowsky	Der Nussknacker: Blumenwalzer	1892	UA
 x647f	Ruggero Leoncavallo	Pagliacci: Vesti la giubba	1892	UA
@@ -137,7 +137,7 @@ jz289	Pjotr Iljitsch Tschaikowsky	Sinfonie Nr. 6 „Pathétique“, 1. Satz	1893
 cvz6j	Engelbert Humperdinck	Hänsel und Gretel: Abendsegen	1893	UA
 3hzj6	Johannes Brahms	Intermezzo A-Dur op. 118 Nr. 2	1893
 pdmpq	Jean Sibelius	Karelia-Suite: Alla marcia	1893
-nwnhe	Ferruccio Busoni	Chaconne d-Moll (nach Bach)	1893		1
+nwnhe	Ferruccio Busoni	Chaconne d-Moll (nach Bach)	1893
 sfsde	Claude Debussy	Prélude à l'après-midi d'un faune	1894
 yyhj6	Jules Massenet	Thaïs: Méditation	1894	UA
 mqmaq	Gustav Mahler	Sinfonie Nr. 2 „Auferstehung“, Finale	1894
@@ -164,4 +164,4 @@ zemy4	Julius Fučík	Einzug der Gladiatoren	1897
 fbhxb	Maurice Ravel	Pavane pour une infante défunte	1899
 bw9g5	Claude Debussy	Nocturnes: Fêtes	1899
 vvp9j	Scott Joplin	Maple Leaf Rag	1899
-4rcdx	Jean Sibelius	Finlandia	1900		1
+4rcdx	Jean Sibelius	Finlandia	1900
