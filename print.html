@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Karten drucken</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+  <style>
+    /* A4, 3 x 4 square cards per sheet. Print double-sided, "flip on long edge", scale 100%. */
+    :root { --card: 63mm; --gold: #b8892f; --ink: #1d1d24; }
+    @page { size: A4; margin: 0; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Georgia, "Times New Roman", serif; color: var(--ink); background: #e9e6df; }
+    .controls { font-family: system-ui, sans-serif; padding: 16px; max-width: 210mm; margin: 0 auto; display: flex; flex-direction: column; gap: 8px; }
+    .controls button { font: 600 16px system-ui, sans-serif; padding: 10px 18px; border-radius: 999px; border: 0; background: #1d2030; color: #fff; cursor: pointer; align-self: flex-start; }
+    .controls .warn { background: #fde8e4; border-left: 4px solid #c9503f; padding: 8px 12px; }
+    .sheet { width: 210mm; height: 297mm; margin: 0 auto 10mm; background: #fff; display: grid; grid-template-columns: repeat(3, var(--card)); grid-auto-rows: var(--card); justify-content: center; align-content: center; page-break-after: always; break-after: page; }
+    .card { border: 0.2mm dashed #c9c4b8; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 6mm; text-align: center; overflow: hidden; }
+    .front .qr { width: 38mm; height: 38mm; }
+    .front .qr svg { width: 100%; height: 100%; display: block; }
+    .front .name { margin-top: 4mm; font-size: 9pt; letter-spacing: 0.12em; text-transform: uppercase; color: var(--gold); }
+    .back .composer { font-size: 11pt; font-weight: bold; line-height: 1.2; }
+    .back .year { font-size: 30pt; color: var(--gold); line-height: 1; margin: 3mm 0; }
+    .back .note { font-family: system-ui, sans-serif; font-size: 6.5pt; color: #8a8576; text-transform: uppercase; letter-spacing: 0.08em; margin-top: -2mm; margin-bottom: 2mm; }
+    .back .title { font-size: 8.5pt; line-height: 1.25; color: #3d3b36; }
+    .empty { border-color: transparent; }
+    @media print {
+      body { background: #fff; }
+      .controls { display: none; }
+      .sheet { margin: 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="controls" id="controls">
+    <strong>Karten drucken</strong>
+    <span>Vorderseiten (QR-Code) und Rückseiten (Lösung) wechseln sich ab. Doppelseitig drucken, „an der langen Kante spiegeln“, Skalierung 100 % / „Tatsächliche Größe“. Die Rückseiten sind gespiegelt angeordnet, damit sie genau hinter ihrer Vorderseite landen.</span>
+    <button onclick="window.print()">Drucken / als PDF speichern</button>
+  </div>
+  <div id="sheets"></div>
+  <script src="config.js"></script>
+  <script src="common.js"></script>
+  <script>
+    (async function () {
+      const KZ = window.KZ, el = KZ.el;
+      const PER = 12, COLS = 3;
+      const cards = await KZ.loadCards();
+      const controls = document.getElementById("controls");
+      const base = KZ.baseUrl();
+      if (!KZ.config.BASE_URL || /\/\/(127\.0\.0\.1|localhost)/.test(base)) {
+        controls.append(el("div", { class: "warn" }, "Achtung: Die QR-Codes zeigen auf " + base + ". Für die echten Karten in config.js BASE_URL auf die öffentliche Adresse setzen."));
+      }
+
+      function qrSvg(text) {
+        const qr = qrcode(0, "M");
+        qr.addData(text);
+        qr.make();
+        return qr.createSvgTag({ cellSize: 4, margin: 0, scalable: true });
+      }
+
+      const sheets = document.getElementById("sheets");
+      for (let i = 0; i < cards.length; i += PER) {
+        const chunk = cards.slice(i, i + PER);
+        while (chunk.length < PER) chunk.push(null);
+
+        const front = el("div", { class: "sheet" });
+        for (const c of chunk) {
+          if (!c) { front.append(el("div", { class: "card empty" })); continue; }
+          const qr = el("div", { class: "qr" });
+          qr.innerHTML = qrSvg(KZ.cardUrl(c.id));
+          front.append(el("div", { class: "card front" }, qr, el("div", { class: "name" }, KZ.gameName)));
+        }
+
+        // Back side: each row mirrored left-right so card n's back lands behind its front.
+        const back = el("div", { class: "sheet" });
+        for (let r = 0; r < PER / COLS; r++) {
+          const row = chunk.slice(r * COLS, r * COLS + COLS).reverse();
+          for (const c of row) {
+            if (!c) { back.append(el("div", { class: "card empty" })); continue; }
+            back.append(el("div", { class: "card back" },
+              el("div", { class: "composer" }, c.composer),
+              el("div", { class: "year" }, String(c.year)),
+              c.year_note ? el("div", { class: "note" }, c.year_note) : null,
+              el("div", { class: "title" }, c.title)));
+          }
+        }
+        sheets.append(front, back);
+      }
+    })();
+  </script>
+</body>
+</html>

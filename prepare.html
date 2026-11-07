@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Aufnahmen wählen</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .wrap.wide { max-width: 900px; }
+    main { justify-content: flex-start; }
+    .card-head { display: flex; justify-content: space-between; gap: 12px; align-items: baseline; flex-wrap: wrap; }
+    .card-head h2 { font-family: var(--font); font-weight: normal; font-size: 22px; margin: 0; }
+    .card-head .yr { color: var(--accent); font-family: var(--font); font-size: 22px; }
+    .muted { color: var(--muted); font-size: 15px; }
+    label { font-size: 15px; color: var(--muted); display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+    input[type=text] { font: inherit; font-size: 16px; color: var(--text); background: var(--bg); border: 1px solid #3a3f57; border-radius: 10px; padding: 9px 12px; min-width: 0; }
+    .grow { flex: 1; }
+    .hits { display: flex; flex-direction: column; gap: 6px; margin-top: 4px; }
+    .hit { display: flex; gap: 10px; align-items: center; background: var(--surface-2); border-radius: 12px; padding: 8px 10px; flex-wrap: wrap; }
+    .hit.chosen { outline: 2px solid var(--accent); }
+    .hit .info { flex: 1; min-width: 200px; font-size: 15px; }
+    .hit .info b { font-weight: 600; }
+    .toolbar { position: sticky; top: 0; z-index: 2; background: var(--bg); padding: 10px 0; display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+  </style>
+</head>
+<body>
+  <div class="wrap wide">
+    <header>
+      <h1>Aufnahmen wählen</h1>
+      <p class="tagline">Für jede Karte eine Spotify-Aufnahme und den Startpunkt festlegen. Danach „cards.json herunterladen“ und die Datei im Projekt ersetzen.</p>
+    </header>
+    <main id="main"></main>
+  </div>
+  <script src="config.js"></script>
+  <script src="common.js"></script>
+  <script src="prepare.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "v7k2p",
+    "composer": "Antonio Vivaldi",
+    "title": "Die vier Jahreszeiten: Der Frühling, 1. Satz (Allegro)",
+    "year": 1725,
+    "year_note": "Erstdruck",
+    "query": "Vivaldi La primavera Spring RV 269 Allegro",
+    "spotify": "",
+    "start_ms": 0
+  },
+  {
+    "id": "m3q8z",
+    "composer": "Wolfgang Amadeus Mozart",
+    "title": "Eine kleine Nachtmusik KV 525, 1. Satz (Allegro)",
+    "year": 1787,
+    "year_note": "vollendet",
+    "query": "Mozart Eine kleine Nachtmusik K. 525 Allegro",
+    "spotify": "",
+    "start_ms": 0
+  },
+  {
+    "id": "b5x4n",
+    "composer": "Ludwig van Beethoven",
+    "title": "Sinfonie Nr. 5 c-Moll op. 67, 1. Satz (Allegro con brio)",
+    "year": 1808,
+    "year_note": "vollendet",
+    "query": "Beethoven Symphony No. 5 Op. 67 Allegro con brio",
+    "spotify": "",
+    "start_ms": 0
+  },
+  {
+    "id": "d9w6t",
+    "composer": "Antonín Dvořák",
+    "title": "Sinfonie Nr. 9 \"Aus der Neuen Welt\", 4. Satz (Allegro con fuoco)",
+    "year": 1893,
+    "year_note": "vollendet",
+    "query": "Dvorak Symphony No. 9 From the New World Allegro con fuoco",
+    "spotify": "",
+    "start_ms": 0
+  },
+  {
+    "id": "r2h7c",
+    "composer": "Maurice Ravel",
+    "title": "Boléro",
+    "year": 1928,
+    "year_note": "vollendet",
+    "query": "Ravel Boléro",
+    "spotify": "",
+    "start_ms": 0
+  }
+]

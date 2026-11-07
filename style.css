@@ -1,0 +1,76 @@
+:root {
+  --bg: #13151d;
+  --surface: #1d2030;
+  --surface-2: #272b3e;
+  --text: #f4efe4;
+  --muted: #a9a496;
+  --accent: #d6a94e;
+  --accent-ink: #1b1608;
+  --danger: #e2786b;
+  --ok: #8fc79a;
+  --radius: 18px;
+  --font: "Georgia", "Times New Roman", serif;
+  --ui: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body {
+  background: radial-gradient(120% 80% at 50% 0%, #22263a 0%, var(--bg) 60%) fixed, var(--bg);
+  color: var(--text);
+  font-family: var(--ui);
+  font-size: 18px;
+  line-height: 1.45;
+  min-height: 100dvh;
+}
+.wrap { max-width: 520px; margin: 0 auto; padding: 24px 16px 40px; display: flex; flex-direction: column; min-height: 100dvh; }
+header { text-align: center; margin-bottom: 8px; }
+h1 { font-family: var(--font); font-weight: normal; font-size: 30px; letter-spacing: 0.02em; margin: 8px 0 0; }
+h1 .orn { color: var(--accent); }
+.tagline { color: var(--muted); margin: 6px 0 0; font-size: 16px; }
+main { flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 18px; padding: 24px 0; }
+footer { color: var(--muted); font-size: 14px; text-align: center; display: flex; flex-direction: column; gap: 8px; align-items: center; }
+
+.btn {
+  appearance: none; border: 0; border-radius: 999px; cursor: pointer;
+  font: 600 18px/1 var(--ui); padding: 16px 24px; min-height: 54px;
+  background: var(--surface-2); color: var(--text); text-decoration: none;
+  display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+}
+.btn:active { transform: scale(0.98); }
+.btn-primary { background: var(--accent); color: var(--accent-ink); font-size: 20px; min-height: 64px; }
+.btn-ghost { background: transparent; color: var(--muted); border: 1px solid #3a3f57; }
+.btn-small { font-size: 15px; min-height: 40px; padding: 10px 16px; }
+.btn[disabled] { opacity: 0.5; cursor: default; }
+.link { background: none; border: 0; color: var(--muted); text-decoration: underline; font: inherit; font-size: 14px; cursor: pointer; padding: 4px; }
+
+.row { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+.stack { display: flex; flex-direction: column; gap: 12px; }
+
+.big-play {
+  width: 200px; height: 200px; border-radius: 50%; margin: 0 auto; border: 0; cursor: pointer;
+  background: radial-gradient(circle at 35% 30%, #f0cd7c, var(--accent) 55%, #a87b26);
+  color: var(--accent-ink); box-shadow: 0 18px 50px rgba(214, 169, 78, 0.25), inset 0 -6px 18px rgba(0,0,0,0.2);
+  display: grid; place-items: center;
+}
+.big-play svg { width: 84px; height: 84px; }
+.big-play.playing { animation: pulse 2.4s ease-in-out infinite; }
+@keyframes pulse { 50% { box-shadow: 0 18px 70px rgba(214, 169, 78, 0.45), inset 0 -6px 18px rgba(0,0,0,0.2); } }
+.status { text-align: center; color: var(--muted); min-height: 1.4em; margin: 0; }
+
+.panel { background: var(--surface); border-radius: var(--radius); padding: 18px; }
+.panel p { margin: 0 0 12px; }
+.panel p:last-child { margin-bottom: 0; }
+.warn { border-left: 4px solid var(--danger); }
+.okline { color: var(--ok); font-size: 15px; }
+
+.answer { text-align: center; }
+.answer .year { font-family: var(--font); font-size: 56px; color: var(--accent); line-height: 1; }
+.answer .composer { font-size: 20px; font-weight: 600; margin-top: 10px; }
+.answer .title { color: var(--muted); margin-top: 4px; }
+
+.scan-overlay { position: fixed; inset: 0; background: #000; z-index: 10; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; padding: 24px 16px; gap: 14px; }
+.scan-overlay video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.scan-frame { position: absolute; top: 50%; left: 50%; width: min(70vw, 300px); aspect-ratio: 1; transform: translate(-50%, -60%); border: 3px solid var(--accent); border-radius: 24px; box-shadow: 0 0 0 9999px rgba(0,0,0,0.45); }
+.scan-hint { position: relative; color: #fff; text-align: center; margin: 0; max-width: 420px; }
+.scan-close { position: relative; color: #fff; border-color: #fff8; }
