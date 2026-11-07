@@ -59,6 +59,7 @@
         "div",
         { class: "row" },
         el("button", { class: "btn", disabled: S.busy || !S.started, onclick: () => start(true) }, "↺ Von vorne"),
+        el("button", { class: "btn", disabled: S.busy || !S.started, onclick: skip, "aria-label": "15 Sekunden vor" }, "⏩ 15 s"),
         el("button", { class: "btn", onclick: scan }, "Nächste Karte")
       )
     );
@@ -244,6 +245,21 @@
         return start(true);
       }
     }
+    S.busy = false;
+    render();
+  }
+
+  // Jumps 15 s ahead, for pieces with a quiet beginning.
+  async function skip() {
+    if (!S.started) return;
+    if (S.mode === "audio") {
+      S.audio.currentTime += 15;
+      return;
+    }
+    S.busy = true;
+    render();
+    const ok = await spotify.seekBy(15000);
+    if (!ok) S.status = "Vorspulen ging gerade nicht";
     S.busy = false;
     render();
   }

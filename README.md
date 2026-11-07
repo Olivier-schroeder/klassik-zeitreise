@@ -99,3 +99,19 @@ Any static web server in this folder on port 8765, e.g.:
 
 then open http://127.0.0.1:8765/ (use `127.0.0.1`, not `localhost`: Spotify only accepts
 that form for local redirect addresses).
+
+## Spotify search terms and start hints
+
+`data/spotify_*.tsv` holds, per card id: English search terms (several alternatives separated
+by ` | `), an optional start time (m:ss) and an optional hint for the person choosing the
+recording (e.g. "the famous theme only comes after ~1:40"). `tools/build_cards.py` merges
+them into `cards.json`; a start time chosen by hand on `prepare.html` always wins.
+
+On `prepare.html`, "Automatisch auswählen" searches every card without a recording, scores
+the hits (composer as artist, matching title words and catalogue numbers; arrangements,
+lofi/relax compilations and very short tracks lose points) and keeps the best one with a
+score: sicher (>= 85 %), mittel, unsicher (< 65 %). Then tick "nur unsichere Auswahl",
+listen, fix or confirm ("Passt ✓"), and download `cards.json`. Without a chosen recording
+the game uses the same scoring at play time.
+
+The game page has a "⏩ 15 s" button for pieces with a quiet beginning.

@@ -1,0 +1,239 @@
+# Spotify search help per card. Tab-separated: id | query | start | hint
+# query: words that appear in Spotify track titles (English titles, catalogue numbers, tempo marks).
+#        Several alternatives separated by " | ". The picker page tries all and picks the best match.
+# start: optional start time (m:ss) where the recognisable part begins; only used while no start was set by hand.
+# hint:  optional note for the person choosing the recording (shown on the picker page).
+id	query	start	hint
+r945g	Josquin Ave Maria virgo serena
+qav64	Josquin El Grillo
+7bx94	Janequin La guerre | Janequin La bataille de Marignan
+q5yzh	Arcadelt Il bianco e dolce cigno
+am7gu	Susato Danserye Mourisque | Susato La Mourisque
+mj6e9	Palestrina Missa Papae Marcelli Kyrie
+jnshk	Tallis Spem in alium
+nsgpp	Victoria O magnum mysterium
+ddchr	Lassus Matona mia cara | Lasso Matona mia cara
+xae99	Arbeau Belle qui tiens ma vie
+bg9xw	Byrd The Bells
+fyn6x	Gastoldi Amor vittorioso
+ym7qx	Morley Now is the month of maying
+x9s8x	Gabrieli Sonata pian e forte
+4txbd	Dowland Flow my tears
+349tw	Weelkes As Vesta was from Latmos hill
+zf3a7	Hassler Mein Gmüt ist mir verwirret | Hassler verwirret
+b6eaq	Caccini Amarilli mia bella
+wd58k	Dowland Lachrimae Antiquae
+hzxbs	Byrd Ave verum corpus
+rmrz8	Monteverdi Cruda Amarilli
+55csa	Victoria Officium defunctorum Introitus | Victoria Requiem 1605 Introitus
+3t796	Monteverdi Orfeo Toccata
+4jukh	Praetorius Es ist ein Ros entsprungen
+cbspn	Monteverdi Vespro Deus in adiutorium | Monteverdi Vespers 1610 Deus in adjutorium
+r5wtt	Gesualdo Moro lasso al mio duolo
+92scu	Praetorius Terpsichore Volta
+yd4dc	Gibbons The Silver Swan
+pp66w	Frescobaldi Toccata prima primo libro
+4qrf6	Schütz Jauchzet dem Herren SWV 36
+axc4h	Schütz Musikalische Exequien
+uayb4	Monteverdi Lamento della ninfa
+2x6qa	Allegri Miserere mei Deus
+e55dg	Strozzi Che si può fare
+9vnrx	Lully Marche pour la cérémonie des Turcs
+h77rs	Biber Battalia
+5bx3p	Purcell When I am laid in earth | Purcell Dido's Lament
+chuqv	Charpentier Te Deum Prelude H 146 | Charpentier Te Deum Prélude
+hpc6y	Purcell King Arthur What power art thou | Purcell Cold Song
+s3caz	Purcell Fairy Queen Hark the echoing air
+wbw58	Purcell Funeral Queen Mary March
+bc6un	Purcell Abdelazer Rondeau
+ff8z4	Corelli La Folia Sonata 12 | Corelli Follia
+fd25e	Handel Rinaldo Lascia ch'io pianga
+gz6t4	Vivaldi Concerto 4 violins RV 580
+wa5dm	Bach Schafe können sicher weiden BWV 208 | Bach Sheep may safely graze
+m4w8p	Corelli Christmas Concerto 6 8 | Corelli Concerto grosso Fatto per la notte di Natale
+7h9hv	Vivaldi Gloria RV 589 Gloria in excelsis
+dq87u	Handel Water Music Alla Hornpipe
+hkprt	Couperin Les barricades mystérieuses
+5n49f	Marcello Oboe Concerto D minor Adagio
+qftph	Bach Chaconne BWV 1004
+hzfp7	Bach Cello Suite 1 BWV 1007 Prelude
+s8dpe	Handel Harmonious Blacksmith HWV 430
+etbpx	Bach Brandenburg Concerto 3 BWV 1048 Allegro
+8fjbx	Bach Brandenburg Concerto 5 BWV 1050 Allegro
+62pf7	Bach Prelude C major BWV 846 | Bach Präludium C-Dur BWV 846
+7tm62	Albinoni Oboe Concerto Op. 9 No. 2 Adagio
+ck9um	Bach Jesus bleibet meine Freude BWV 147 | Bach Jesu Joy of Man's Desiring
+n5fwg	Telemann Hamburger Ebb und Fluth TWV 55:C3 | Telemann Wassermusik Hamburger Ebb
+zdmww	Marais Sonnerie de Sainte-Geneviève
+5nq5p	Bach Johannes-Passion Herr unser Herrscher BWV 245 | Bach St John Passion Herr unser Herrscher
+8gfjx	Rameau Le rappel des oiseaux
+v7k2p	Vivaldi Spring RV 269 Allegro | Vivaldi La primavera Allegro
+2mw7t	Vivaldi Summer RV 315 Presto | Vivaldi L'estate Presto
+7xky9	Vivaldi Winter RV 297 Allegro non molto | Vivaldi L'inverno Allegro non molto
+u4a3w	Bach Matthäus-Passion Kommt ihr Töchter BWV 244 | Bach St Matthew Passion Kommt ihr Töchter
+2ycjn	Handel Zadok the Priest
+nkys3	Mouret Rondeau Suite de symphonies | Mouret Rondeau
+m6dw6	Bach Air BWV 1068 | Bach Orchestral Suite 3 Air
+myyu3	Bach Wachet auf ruft uns die Stimme BWV 140
+ngbwx	Bach Magnificat BWV 243 Magnificat
+yj7ps	Telemann Tafelmusik Ouverture E minor
+mekb4	Pergolesi Serva padrona Stizzoso mio stizzoso
+3x966	Handel Sarabande HWV 437
+3x7gb	Bach Weihnachtsoratorium Jauchzet frohlocket BWV 248 | Bach Christmas Oratorio Jauchzet frohlocket
+4epre	Bach Italian Concerto BWV 971 Allegro | Bach Italienisches Konzert BWV 971
+f9txb	Rameau Indes galantes Danse du grand calumet | Rameau Les Sauvages
+wmrca	Daquin Le coucou
+27acw	Pergolesi Stabat Mater dolorosa
+ekg2s	Rebel Les Élémens Le Chaos
+7s2mn	Handel Serse Ombra mai fu
+wzdk8	Handel Concerto grosso Op. 6 No. 5 HWV 323
+ywkhw	Handel Cuckoo and the Nightingale HWV 295
+z9bxq	Bach Badinerie BWV 1067
+zad5q	Bach Goldberg Variations Aria BWV 988
+8tvyg	Handel Messiah Hallelujah
+ywjuz	Bach Musical Offering Ricercar a 6 | Bach Musikalisches Opfer Ricercar a 6
+z6gjw	Handel Arrival of the Queen of Sheba
+3629r	Handel Music for the Royal Fireworks Ouverture
+8bqpk	Bach Mass in B minor Kyrie BWV 232 | Bach h-Moll-Messe Kyrie
+pjhr6	Bach Art of Fugue Contrapunctus 1 | Bach Kunst der Fuge Contrapunctus 1
+hsdqc	Gluck Dance of the Blessed Spirits | Gluck Reigen seliger Geister
+bmpe6	Boccherini Minuet String Quintet Op. 11 No. 5 | Boccherini Minuetto
+4crhp	Haydn Symphony 45 Farewell Finale Presto Adagio
+zefzh	Mozart Exsultate jubilate Alleluja 165
+cuebe	Mozart Symphony 25 183 Allegro con brio
+uujxt	Mozart Flute and Harp Concerto 299 Andantino
+eff24	Mozart Sinfonia concertante 364 Allegro maestoso
+uu3rv	Boccherini Musica notturna Madrid Ritirata
+5c75a	Mozart Entführung aus dem Serail Overture | Mozart Abduction from the Seraglio Overture
+njpje	Mozart Rondo alla turca 331 | Mozart Piano Sonata 11 331 Alla turca
+apb8b	Mozart Piano Concerto 20 466 Allegro
+hpetf	Mozart Piano Concerto 21 467 Andante
+2u6gf	Mozart Le nozze di Figaro Overture 492
+uj2vm	Mozart Horn Concerto 4 495 Rondo
+m3q8z	Mozart Eine kleine Nachtmusik 525 Allegro
+8ymp8	Mozart Don Giovanni Fin ch'han dal vino
+gp2p7	Mozart Ein musikalischer Spass 522 Presto | Mozart Musical Joke 522 Presto
+nnd7r	Mozart Symphony 40 550 Molto allegro
+kqgcw	Mozart Symphony 41 Jupiter 551 Molto allegro
+qktu8	Mozart Piano Sonata 16 545 Allegro | Mozart Sonata facile 545 Allegro
+zuycn	Haydn String Quartet Lark Op. 64 No. 5 Allegro moderato
+t58fd	Mozart Così fan tutte Soave sia il vento
+h6dq4	Haydn Symphony 94 Surprise Andante
+3cj3k	Mozart Zauberflöte Der Hölle Rache | Mozart Magic Flute Der Hölle Rache
+ava2x	Mozart Zauberflöte Der Vogelfänger bin ich ja
+uaxmf	Mozart Clarinet Concerto 622 Adagio
+f4ksp	Mozart Ave verum corpus 618
+9bt98	Mozart Requiem Lacrimosa
+dbqq4	Haydn Symphony 101 Clock Andante
+ew36t	Haydn Symphony 104 London Adagio Allegro
+uucjb	Haydn Trumpet Concerto E-flat Allegro Finale
+psmvc	Haydn Emperor Quartet Poco adagio cantabile | Haydn Kaiserquartett Poco adagio
+6ydf9	Clementi Sonatina Op. 36 No. 1
+65tay	Haydn Schöpfung Die Himmel erzählen | Haydn Creation The heavens are telling
+99dhz	Beethoven Pathétique Adagio cantabile | Beethoven Piano Sonata 8 Adagio cantabile
+uv9uy	Beethoven Romance 2 F major Op. 50 | Beethoven Romanze F-Dur op. 50
+jf2qt	Haydn Jahreszeiten Komm holder Lenz | Haydn Seasons Come gentle spring
+jck5u	Beethoven Moonlight Sonata Adagio sostenuto | Beethoven Mondscheinsonate Adagio sostenuto
+s2jq7	Beethoven Spring Sonata Allegro | Beethoven Violin Sonata 5 Op. 24 Allegro
+rruyn	Beethoven Kreutzer Sonata Adagio sostenuto Presto | Beethoven Violin Sonata 9 Op. 47 Presto
+eg32a	Hummel Trumpet Concerto Rondo
+9mx3z	Beethoven Symphony 3 Eroica Allegro con brio
+jjc5h	Beethoven Waldstein Allegro con brio | Beethoven Piano Sonata 21 Op. 53 Allegro con brio
+e6tem	Beethoven Triple Concerto Rondo alla polacca
+4gf9j	Beethoven Appassionata Allegro ma non troppo | Beethoven Piano Sonata 23 Op. 57 Allegro ma non troppo
+ac8yx	Beethoven Violin Concerto Op. 61 Rondo
+4vzb8	Beethoven Piano Concerto 4 Op. 58 Allegro moderato
+3hxbt	Beethoven Coriolan Overture
+b5x4n	Beethoven Symphony 5 Op. 67 Allegro con brio
+8csnh	Beethoven Symphony 6 Pastoral Allegro ma non troppo
+b8fa3	Beethoven Piano Concerto 5 Emperor Allegro
+b39ey	Beethoven Für Elise
+2xtrj	Beethoven Egmont Overture
+hgne6	Weber Clarinet Concerto 1 Rondo
+wyfnt	Beethoven Symphony 7 Allegretto
+jbnj9	Beethoven Symphony 8 Allegro vivace e con brio
+tg2k3	Rossini L'italiana in Algeri Overture
+fv5ut	Beethoven Fidelio O welche Lust
+h5wc4	Schubert Gretchen am Spinnrade
+u6epe	Schubert Erlkönig
+49u2r	Schubert Heidenröslein
+4jg3h	Rossini Largo al factotum
+f8nr6	Rossini La gazza ladra Overture
+yqzt5	Beethoven Hammerklavier Allegro | Beethoven Piano Sonata 29 Op. 106 Allegro
+mqz7k	Schubert Trout Quintet Andantino Tema con variazioni | Schubert Forellenquintett Thema mit Variationen
+8h6jx	Weber Invitation to the Dance | Weber Aufforderung zum Tanz
+64uuk	Paganini Caprice 24
+zp8z4	Weber Freischütz Jägerchor | Weber Freischütz Huntsmen's Chorus
+8nhyf	Schubert Unfinished Symphony Allegro moderato | Schubert Unvollendete Allegro moderato
+mtf2y	Schubert Wanderer Fantasy | Schubert Wandererfantasie
+p4jeq	Schubert Rosamunde Entr'acte 3 | Schubert Rosamunde Zwischenaktmusik
+9j39h	Beethoven Missa solemnis Gloria
+vqyhz	Beethoven Symphony 9 Presto Allegro assai | Beethoven Symphony 9 Ode to Joy Finale	2:55	Freude-Thema in den Celli und Bässen ca. 2:50–3:10, Chor ab ca. 9:30 (Zeiten je nach Aufnahme)
+ny4ra	Schubert Death and the Maiden Allegro | Schubert Der Tod und das Mädchen Allegro
+jnrvr	Schubert Arpeggione Sonata Allegro moderato
+7rf23	Schubert Ave Maria Ellens dritter Gesang		Gesungene Fassung (Deutsch oder Latein) bevorzugen
+s2gcv	Beethoven Grosse Fuge Op. 133 | Beethoven Große Fuge
+vbkqz	Mendelssohn Octet Allegro moderato ma con fuoco
+6s3gf	Beethoven String Quartet 14 Op. 131 Adagio ma non troppo
+ut5pc	Mendelssohn Midsummer Night's Dream Overture | Mendelssohn Sommernachtstraum Ouvertüre
+z6m7f	Paganini Violin Concerto 2 La Campanella Rondo
+h3uxw	Weber Oberon Overture
+39psa	Schubert Symphony 9 Great Andante Allegro | Schubert Great C major Symphony D 944 Andante		Spotify zählt diese Sinfonie meist als Nr. 9, nicht Nr. 8
+wzsn3	Schubert Impromptu Op. 90 No. 3 | Schubert Impromptu D 899 3
+e9kqp	Schubert Winterreise Der Leiermann
+4vgpn	Schubert Piano Trio 2 Andante con moto
+uy4xb	Schubert String Quintet C major Adagio
+4227v	Schubert Ständchen Leise flehen | Schubert Serenade Schwanengesang
+fg4vy	Schubert Der Hirt auf dem Felsen
+pwzv6	Schubert Fantasie F minor D 940 | Schubert Fantasy F minor four hands
+augh2	Rossini William Tell Overture Finale | Rossini Guillaume Tell Overture		Galopp (Finale): bei der ganzen Ouvertüre erst ab ca. 8:50. Besser eine Aufnahme mit eigenem Finale-Track wählen
+bgayb	Berlioz Symphonie fantastique Marche au supplice
+mwq7y	Mendelssohn Hebrides Overture Fingal's Cave
+avctc	Chopin Piano Concerto 1 Romance Larghetto
+fgxxr	Chopin Nocturne C sharp minor posthumous | Chopin Nocturne 20 Lento con gran espressione
+r4rx2	Bellini Norma Casta diva
+nngyb	Chopin Revolutionary Etude Op. 10 No. 12
+cwyq3	Chopin Nocturne Op. 9 No. 2
+epzmy	Donizetti Una furtiva lagrima
+wsu82	Mendelssohn Symphony 4 Italian Allegro vivace
+dg9q7	Chopin Grande valse brillante Op. 18
+b4gfa	Chopin Fantaisie-Impromptu Op. 66
+um8yf	Donizetti Lucia di Lammermoor Il dolce suono | Donizetti Lucia Mad Scene
+9btgy	Chopin Ballade 1 G minor Op. 23
+ntt95	Schumann Carnaval Op. 9 Préambule
+c32w4	Clara Schumann Piano Concerto A minor Allegro maestoso
+ccudp	Meyerbeer Les Huguenots Overture
+7u4ff	Lortzing Zar und Zimmermann Holzschuhtanz | Lortzing Clog Dance
+auzpf	Schumann Träumerei Kinderszenen
+nhzgu	Chopin Prelude Op. 28 No. 15 Raindrop
+c9wtt	Chopin Piano Sonata 2 Marche funèbre | Chopin Funeral March
+tesbp	Schumann Dichterliebe Im wunderschönen Monat Mai
+m5gzx	Schumann Widmung Myrthen
+ngd5y	Schumann Symphony 1 Spring Andante un poco maestoso Allegro
+hnsbw	Fanny Hensel Das Jahr März | Fanny Mendelssohn Das Jahr March
+b7rpd	Rossini Stabat Mater Cujus animam
+3wy4s	Verdi Nabucco Va pensiero
+g7y9n	Mendelssohn Symphony 3 Scottish Andante con moto Allegro
+6h352	Chopin Polonaise Op. 53 Heroic
+6vx2t	Glinka Ruslan and Ludmila Overture
+xpuud	Mendelssohn Wedding March Midsummer Night's Dream | Mendelssohn Hochzeitsmarsch
+4nvm7	Wagner Flying Dutchman Overture | Wagner Der fliegende Holländer Ouvertüre
+pku7d	Mendelssohn Violin Concerto E minor Allegro molto appassionato
+v9746	Berlioz Le carnaval romain overture
+x3wwa	Schumann Piano Concerto A minor Allegro affettuoso
+d6snc	Wagner Tannhäuser Pilgerchor | Wagner Tannhäuser Pilgrims' Chorus
+q4jfw	Mendelssohn Elias Hebe deine Augen auf | Mendelssohn Elijah Lift thine eyes
+vt242	Berlioz Damnation de Faust Marche hongroise | Berlioz Rakoczy March
+ee6ez	Clara Schumann Piano Trio G minor Allegro moderato
+m892n	Chopin Minute Waltz Op. 64 No. 1
+7x52b	Liszt Hungarian Rhapsody 2		Langsamer Beginn; das schnelle, bekannte Friska-Thema kommt später
+6rbdm	Flotow Martha Letzte Rose | Flotow Last Rose of Summer
+mbj67	Farrenc Symphony 3 Adagio Allegro
+xb8b5	Johann Strauss Radetzky March Op. 228
+hvmjq	Schumann Fröhlicher Landmann Album für die Jugend | Schumann Happy Farmer
+awwx2	Nicolai Merry Wives of Windsor Overture | Nicolai Die lustigen Weiber von Windsor Ouvertüre
+d2j2e	Liszt Piano Concerto 1 E-flat Allegro maestoso
+jdwtt	Liszt Liebestraum 3
+4dba2	Wagner Lohengrin Prelude Act 3 | Wagner Lohengrin Vorspiel 3. Akt
+dkf34	Schumann Symphony 3 Rhenish Lebhaft
+dbb8u	Schumann Cello Concerto A minor Nicht zu schnell

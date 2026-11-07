@@ -88,6 +88,35 @@ def read_rows(path: Path) -> tuple[list[str], list[dict | None]]:
     return lines, rows
 
 
+def read_search(data: Path, ids: set[str]) -> tuple[dict, list[str]]:
+    """data/spotify_*.tsv: id | query (alternatives with ' | ') | start (m:ss) | hint."""
+    out, errors = {}, []
+    for f in sorted(data.glob("spotify_*.tsv")):
+        for n, line in enumerate(f.read_text(encoding="utf-8").splitlines(), 1):
+            if not line.strip() or line.startswith("#") or line.startswith("id\t"):
+                continue
+            cells = [c.strip() for c in line.split("\t")] + ["", "", ""]
+            card_id, query, start, hint = cells[:4]
+            where = f"{f.name}:{n}"
+            if card_id not in ids:
+                errors.append(f"{where}: unknown card id {card_id}")
+                continue
+            if card_id in out:
+                errors.append(f"{where}: id {card_id} listed twice")
+            entry = {"query": query, "hint": hint}
+            if start:
+                m = re.fullmatch(r"(\d+):(\d{2})", start)
+                if not m:
+                    errors.append(f"{where}: start '{start}' must look like 1:45")
+                else:
+                    entry["start_ms"] = (int(m[1]) * 60 + int(m[2])) * 1000
+            out[card_id] = entry
+    missing = sorted(ids - set(out))
+    if missing:
+        print(f"Hinweis: {len(missing)} Karten ohne Eintrag in data/spotify_*.tsv: {', '.join(missing[:10])}")
+    return out, errors
+
+
 def make_query(row: dict) -> str:
     if row["query"]:
         return row["query"]
@@ -100,7 +129,7 @@ def make_query(row: dict) -> str:
 
 
 def main() -> int:
-    files = sorted(DATA.glob("*.tsv"))
+    files = sorted(DATA.glob("pieces_*.tsv"))
     parsed = {f: read_rows(f) for f in files}
     all_rows = [r for _, rows in parsed.values() for r in rows if r]
 
@@ -145,20 +174,32 @@ def main() -> int:
         if changed:
             f.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
+    search, search_errors = read_search(DATA, {r["id"] for r in all_rows})
+    if search_errors:
+        print("\n".join(search_errors))
+        return 1
+
     old = {c["id"]: c for c in json.loads(CARDS.read_text(encoding="utf-8"))} if CARDS.exists() else {}
     cards = []
     for r in all_rows:
         prev = old.get(r["id"], {})
+        help_ = search.get(r["id"], {})
         card = {
             "id": r["id"],
             "composer": r["composer"],
             "title": r["title"],
             "year": int(r["year"]),
             "year_note": NOTES[r["note"]],
-            "query": prev.get("query") or make_query(r),
+            # search text: data/spotify_*.tsv wins, then an older cards.json, then generated
+            "query": help_.get("query") or prev.get("query") or make_query(r),
             "spotify": prev.get("spotify", ""),
-            "start_ms": prev.get("start_ms", 0),
+            # a start chosen by hand (cards.json) wins over the suggested one
+            "start_ms": prev.get("start_ms") or help_.get("start_ms", 0),
         }
+        if help_.get("hint"):
+            card["hint"] = help_["hint"]
+        if prev.get("auto_score") is not None and card["spotify"]:
+            card["auto_score"] = prev["auto_score"]
         if prev.get("spotify_label"):
             card["spotify_label"] = prev["spotify_label"]
         if prev.get("audio"):

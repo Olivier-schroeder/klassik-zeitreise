@@ -226,25 +226,136 @@
       return r.json();
     },
 
-    async search(query, limit = 8) {
-      const q = new URLSearchParams({ q: query, type: "track", limit: String(limit), market: "from_token" });
-      const r = await spotify.api("GET", "/search?" + q);
-      if (!r.ok) throw new Error("Spotify-Suche fehlgeschlagen (" + r.status + ")");
-      return ((await r.json()).tracks || {}).items || [];
+    async search(query, limit = 10) {
+      for (let attempt = 0; attempt < 4; attempt++) {
+        const q = new URLSearchParams({ q: query, type: "track", limit: String(limit), market: "from_token" });
+        const r = await spotify.api("GET", "/search?" + q);
+        if (r.status === 429) {
+          // Rate limit: wait as long as Spotify asks (at most 30 s), then retry.
+          const wait = Math.min(30, Number(r.headers.get("Retry-After")) || 2);
+          await new Promise((res) => setTimeout(res, wait * 1000));
+          continue;
+        }
+        if (r.status === 400 && limit > 10) {
+          limit = 10;
+          continue;
+        }
+        if (!r.ok) throw new Error("Spotify-Suche fehlgeschlagen (" + r.status + ")");
+        return ((await r.json()).tracks || {}).items || [];
+      }
+      throw new Error("Spotify-Suche: zu viele Anfragen, bitte später nochmal");
     },
 
-    // The pinned track, or the first search hit (cached for this session).
+    // Searches every query alternative of a card and returns the best-scoring track:
+    // {track, score, alternatives} or null.
+    async pickBest(card, limit = 10) {
+      const alts = KZ.queryAlternatives(card.query);
+      const seen = new Map();
+      for (const q of alts) {
+        for (const t of await spotify.search(q, limit)) if (!seen.has(t.uri)) seen.set(t.uri, t);
+      }
+      const ranked = [...seen.values()]
+        .map((t) => ({ track: t, score: KZ.scoreTrack(card, t) }))
+        .sort((a, b) => b.score - a.score);
+      return ranked.length ? { track: ranked[0].track, score: ranked[0].score, alternatives: ranked.slice(1, 6) } : null;
+    },
+
+    // The pinned track, or the best search match (cached for this session).
     async resolveUri(card) {
       if (card.spotify) return card.spotify;
       const key = "kz.resolved." + card.id;
       const cached = KZ.session.get(key);
       if (cached) return cached;
-      const hits = await spotify.search(card.query, 1);
-      if (!hits.length) return null;
-      KZ.session.set(key, hits[0].uri);
-      return hits[0].uri;
+      const best = await spotify.pickBest(card, 10);
+      if (!best) return null;
+      KZ.session.set(key, best.track.uri);
+      return best.track.uri;
+    },
+
+    // Jumps forward/back in the current track (ms may be negative).
+    async seekBy(ms) {
+      const st = await spotify.state();
+      if (!st || st.progress_ms == null) return false;
+      const target = Math.max(0, st.progress_ms + ms);
+      const r = await spotify.api("PUT", "/me/player/seek?position_ms=" + Math.round(target));
+      return r.ok;
     },
   });
+
+  // ---------- choosing the right recording ----------
+  KZ.queryAlternatives = (query) =>
+    String(query || "")
+      .split("|")
+      .map((s) => s.trim())
+      .filter(Boolean);
+
+  const STOP = new Set("the of a an in and for with no nr op k kv d s de la le les il di du der die das von und et e from to".split(" "));
+  const norm = (s) =>
+    String(s || "")
+      .normalize("NFD")
+      .replace(/[̀-ͯ]/g, "")
+      .toLowerCase()
+      .replace(/ß/g, "ss");
+  const tokens = (s) => norm(s).split(/[^a-z0-9]+/).filter((w) => w && (w.length > 1 || /\d/.test(w)) && !STOP.has(w));
+  // Words that point to arrangements, covers or background-music compilations.
+  const BAD = ["arr", "arranged", "arrangement", "transcription", "transcr", "lofi", "lo-fi", "relaxing", "relax", "sleep", "sleeping",
+    "study", "karaoke", "cover", "remix", "ringtone", "8-bit", "8bit", "music box", "baby", "babies", "meditation", "spa", "chill",
+    "piano version", "ukulele", "marimba", "synth", "epic version", "medley", "excerpt", "lullaby version", "for kids"];
+
+  KZ.composerNames = function (card) {
+    const names = new Set();
+    String(card.composer || "")
+      .replace(/\(.*?\)/g, " ")
+      .split(/\s+und\s+|\s+/)
+      .forEach((w) => {
+        const t = norm(w).replace(/[^a-z]/g, "");
+        if (t.length >= 4) names.add(t);
+      });
+    // The first word of each search alternative is the composer as Spotify spells him/her.
+    for (const q of KZ.queryAlternatives(card.query)) {
+      const first = tokens(q)[0];
+      if (first && !/\d/.test(first)) names.add(first);
+    }
+    return names;
+  };
+
+  // 0 … 1: how well a Spotify track matches the card.
+  KZ.scoreTrack = function (card, t) {
+    const names = KZ.composerNames(card);
+    const artistText = norm((t.artists || []).map((a) => a.name).join(" "));
+    const nameText = norm(t.name) + " " + norm(t.album && t.album.name);
+    const nameTokens = new Set(tokens(nameText));
+    let score = 0;
+
+    if ([...names].some((n) => artistText.includes(n))) score += 0.35;
+
+    // Best title overlap over all query alternatives (composer words not counted).
+    let best = 0, numbersOk = true;
+    for (const q of KZ.queryAlternatives(card.query)) {
+      const words = tokens(q).filter((w) => !names.has(w));
+      if (!words.length) continue;
+      const hit = words.filter((w) => nameTokens.has(w)).length / words.length;
+      const nums = words.filter((w) => /^\d+$/.test(w));
+      const numsOk = nums.every((n) => new Set(tokens(t.name)).has(n) || nameTokens.has(n));
+      if (hit > best) {
+        best = hit;
+        numbersOk = numsOk;
+      }
+    }
+    score += 0.45 * best;
+    score += numbersOk ? 0.1 : -0.15;
+
+    const queryText = norm(card.query);
+    const raw = norm(t.name + " " + (t.album ? t.album.name : ""));
+    const rawWords = new Set(raw.split(/[^a-z0-9]+/));
+    const bad = (b) => (/[\s-]/.test(b) ? raw.includes(b) : rawWords.has(b)) && !queryText.includes(b);
+    if (BAD.some(bad)) score -= 0.3;
+    if (t.duration_ms && t.duration_ms < 45000) score -= 0.3;
+    if (t.duration_ms && card.start_ms && card.start_ms > t.duration_ms - 20000) score -= 0.3;
+    if (typeof t.popularity === "number") score += 0.1 * (t.popularity / 100);
+    return Math.max(0, Math.min(1, Math.round(score * 100) / 100));
+  };
+  KZ.scoreLabel = (s) => (s == null ? "" : s >= 0.85 ? "sicher" : s >= 0.65 ? "mittel" : "unsicher");
 
   KZ.el = function (tag, attrs, ...children) {
     const e = document.createElement(tag);

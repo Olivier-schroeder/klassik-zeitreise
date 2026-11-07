@@ -5,7 +5,7 @@
     "title": "Ave Maria … virgo serena",
     "year": 1502,
     "year_note": "Erstdruck",
-    "query": "Josquin des Prez Ave Maria virgo serena",
+    "query": "Josquin Ave Maria virgo serena",
     "spotify": "",
     "start_ms": 0
   },
@@ -15,7 +15,7 @@
     "title": "El Grillo",
     "year": 1505,
     "year_note": "Erstdruck",
-    "query": "Josquin des Prez El Grillo",
+    "query": "Josquin El Grillo",
     "spotify": "",
     "start_ms": 0
   },
@@ -25,7 +25,7 @@
     "title": "La guerre (La bataille de Marignan)",
     "year": 1528,
     "year_note": "Erstdruck",
-    "query": "Clément Janequin La guerre La bataille de Marignan",
+    "query": "Janequin La guerre | Janequin La bataille de Marignan",
     "spotify": "",
     "start_ms": 0
   },
@@ -35,7 +35,7 @@
     "title": "Il bianco e dolce cigno",
     "year": 1539,
     "year_note": "Erstdruck",
-    "query": "Jacques Arcadelt Il bianco e dolce cigno",
+    "query": "Arcadelt Il bianco e dolce cigno",
     "spotify": "",
     "start_ms": 0
   },
@@ -45,7 +45,7 @@
     "title": "Danserye: La Mourisque",
     "year": 1551,
     "year_note": "Erstdruck",
-    "query": "Tielman Susato Danserye La Mourisque",
+    "query": "Susato Danserye Mourisque | Susato La Mourisque",
     "spotify": "",
     "start_ms": 0
   },
@@ -55,7 +55,7 @@
     "title": "Missa Papae Marcelli: Kyrie",
     "year": 1567,
     "year_note": "Erstdruck",
-    "query": "Giovanni Pierluigi da Palestrina Missa Papae Marcelli Kyrie",
+    "query": "Palestrina Missa Papae Marcelli Kyrie",
     "spotify": "",
     "start_ms": 0
   },
@@ -65,7 +65,7 @@
     "title": "Spem in alium",
     "year": 1570,
     "year_note": "ungefähr",
-    "query": "Thomas Tallis Spem in alium",
+    "query": "Tallis Spem in alium",
     "spotify": "",
     "start_ms": 0
   },
@@ -75,7 +75,7 @@
     "title": "O magnum mysterium",
     "year": 1572,
     "year_note": "Erstdruck",
-    "query": "Tomás Luis de Victoria O magnum mysterium",
+    "query": "Victoria O magnum mysterium",
     "spotify": "",
     "start_ms": 0
   },
@@ -85,7 +85,7 @@
     "title": "Matona mia cara",
     "year": 1581,
     "year_note": "Erstdruck",
-    "query": "Lassus Matona mia cara",
+    "query": "Lassus Matona mia cara | Lasso Matona mia cara",
     "spotify": "",
     "start_ms": 0
   },
@@ -95,7 +95,7 @@
     "title": "Belle qui tiens ma vie",
     "year": 1589,
     "year_note": "Erstdruck",
-    "query": "Thoinot Arbeau Belle qui tiens ma vie",
+    "query": "Arbeau Belle qui tiens ma vie",
     "spotify": "",
     "start_ms": 0
   },
@@ -105,7 +105,7 @@
     "title": "Amor vittorioso",
     "year": 1591,
     "year_note": "Erstdruck",
-    "query": "Giovanni Giacomo Gastoldi Amor vittorioso",
+    "query": "Gastoldi Amor vittorioso",
     "spotify": "",
     "start_ms": 0
   },
@@ -115,7 +115,7 @@
     "title": "The Bells",
     "year": 1591,
     "year_note": "vollendet",
-    "query": "William Byrd The Bells",
+    "query": "Byrd The Bells",
     "spotify": "",
     "start_ms": 0
   },
@@ -125,7 +125,7 @@
     "title": "Now is the month of maying",
     "year": 1595,
     "year_note": "Erstdruck",
-    "query": "Thomas Morley Now is the month of maying",
+    "query": "Morley Now is the month of maying",
     "spotify": "",
     "start_ms": 0
   },
@@ -135,7 +135,7 @@
     "title": "Sonata pian' e forte",
     "year": 1597,
     "year_note": "Erstdruck",
-    "query": "Giovanni Gabrieli Sonata pian' e forte",
+    "query": "Gabrieli Sonata pian e forte",
     "spotify": "",
     "start_ms": 0
   },
@@ -145,7 +145,7 @@
     "title": "Flow, my tears",
     "year": 1600,
     "year_note": "Erstdruck",
-    "query": "John Dowland Flow my tears",
+    "query": "Dowland Flow my tears",
     "spotify": "",
     "start_ms": 0
   },
@@ -155,7 +155,7 @@
     "title": "Mein G'müt ist mir verwirret",
     "year": 1601,
     "year_note": "Erstdruck",
-    "query": "Hans Leo Hassler Mein G'müt ist mir verwirret",
+    "query": "Hassler Mein Gmüt ist mir verwirret | Hassler verwirret",
     "spotify": "",
     "start_ms": 0
   },
@@ -165,7 +165,7 @@
     "title": "As Vesta was from Latmos hill descending",
     "year": 1601,
     "year_note": "Erstdruck",
-    "query": "Thomas Weelkes As Vesta was from Latmos hill descending",
+    "query": "Weelkes As Vesta was from Latmos hill",
     "spotify": "",
     "start_ms": 0
   },
@@ -175,7 +175,7 @@
     "title": "Amarilli, mia bella",
     "year": 1602,
     "year_note": "Erstdruck",
-    "query": "Giulio Caccini Amarilli mia bella",
+    "query": "Caccini Amarilli mia bella",
     "spotify": "",
     "start_ms": 0
   },
@@ -185,7 +185,7 @@
     "title": "Lachrimae Antiquae",
     "year": 1604,
     "year_note": "Erstdruck",
-    "query": "John Dowland Lachrimae Antiquae",
+    "query": "Dowland Lachrimae Antiquae",
     "spotify": "",
     "start_ms": 0
   },
@@ -195,7 +195,7 @@
     "title": "Cruda Amarilli",
     "year": 1605,
     "year_note": "Erstdruck",
-    "query": "Claudio Monteverdi Cruda Amarilli",
+    "query": "Monteverdi Cruda Amarilli",
     "spotify": "",
     "start_ms": 0
   },
@@ -205,7 +205,7 @@
     "title": "Officium defunctorum: Introitus",
     "year": 1605,
     "year_note": "Erstdruck",
-    "query": "Tomás Luis de Victoria Officium defunctorum Introitus",
+    "query": "Victoria Officium defunctorum Introitus | Victoria Requiem 1605 Introitus",
     "spotify": "",
     "start_ms": 0
   },
@@ -215,7 +215,7 @@
     "title": "Ave verum corpus",
     "year": 1605,
     "year_note": "Erstdruck",
-    "query": "William Byrd Ave verum corpus",
+    "query": "Byrd Ave verum corpus",
     "spotify": "",
     "start_ms": 0
   },
@@ -225,7 +225,7 @@
     "title": "L'Orfeo: Toccata",
     "year": 1607,
     "year_note": "Uraufführung",
-    "query": "Claudio Monteverdi L'Orfeo Toccata",
+    "query": "Monteverdi Orfeo Toccata",
     "spotify": "",
     "start_ms": 0
   },
@@ -235,7 +235,7 @@
     "title": "Es ist ein Ros entsprungen",
     "year": 1609,
     "year_note": "Erstdruck",
-    "query": "Michael Praetorius Es ist ein Ros entsprungen",
+    "query": "Praetorius Es ist ein Ros entsprungen",
     "spotify": "",
     "start_ms": 0
   },
@@ -245,7 +245,7 @@
     "title": "Marienvesper: Deus in adjutorium",
     "year": 1610,
     "year_note": "Erstdruck",
-    "query": "Claudio Monteverdi Marienvesper Deus in adjutorium",
+    "query": "Monteverdi Vespro Deus in adiutorium | Monteverdi Vespers 1610 Deus in adjutorium",
     "spotify": "",
     "start_ms": 0
   },
@@ -255,7 +255,7 @@
     "title": "Moro, lasso, al mio duolo",
     "year": 1611,
     "year_note": "Erstdruck",
-    "query": "Carlo Gesualdo Moro lasso al mio duolo",
+    "query": "Gesualdo Moro lasso al mio duolo",
     "spotify": "",
     "start_ms": 0
   },
@@ -265,7 +265,7 @@
     "title": "Terpsichore: La Volta",
     "year": 1612,
     "year_note": "Erstdruck",
-    "query": "Michael Praetorius Terpsichore La Volta",
+    "query": "Praetorius Terpsichore Volta",
     "spotify": "",
     "start_ms": 0
   },
@@ -275,7 +275,7 @@
     "title": "The Silver Swan",
     "year": 1612,
     "year_note": "Erstdruck",
-    "query": "Orlando Gibbons The Silver Swan",
+    "query": "Gibbons The Silver Swan",
     "spotify": "",
     "start_ms": 0
   },
@@ -285,7 +285,7 @@
     "title": "Toccata prima (Primo libro)",
     "year": 1615,
     "year_note": "Erstdruck",
-    "query": "Girolamo Frescobaldi Toccata prima Primo libro",
+    "query": "Frescobaldi Toccata prima primo libro",
     "spotify": "",
     "start_ms": 0
   },
@@ -295,7 +295,7 @@
     "title": "Psalmen Davids: Jauchzet dem Herren",
     "year": 1619,
     "year_note": "Erstdruck",
-    "query": "Heinrich Schütz Psalmen Davids Jauchzet dem Herren",
+    "query": "Schütz Jauchzet dem Herren SWV 36",
     "spotify": "",
     "start_ms": 0
   },
@@ -305,7 +305,7 @@
     "title": "Musikalische Exequien",
     "year": 1636,
     "year_note": "Erstdruck",
-    "query": "Heinrich Schütz Musikalische Exequien",
+    "query": "Schütz Musikalische Exequien",
     "spotify": "",
     "start_ms": 0
   },
@@ -315,7 +315,7 @@
     "title": "Lamento della ninfa",
     "year": 1638,
     "year_note": "Erstdruck",
-    "query": "Claudio Monteverdi Lamento della ninfa",
+    "query": "Monteverdi Lamento della ninfa",
     "spotify": "",
     "start_ms": 0
   },
@@ -325,7 +325,7 @@
     "title": "Miserere mei, Deus",
     "year": 1638,
     "year_note": "ungefähr",
-    "query": "Gregorio Allegri Miserere mei Deus",
+    "query": "Allegri Miserere mei Deus",
     "spotify": "",
     "start_ms": 0
   },
@@ -335,7 +335,7 @@
     "title": "Che si può fare",
     "year": 1664,
     "year_note": "Erstdruck",
-    "query": "Barbara Strozzi Che si può fare",
+    "query": "Strozzi Che si può fare",
     "spotify": "",
     "start_ms": 0
   },
@@ -345,7 +345,7 @@
     "title": "Le Bourgeois gentilhomme: Marche pour la cérémonie des Turcs",
     "year": 1670,
     "year_note": "Uraufführung",
-    "query": "Jean-Baptiste Lully Le Bourgeois gentilhomme Marche pour la cérémonie des Turcs",
+    "query": "Lully Marche pour la cérémonie des Turcs",
     "spotify": "",
     "start_ms": 0
   },
@@ -355,7 +355,7 @@
     "title": "Battalia",
     "year": 1673,
     "year_note": "vollendet",
-    "query": "Heinrich Ignaz Franz Biber Battalia",
+    "query": "Biber Battalia",
     "spotify": "",
     "start_ms": 0
   },
@@ -365,7 +365,7 @@
     "title": "Dido and Aeneas: When I am laid in earth",
     "year": 1689,
     "year_note": "Uraufführung",
-    "query": "Henry Purcell Dido and Aeneas When I am laid in earth",
+    "query": "Purcell When I am laid in earth | Purcell Dido's Lament",
     "spotify": "",
     "start_ms": 0
   },
@@ -375,7 +375,7 @@
     "title": "King Arthur: Cold Song",
     "year": 1691,
     "year_note": "Uraufführung",
-    "query": "Henry Purcell King Arthur Cold Song",
+    "query": "Purcell King Arthur What power art thou | Purcell Cold Song",
     "spotify": "",
     "start_ms": 0
   },
@@ -385,7 +385,7 @@
     "title": "The Fairy Queen: Hark! The echoing air",
     "year": 1692,
     "year_note": "Uraufführung",
-    "query": "Henry Purcell The Fairy Queen Hark! The echoing air",
+    "query": "Purcell Fairy Queen Hark the echoing air",
     "spotify": "",
     "start_ms": 0
   },
@@ -395,7 +395,7 @@
     "title": "Te Deum: Prélude",
     "year": 1692,
     "year_note": "ungefähr",
-    "query": "Marc-Antoine Charpentier Te Deum Prélude",
+    "query": "Charpentier Te Deum Prelude H 146 | Charpentier Te Deum Prélude",
     "spotify": "",
     "start_ms": 0
   },
@@ -405,7 +405,7 @@
     "title": "Abdelazer: Rondeau",
     "year": 1695,
     "year_note": "Uraufführung",
-    "query": "Henry Purcell Abdelazer Rondeau",
+    "query": "Purcell Abdelazer Rondeau",
     "spotify": "",
     "start_ms": 0
   },
@@ -415,7 +415,7 @@
     "title": "Music for the Funeral of Queen Mary: March",
     "year": 1695,
     "year_note": "vollendet",
-    "query": "Henry Purcell Music for the Funeral of Queen Mary March",
+    "query": "Purcell Funeral Queen Mary March",
     "spotify": "",
     "start_ms": 0
   },
@@ -425,7 +425,7 @@
     "title": "Violinsonate op. 5 Nr. 12 „La Folia“",
     "year": 1700,
     "year_note": "Erstdruck",
-    "query": "Arcangelo Corelli Violin Sonata op. 5 No. 12 La Folia",
+    "query": "Corelli La Folia Sonata 12 | Corelli Follia",
     "spotify": "",
     "start_ms": 0
   },
@@ -435,7 +435,7 @@
     "title": "L'estro armonico op. 3 Nr. 10 (Konzert für vier Violinen)",
     "year": 1711,
     "year_note": "Erstdruck",
-    "query": "Antonio Vivaldi L'estro armonico op. 3 No. 10 Konzert für vier Violinen",
+    "query": "Vivaldi Concerto 4 violins RV 580",
     "spotify": "",
     "start_ms": 0
   },
@@ -455,7 +455,7 @@
     "title": "Kantate BWV 208: Schafe können sicher weiden",
     "year": 1713,
     "year_note": "vollendet",
-    "query": "Johann Sebastian Bach Kantate BWV 208 Schafe können sicher weiden",
+    "query": "Bach Schafe können sicher weiden BWV 208 | Bach Sheep may safely graze",
     "spotify": "",
     "start_ms": 0
   },
@@ -465,7 +465,7 @@
     "title": "Concerto grosso op. 6 Nr. 8 „Weihnachtskonzert“",
     "year": 1714,
     "year_note": "Erstdruck",
-    "query": "Arcangelo Corelli Concerto grosso op. 6 No. 8 Weihnachtskonzert",
+    "query": "Corelli Christmas Concerto 6 8 | Corelli Concerto grosso Fatto per la notte di Natale",
     "spotify": "",
     "start_ms": 0
   },
@@ -475,7 +475,7 @@
     "title": "Gloria RV 589: Gloria in excelsis Deo",
     "year": 1716,
     "year_note": "ungefähr",
-    "query": "Antonio Vivaldi Gloria RV 589 Gloria in excelsis Deo",
+    "query": "Vivaldi Gloria RV 589 Gloria in excelsis",
     "spotify": "",
     "start_ms": 0
   },
@@ -485,7 +485,7 @@
     "title": "Oboenkonzert d-Moll, 2. Satz (Adagio)",
     "year": 1717,
     "year_note": "Erstdruck",
-    "query": "Alessandro Marcello Oboe Concerto d-Moll Adagio",
+    "query": "Marcello Oboe Concerto D minor Adagio",
     "spotify": "",
     "start_ms": 0
   },
@@ -495,7 +495,7 @@
     "title": "Les barricades mystérieuses",
     "year": 1717,
     "year_note": "Erstdruck",
-    "query": "François Couperin Les barricades mystérieuses",
+    "query": "Couperin Les barricades mystérieuses",
     "spotify": "",
     "start_ms": 0
   },
@@ -505,7 +505,7 @@
     "title": "Wassermusik: Alla Hornpipe",
     "year": 1717,
     "year_note": "Uraufführung",
-    "query": "Handel Wassermusik Alla Hornpipe",
+    "query": "Handel Water Music Alla Hornpipe",
     "spotify": "",
     "start_ms": 0
   },
@@ -515,7 +515,7 @@
     "title": "Suite HWV 430: Air und Variationen „The Harmonious Blacksmith“",
     "year": 1720,
     "year_note": "Erstdruck",
-    "query": "Handel Suite HWV 430 Air und Variationen The Harmonious Blacksmith",
+    "query": "Handel Harmonious Blacksmith HWV 430",
     "spotify": "",
     "start_ms": 0
   },
@@ -525,7 +525,7 @@
     "title": "Cellosuite Nr. 1 G-Dur: Prélude",
     "year": 1720,
     "year_note": "ungefähr",
-    "query": "Johann Sebastian Bach Cellosuite No. 1 G-Dur Prélude",
+    "query": "Bach Cello Suite 1 BWV 1007 Prelude",
     "spotify": "",
     "start_ms": 0
   },
@@ -535,7 +535,7 @@
     "title": "Partita Nr. 2 d-Moll: Chaconne",
     "year": 1720,
     "year_note": "vollendet",
-    "query": "Johann Sebastian Bach Partita No. 2 d-Moll Chaconne",
+    "query": "Bach Chaconne BWV 1004",
     "spotify": "",
     "start_ms": 0
   },
@@ -545,7 +545,7 @@
     "title": "Brandenburgisches Konzert Nr. 3, 1. Satz",
     "year": 1721,
     "year_note": "Widmung",
-    "query": "Johann Sebastian Bach Brandenburgisches Konzert No. 3",
+    "query": "Bach Brandenburg Concerto 3 BWV 1048 Allegro",
     "spotify": "",
     "start_ms": 0
   },
@@ -555,7 +555,7 @@
     "title": "Brandenburgisches Konzert Nr. 5, 1. Satz",
     "year": 1721,
     "year_note": "Widmung",
-    "query": "Johann Sebastian Bach Brandenburgisches Konzert No. 5",
+    "query": "Bach Brandenburg Concerto 5 BWV 1050 Allegro",
     "spotify": "",
     "start_ms": 0
   },
@@ -565,7 +565,7 @@
     "title": "Das Wohltemperierte Klavier I: Präludium C-Dur",
     "year": 1722,
     "year_note": "vollendet",
-    "query": "Johann Sebastian Bach Das Wohltemperierte Klavier I Präludium C-Dur",
+    "query": "Bach Prelude C major BWV 846 | Bach Präludium C-Dur BWV 846",
     "spotify": "",
     "start_ms": 0
   },
@@ -575,7 +575,7 @@
     "title": "Oboenkonzert op. 9 Nr. 2, 2. Satz (Adagio)",
     "year": 1722,
     "year_note": "Erstdruck",
-    "query": "Tomaso Albinoni Oboe Concerto op. 9 No. 2 Adagio",
+    "query": "Albinoni Oboe Concerto Op. 9 No. 2 Adagio",
     "spotify": "",
     "start_ms": 0
   },
@@ -585,7 +585,7 @@
     "title": "Wassermusik „Hamburger Ebb' und Fluth“",
     "year": 1723,
     "year_note": "vollendet",
-    "query": "Georg Philipp Telemann Wassermusik Hamburger Ebb' und Fluth",
+    "query": "Telemann Hamburger Ebb und Fluth TWV 55:C3 | Telemann Wassermusik Hamburger Ebb",
     "spotify": "",
     "start_ms": 0
   },
@@ -595,7 +595,7 @@
     "title": "Kantate BWV 147: Jesus bleibet meine Freude",
     "year": 1723,
     "year_note": "vollendet",
-    "query": "Johann Sebastian Bach Kantate BWV 147 Jesus bleibet meine Freude",
+    "query": "Bach Jesus bleibet meine Freude BWV 147 | Bach Jesu Joy of Man's Desiring",
     "spotify": "",
     "start_ms": 0
   },
@@ -605,7 +605,7 @@
     "title": "La sonnerie de Sainte-Geneviève du Mont-de-Paris",
     "year": 1723,
     "year_note": "Erstdruck",
-    "query": "Marin Marais La sonnerie de Sainte-Geneviève du Mont-de-Paris",
+    "query": "Marais Sonnerie de Sainte-Geneviève",
     "spotify": "",
     "start_ms": 0
   },
@@ -615,7 +615,7 @@
     "title": "Le rappel des oiseaux",
     "year": 1724,
     "year_note": "Erstdruck",
-    "query": "Jean-Philippe Rameau Le rappel des oiseaux",
+    "query": "Rameau Le rappel des oiseaux",
     "spotify": "",
     "start_ms": 0
   },
@@ -625,7 +625,7 @@
     "title": "Johannes-Passion: Herr, unser Herrscher",
     "year": 1724,
     "year_note": "vollendet",
-    "query": "Johann Sebastian Bach Johannes-Passion Herr unser Herrscher",
+    "query": "Bach Johannes-Passion Herr unser Herrscher BWV 245 | Bach St John Passion Herr unser Herrscher",
     "spotify": "",
     "start_ms": 0
   },
@@ -635,7 +635,7 @@
     "title": "Die vier Jahreszeiten: Der Frühling, 1. Satz (Allegro)",
     "year": 1725,
     "year_note": "Erstdruck",
-    "query": "Vivaldi La primavera Spring RV 269 Allegro",
+    "query": "Vivaldi Spring RV 269 Allegro | Vivaldi La primavera Allegro",
     "spotify": "",
     "start_ms": 0
   },
@@ -645,7 +645,7 @@
     "title": "Die vier Jahreszeiten: Der Sommer, 3. Satz (Presto)",
     "year": 1725,
     "year_note": "Erstdruck",
-    "query": "Antonio Vivaldi Die vier Jahreszeiten Der Sommer Presto",
+    "query": "Vivaldi Summer RV 315 Presto | Vivaldi L'estate Presto",
     "spotify": "",
     "start_ms": 0
   },
@@ -655,7 +655,7 @@
     "title": "Die vier Jahreszeiten: Der Winter, 1. Satz (Allegro non molto)",
     "year": 1725,
     "year_note": "Erstdruck",
-    "query": "Antonio Vivaldi Die vier Jahreszeiten Der Winter Allegro non molto",
+    "query": "Vivaldi Winter RV 297 Allegro non molto | Vivaldi L'inverno Allegro non molto",
     "spotify": "",
     "start_ms": 0
   },
@@ -675,7 +675,7 @@
     "title": "Matthäus-Passion: Kommt, ihr Töchter, helft mir klagen",
     "year": 1727,
     "year_note": "vollendet",
-    "query": "Johann Sebastian Bach Matthäus-Passion Kommt ihr Töchter helft mir klagen",
+    "query": "Bach Matthäus-Passion Kommt ihr Töchter BWV 244 | Bach St Matthew Passion Kommt ihr Töchter",
     "spotify": "",
     "start_ms": 0
   },
@@ -685,7 +685,7 @@
     "title": "Suite de symphonies: Rondeau",
     "year": 1729,
     "year_note": "Erstdruck",
-    "query": "Jean-Joseph Mouret Suite de symphonies Rondeau",
+    "query": "Mouret Rondeau Suite de symphonies | Mouret Rondeau",
     "spotify": "",
     "start_ms": 0
   },
@@ -695,7 +695,7 @@
     "title": "Kantate BWV 140: Wachet auf, ruft uns die Stimme",
     "year": 1731,
     "year_note": "vollendet",
-    "query": "Johann Sebastian Bach Kantate BWV 140 Wachet auf ruft uns die Stimme",
+    "query": "Bach Wachet auf ruft uns die Stimme BWV 140",
     "spotify": "",
     "start_ms": 0
   },
@@ -705,7 +705,7 @@
     "title": "Orchestersuite Nr. 3 D-Dur: Air",
     "year": 1731,
     "year_note": "ungefähr",
-    "query": "Johann Sebastian Bach Orchestersuite No. 3 D-Dur Air",
+    "query": "Bach Air BWV 1068 | Bach Orchestral Suite 3 Air",
     "spotify": "",
     "start_ms": 0
   },
@@ -715,7 +715,7 @@
     "title": "Suite d-Moll HWV 437: Sarabande",
     "year": 1733,
     "year_note": "Erstdruck",
-    "query": "Handel Suite d-Moll HWV 437 Sarabande",
+    "query": "Handel Sarabande HWV 437",
     "spotify": "",
     "start_ms": 0
   },
@@ -725,7 +725,7 @@
     "title": "Tafelmusik: Ouvertüre e-Moll",
     "year": 1733,
     "year_note": "Erstdruck",
-    "query": "Georg Philipp Telemann Tafelmusik Overture e-Moll",
+    "query": "Telemann Tafelmusik Ouverture E minor",
     "spotify": "",
     "start_ms": 0
   },
@@ -735,7 +735,7 @@
     "title": "La serva padrona: Stizzoso, mio stizzoso",
     "year": 1733,
     "year_note": "Uraufführung",
-    "query": "Giovanni Battista Pergolesi La serva padrona Stizzoso mio stizzoso",
+    "query": "Pergolesi Serva padrona Stizzoso mio stizzoso",
     "spotify": "",
     "start_ms": 0
   },
@@ -745,7 +745,7 @@
     "title": "Magnificat D-Dur BWV 243",
     "year": 1733,
     "year_note": "vollendet",
-    "query": "Johann Sebastian Bach Magnificat D-Dur BWV 243",
+    "query": "Bach Magnificat BWV 243 Magnificat",
     "spotify": "",
     "start_ms": 0
   },
@@ -755,7 +755,7 @@
     "title": "Weihnachtsoratorium: Jauchzet, frohlocket",
     "year": 1734,
     "year_note": "vollendet",
-    "query": "Johann Sebastian Bach Weihnachtsoratorium Jauchzet frohlocket",
+    "query": "Bach Weihnachtsoratorium Jauchzet frohlocket BWV 248 | Bach Christmas Oratorio Jauchzet frohlocket",
     "spotify": "",
     "start_ms": 0
   },
@@ -765,7 +765,7 @@
     "title": "Les Indes galantes: Danse du grand calumet de la paix",
     "year": 1735,
     "year_note": "Uraufführung",
-    "query": "Jean-Philippe Rameau Les Indes galantes Danse du grand calumet de la paix",
+    "query": "Rameau Indes galantes Danse du grand calumet | Rameau Les Sauvages",
     "spotify": "",
     "start_ms": 0
   },
@@ -775,7 +775,7 @@
     "title": "Italienisches Konzert, 1. Satz",
     "year": 1735,
     "year_note": "Erstdruck",
-    "query": "Johann Sebastian Bach Italienisches Konzert",
+    "query": "Bach Italian Concerto BWV 971 Allegro | Bach Italienisches Konzert BWV 971",
     "spotify": "",
     "start_ms": 0
   },
@@ -785,7 +785,7 @@
     "title": "Le coucou",
     "year": 1735,
     "year_note": "Erstdruck",
-    "query": "Louis-Claude Daquin Le coucou",
+    "query": "Daquin Le coucou",
     "spotify": "",
     "start_ms": 0
   },
@@ -795,7 +795,7 @@
     "title": "Stabat Mater: Stabat mater dolorosa",
     "year": 1736,
     "year_note": "vollendet",
-    "query": "Giovanni Battista Pergolesi Stabat Mater Stabat mater dolorosa",
+    "query": "Pergolesi Stabat Mater dolorosa",
     "spotify": "",
     "start_ms": 0
   },
@@ -805,7 +805,7 @@
     "title": "Les Élémens: Le Chaos",
     "year": 1737,
     "year_note": "vollendet",
-    "query": "Jean-Féry Rebel Les Élémens Le Chaos",
+    "query": "Rebel Les Élémens Le Chaos",
     "spotify": "",
     "start_ms": 0
   },
@@ -815,7 +815,7 @@
     "title": "Serse: Ombra mai fù",
     "year": 1738,
     "year_note": "Uraufführung",
-    "query": "Handel Serse Ombra mai fù",
+    "query": "Handel Serse Ombra mai fu",
     "spotify": "",
     "start_ms": 0
   },
@@ -825,7 +825,7 @@
     "title": "Concerto grosso op. 6 Nr. 5",
     "year": 1739,
     "year_note": "vollendet",
-    "query": "Handel Concerto grosso op. 6 No. 5",
+    "query": "Handel Concerto grosso Op. 6 No. 5 HWV 323",
     "spotify": "",
     "start_ms": 0
   },
@@ -835,7 +835,7 @@
     "title": "Orgelkonzert „The Cuckoo and the Nightingale“",
     "year": 1739,
     "year_note": "vollendet",
-    "query": "Handel Organ Concerto The Cuckoo and the Nightingale",
+    "query": "Handel Cuckoo and the Nightingale HWV 295",
     "spotify": "",
     "start_ms": 0
   },
@@ -845,7 +845,7 @@
     "title": "Orchestersuite Nr. 2 h-Moll: Badinerie",
     "year": 1739,
     "year_note": "vollendet",
-    "query": "Johann Sebastian Bach Orchestersuite No. 2 h-Moll Badinerie",
+    "query": "Bach Badinerie BWV 1067",
     "spotify": "",
     "start_ms": 0
   },
@@ -865,7 +865,7 @@
     "title": "Goldberg-Variationen: Aria",
     "year": 1741,
     "year_note": "Erstdruck",
-    "query": "Johann Sebastian Bach Goldberg-Variationen Aria",
+    "query": "Bach Goldberg Variations Aria BWV 988",
     "spotify": "",
     "start_ms": 0
   },
@@ -875,7 +875,7 @@
     "title": "Musikalisches Opfer: Ricercar a 6",
     "year": 1747,
     "year_note": "vollendet",
-    "query": "Johann Sebastian Bach Musikalisches Opfer Ricercar a 6",
+    "query": "Bach Musical Offering Ricercar a 6 | Bach Musikalisches Opfer Ricercar a 6",
     "spotify": "",
     "start_ms": 0
   },
@@ -885,7 +885,7 @@
     "title": "Solomon: Ankunft der Königin von Saba",
     "year": 1748,
     "year_note": "vollendet",
-    "query": "Handel Solomon Ankunft der Königin von Saba",
+    "query": "Handel Arrival of the Queen of Sheba",
     "spotify": "",
     "start_ms": 0
   },
@@ -895,7 +895,7 @@
     "title": "Feuerwerksmusik: Ouvertüre",
     "year": 1749,
     "year_note": "Uraufführung",
-    "query": "Handel Feuerwerksmusik Overture",
+    "query": "Handel Music for the Royal Fireworks Ouverture",
     "spotify": "",
     "start_ms": 0
   },
@@ -905,7 +905,7 @@
     "title": "h-Moll-Messe: Kyrie",
     "year": 1749,
     "year_note": "vollendet",
-    "query": "Johann Sebastian Bach h-Moll-Messe Kyrie",
+    "query": "Bach Mass in B minor Kyrie BWV 232 | Bach h-Moll-Messe Kyrie",
     "spotify": "",
     "start_ms": 0
   },
@@ -915,7 +915,7 @@
     "title": "Die Kunst der Fuge: Contrapunctus 1",
     "year": 1751,
     "year_note": "Erstdruck",
-    "query": "Johann Sebastian Bach Die Kunst der Fuge Contrapunctus 1",
+    "query": "Bach Art of Fugue Contrapunctus 1 | Bach Kunst der Fuge Contrapunctus 1",
     "spotify": "",
     "start_ms": 0
   },
@@ -925,7 +925,7 @@
     "title": "Orfeo ed Euridice: Reigen seliger Geister",
     "year": 1762,
     "year_note": "Uraufführung",
-    "query": "Christoph Willibald Gluck Orfeo ed Euridice Reigen seliger Geister",
+    "query": "Gluck Dance of the Blessed Spirits | Gluck Reigen seliger Geister",
     "spotify": "",
     "start_ms": 0
   },
@@ -935,7 +935,7 @@
     "title": "Streichquintett op. 11 Nr. 5: Menuett",
     "year": 1771,
     "year_note": "vollendet",
-    "query": "Luigi Boccherini String Quintet op. 11 No. 5 Menuett",
+    "query": "Boccherini Minuet String Quintet Op. 11 No. 5 | Boccherini Minuetto",
     "spotify": "",
     "start_ms": 0
   },
@@ -945,7 +945,7 @@
     "title": "Sinfonie Nr. 45 „Abschied“, 4. Satz",
     "year": 1772,
     "year_note": "vollendet",
-    "query": "Joseph Haydn Symphony No. 45 Abschied",
+    "query": "Haydn Symphony 45 Farewell Finale Presto Adagio",
     "spotify": "",
     "start_ms": 0
   },
@@ -955,7 +955,7 @@
     "title": "Exsultate, jubilate: Alleluja",
     "year": 1773,
     "year_note": "vollendet",
-    "query": "Wolfgang Amadeus Mozart Exsultate jubilate Alleluja",
+    "query": "Mozart Exsultate jubilate Alleluja 165",
     "spotify": "",
     "start_ms": 0
   },
@@ -965,7 +965,7 @@
     "title": "Sinfonie Nr. 25 g-Moll, 1. Satz",
     "year": 1773,
     "year_note": "vollendet",
-    "query": "Wolfgang Amadeus Mozart Symphony No. 25 g-Moll",
+    "query": "Mozart Symphony 25 183 Allegro con brio",
     "spotify": "",
     "start_ms": 0
   },
@@ -975,7 +975,7 @@
     "title": "Konzert für Flöte und Harfe, 2. Satz",
     "year": 1778,
     "year_note": "vollendet",
-    "query": "Wolfgang Amadeus Mozart Konzert für Flöte und Harfe",
+    "query": "Mozart Flute and Harp Concerto 299 Andantino",
     "spotify": "",
     "start_ms": 0
   },
@@ -985,7 +985,7 @@
     "title": "Sinfonia concertante KV 364, 1. Satz",
     "year": 1779,
     "year_note": "vollendet",
-    "query": "Wolfgang Amadeus Mozart Sinfonia concertante K. 364",
+    "query": "Mozart Sinfonia concertante 364 Allegro maestoso",
     "spotify": "",
     "start_ms": 0
   },
@@ -995,7 +995,7 @@
     "title": "Musica notturna delle strade di Madrid: Ritirata",
     "year": 1780,
     "year_note": "vollendet",
-    "query": "Luigi Boccherini Musica notturna delle strade di Madrid Ritirata",
+    "query": "Boccherini Musica notturna Madrid Ritirata",
     "spotify": "",
     "start_ms": 0
   },
@@ -1005,7 +1005,7 @@
     "title": "Die Entführung aus dem Serail: Ouvertüre",
     "year": 1782,
     "year_note": "Uraufführung",
-    "query": "Wolfgang Amadeus Mozart Die Entführung aus dem Serail Overture",
+    "query": "Mozart Entführung aus dem Serail Overture | Mozart Abduction from the Seraglio Overture",
     "spotify": "",
     "start_ms": 0
   },
@@ -1015,7 +1015,7 @@
     "title": "Klaviersonate Nr. 11 A-Dur: Rondo alla turca",
     "year": 1783,
     "year_note": "vollendet",
-    "query": "Wolfgang Amadeus Mozart Piano Sonata No. 11 A-Dur Rondo alla turca",
+    "query": "Mozart Rondo alla turca 331 | Mozart Piano Sonata 11 331 Alla turca",
     "spotify": "",
     "start_ms": 0
   },
@@ -1025,7 +1025,7 @@
     "title": "Klavierkonzert Nr. 20 d-Moll, 1. Satz",
     "year": 1785,
     "year_note": "vollendet",
-    "query": "Wolfgang Amadeus Mozart Piano Concerto No. 20 d-Moll",
+    "query": "Mozart Piano Concerto 20 466 Allegro",
     "spotify": "",
     "start_ms": 0
   },
@@ -1035,7 +1035,7 @@
     "title": "Klavierkonzert Nr. 21 C-Dur, 2. Satz (Andante)",
     "year": 1785,
     "year_note": "vollendet",
-    "query": "Wolfgang Amadeus Mozart Piano Concerto No. 21 C-Dur Andante",
+    "query": "Mozart Piano Concerto 21 467 Andante",
     "spotify": "",
     "start_ms": 0
   },
@@ -1045,7 +1045,7 @@
     "title": "Hornkonzert Nr. 4, 3. Satz (Rondo)",
     "year": 1786,
     "year_note": "vollendet",
-    "query": "Wolfgang Amadeus Mozart Horn Concerto No. 4 Rondo",
+    "query": "Mozart Horn Concerto 4 495 Rondo",
     "spotify": "",
     "start_ms": 0
   },
@@ -1055,7 +1055,7 @@
     "title": "Le nozze di Figaro: Ouvertüre",
     "year": 1786,
     "year_note": "Uraufführung",
-    "query": "Wolfgang Amadeus Mozart Le nozze di Figaro Overture",
+    "query": "Mozart Le nozze di Figaro Overture 492",
     "spotify": "",
     "start_ms": 0
   },
@@ -1065,7 +1065,7 @@
     "title": "Don Giovanni: Fin ch'han dal vino",
     "year": 1787,
     "year_note": "Uraufführung",
-    "query": "Wolfgang Amadeus Mozart Don Giovanni Fin ch'han dal vino",
+    "query": "Mozart Don Giovanni Fin ch'han dal vino",
     "spotify": "",
     "start_ms": 0
   },
@@ -1075,7 +1075,7 @@
     "title": "Ein musikalischer Spaß, 4. Satz",
     "year": 1787,
     "year_note": "vollendet",
-    "query": "Wolfgang Amadeus Mozart Ein musikalischer Spaß",
+    "query": "Mozart Ein musikalischer Spass 522 Presto | Mozart Musical Joke 522 Presto",
     "spotify": "",
     "start_ms": 0
   },
@@ -1085,7 +1085,7 @@
     "title": "Eine kleine Nachtmusik KV 525, 1. Satz (Allegro)",
     "year": 1787,
     "year_note": "vollendet",
-    "query": "Mozart Eine kleine Nachtmusik K. 525 Allegro",
+    "query": "Mozart Eine kleine Nachtmusik 525 Allegro",
     "spotify": "",
     "start_ms": 0
   },
@@ -1095,7 +1095,7 @@
     "title": "Klaviersonate Nr. 16 C-Dur KV 545, 1. Satz",
     "year": 1788,
     "year_note": "vollendet",
-    "query": "Wolfgang Amadeus Mozart Piano Sonata No. 16 C-Dur K. 545",
+    "query": "Mozart Piano Sonata 16 545 Allegro | Mozart Sonata facile 545 Allegro",
     "spotify": "",
     "start_ms": 0
   },
@@ -1105,7 +1105,7 @@
     "title": "Sinfonie Nr. 40 g-Moll, 1. Satz",
     "year": 1788,
     "year_note": "vollendet",
-    "query": "Wolfgang Amadeus Mozart Symphony No. 40 g-Moll",
+    "query": "Mozart Symphony 40 550 Molto allegro",
     "spotify": "",
     "start_ms": 0
   },
@@ -1115,7 +1115,7 @@
     "title": "Sinfonie Nr. 41 „Jupiter“, 4. Satz",
     "year": 1788,
     "year_note": "vollendet",
-    "query": "Wolfgang Amadeus Mozart Symphony No. 41 Jupiter",
+    "query": "Mozart Symphony 41 Jupiter 551 Molto allegro",
     "spotify": "",
     "start_ms": 0
   },
@@ -1125,7 +1125,7 @@
     "title": "Streichquartett op. 64 Nr. 5 „Lerche“, 1. Satz",
     "year": 1790,
     "year_note": "vollendet",
-    "query": "Joseph Haydn String Quartet op. 64 No. 5 Lerche",
+    "query": "Haydn String Quartet Lark Op. 64 No. 5 Allegro moderato",
     "spotify": "",
     "start_ms": 0
   },
@@ -1135,7 +1135,7 @@
     "title": "Così fan tutte: Soave sia il vento",
     "year": 1790,
     "year_note": "Uraufführung",
-    "query": "Wolfgang Amadeus Mozart Così fan tutte Soave sia il vento",
+    "query": "Mozart Così fan tutte Soave sia il vento",
     "spotify": "",
     "start_ms": 0
   },
@@ -1145,7 +1145,7 @@
     "title": "Sinfonie Nr. 94 „Mit dem Paukenschlag“, 2. Satz",
     "year": 1791,
     "year_note": "vollendet",
-    "query": "Joseph Haydn Symphony No. 94 Mit dem Paukenschlag",
+    "query": "Haydn Symphony 94 Surprise Andante",
     "spotify": "",
     "start_ms": 0
   },
@@ -1155,7 +1155,7 @@
     "title": "Ave verum corpus",
     "year": 1791,
     "year_note": "vollendet",
-    "query": "Wolfgang Amadeus Mozart Ave verum corpus",
+    "query": "Mozart Ave verum corpus 618",
     "spotify": "",
     "start_ms": 0
   },
@@ -1165,7 +1165,7 @@
     "title": "Die Zauberflöte: Der Hölle Rache",
     "year": 1791,
     "year_note": "Uraufführung",
-    "query": "Wolfgang Amadeus Mozart Die Zauberflöte Der Hölle Rache",
+    "query": "Mozart Zauberflöte Der Hölle Rache | Mozart Magic Flute Der Hölle Rache",
     "spotify": "",
     "start_ms": 0
   },
@@ -1175,7 +1175,7 @@
     "title": "Die Zauberflöte: Der Vogelfänger bin ich ja",
     "year": 1791,
     "year_note": "Uraufführung",
-    "query": "Wolfgang Amadeus Mozart Die Zauberflöte Der Vogelfänger bin ich ja",
+    "query": "Mozart Zauberflöte Der Vogelfänger bin ich ja",
     "spotify": "",
     "start_ms": 0
   },
@@ -1185,7 +1185,7 @@
     "title": "Klarinettenkonzert, 2. Satz (Adagio)",
     "year": 1791,
     "year_note": "vollendet",
-    "query": "Wolfgang Amadeus Mozart Clarinet Concerto Adagio",
+    "query": "Mozart Clarinet Concerto 622 Adagio",
     "spotify": "",
     "start_ms": 0
   },
@@ -1195,7 +1195,7 @@
     "title": "Requiem: Lacrimosa",
     "year": 1791,
     "year_note": "vollendet",
-    "query": "Wolfgang Amadeus Mozart Requiem Lacrimosa",
+    "query": "Mozart Requiem Lacrimosa",
     "spotify": "",
     "start_ms": 0
   },
@@ -1205,7 +1205,7 @@
     "title": "Sinfonie Nr. 101 „Die Uhr“, 2. Satz",
     "year": 1794,
     "year_note": "vollendet",
-    "query": "Joseph Haydn Symphony No. 101 Die Uhr",
+    "query": "Haydn Symphony 101 Clock Andante",
     "spotify": "",
     "start_ms": 0
   },
@@ -1215,7 +1215,7 @@
     "title": "Sinfonie Nr. 104 „London“, 1. Satz",
     "year": 1795,
     "year_note": "vollendet",
-    "query": "Joseph Haydn Symphony No. 104 London",
+    "query": "Haydn Symphony 104 London Adagio Allegro",
     "spotify": "",
     "start_ms": 0
   },
@@ -1225,7 +1225,7 @@
     "title": "Trompetenkonzert Es-Dur, 3. Satz",
     "year": 1796,
     "year_note": "vollendet",
-    "query": "Joseph Haydn Trumpet Concerto Es-Dur",
+    "query": "Haydn Trumpet Concerto E-flat Allegro Finale",
     "spotify": "",
     "start_ms": 0
   },
@@ -1235,7 +1235,7 @@
     "title": "Streichquartett op. 76 Nr. 3 „Kaiserquartett“, 2. Satz",
     "year": 1797,
     "year_note": "vollendet",
-    "query": "Joseph Haydn String Quartet op. 76 No. 3 Kaiserquartett",
+    "query": "Haydn Emperor Quartet Poco adagio cantabile | Haydn Kaiserquartett Poco adagio",
     "spotify": "",
     "start_ms": 0
   },
@@ -1245,7 +1245,7 @@
     "title": "Sonatine op. 36 Nr. 1",
     "year": 1797,
     "year_note": "vollendet",
-    "query": "Muzio Clementi Sonatine op. 36 No. 1",
+    "query": "Clementi Sonatina Op. 36 No. 1",
     "spotify": "",
     "start_ms": 0
   },
@@ -1255,7 +1255,7 @@
     "title": "Die Schöpfung: Die Himmel erzählen die Ehre Gottes",
     "year": 1798,
     "year_note": "vollendet",
-    "query": "Joseph Haydn Die Schöpfung Die Himmel erzählen die Ehre Gottes",
+    "query": "Haydn Schöpfung Die Himmel erzählen | Haydn Creation The heavens are telling",
     "spotify": "",
     "start_ms": 0
   },
@@ -1265,7 +1265,7 @@
     "title": "Klaviersonate Nr. 8 „Pathétique“, 2. Satz",
     "year": 1798,
     "year_note": "vollendet",
-    "query": "Ludwig van Beethoven Piano Sonata No. 8 Pathétique",
+    "query": "Beethoven Pathétique Adagio cantabile | Beethoven Piano Sonata 8 Adagio cantabile",
     "spotify": "",
     "start_ms": 0
   },
@@ -1275,7 +1275,7 @@
     "title": "Romanze F-Dur für Violine und Orchester",
     "year": 1798,
     "year_note": "vollendet",
-    "query": "Ludwig van Beethoven Romanze F-Dur für Violine und Orchester",
+    "query": "Beethoven Romance 2 F major Op. 50 | Beethoven Romanze F-Dur op. 50",
     "spotify": "",
     "start_ms": 0
   },
@@ -1285,7 +1285,7 @@
     "title": "Die Jahreszeiten: Komm, holder Lenz",
     "year": 1801,
     "year_note": "vollendet",
-    "query": "Joseph Haydn Die Jahreszeiten Komm holder Lenz",
+    "query": "Haydn Jahreszeiten Komm holder Lenz | Haydn Seasons Come gentle spring",
     "spotify": "",
     "start_ms": 0
   },
@@ -1295,7 +1295,7 @@
     "title": "Klaviersonate Nr. 14 „Mondscheinsonate“, 1. Satz",
     "year": 1801,
     "year_note": "vollendet",
-    "query": "Ludwig van Beethoven Piano Sonata No. 14 Mondscheinsonate",
+    "query": "Beethoven Moonlight Sonata Adagio sostenuto | Beethoven Mondscheinsonate Adagio sostenuto",
     "spotify": "",
     "start_ms": 0
   },
@@ -1305,7 +1305,7 @@
     "title": "Violinsonate Nr. 5 „Frühlingssonate“, 1. Satz",
     "year": 1801,
     "year_note": "vollendet",
-    "query": "Ludwig van Beethoven Violin Sonata No. 5 Frühlingssonate",
+    "query": "Beethoven Spring Sonata Allegro | Beethoven Violin Sonata 5 Op. 24 Allegro",
     "spotify": "",
     "start_ms": 0
   },
@@ -1315,7 +1315,7 @@
     "title": "Trompetenkonzert E-Dur, 3. Satz",
     "year": 1803,
     "year_note": "vollendet",
-    "query": "Johann Nepomuk Hummel Trumpet Concerto E-Dur",
+    "query": "Hummel Trumpet Concerto Rondo",
     "spotify": "",
     "start_ms": 0
   },
@@ -1325,7 +1325,7 @@
     "title": "Violinsonate Nr. 9 „Kreutzer-Sonate“, 1. Satz",
     "year": 1803,
     "year_note": "vollendet",
-    "query": "Ludwig van Beethoven Violin Sonata No. 9 Kreutzer-Sonate",
+    "query": "Beethoven Kreutzer Sonata Adagio sostenuto Presto | Beethoven Violin Sonata 9 Op. 47 Presto",
     "spotify": "",
     "start_ms": 0
   },
@@ -1335,7 +1335,7 @@
     "title": "Klaviersonate Nr. 21 „Waldstein“, 1. Satz",
     "year": 1804,
     "year_note": "vollendet",
-    "query": "Ludwig van Beethoven Piano Sonata No. 21 Waldstein",
+    "query": "Beethoven Waldstein Allegro con brio | Beethoven Piano Sonata 21 Op. 53 Allegro con brio",
     "spotify": "",
     "start_ms": 0
   },
@@ -1345,7 +1345,7 @@
     "title": "Sinfonie Nr. 3 „Eroica“, 1. Satz",
     "year": 1804,
     "year_note": "vollendet",
-    "query": "Ludwig van Beethoven Symphony No. 3 Eroica",
+    "query": "Beethoven Symphony 3 Eroica Allegro con brio",
     "spotify": "",
     "start_ms": 0
   },
@@ -1355,7 +1355,7 @@
     "title": "Tripelkonzert, 3. Satz",
     "year": 1804,
     "year_note": "vollendet",
-    "query": "Ludwig van Beethoven Tripelkonzert",
+    "query": "Beethoven Triple Concerto Rondo alla polacca",
     "spotify": "",
     "start_ms": 0
   },
@@ -1365,7 +1365,7 @@
     "title": "Klaviersonate Nr. 23 „Appassionata“, 3. Satz",
     "year": 1805,
     "year_note": "vollendet",
-    "query": "Ludwig van Beethoven Piano Sonata No. 23 Appassionata",
+    "query": "Beethoven Appassionata Allegro ma non troppo | Beethoven Piano Sonata 23 Op. 57 Allegro ma non troppo",
     "spotify": "",
     "start_ms": 0
   },
@@ -1375,7 +1375,7 @@
     "title": "Klavierkonzert Nr. 4, 1. Satz",
     "year": 1806,
     "year_note": "vollendet",
-    "query": "Ludwig van Beethoven Piano Concerto No. 4",
+    "query": "Beethoven Piano Concerto 4 Op. 58 Allegro moderato",
     "spotify": "",
     "start_ms": 0
   },
@@ -1385,7 +1385,7 @@
     "title": "Violinkonzert D-Dur, 3. Satz",
     "year": 1806,
     "year_note": "vollendet",
-    "query": "Ludwig van Beethoven Violin Concerto D-Dur",
+    "query": "Beethoven Violin Concerto Op. 61 Rondo",
     "spotify": "",
     "start_ms": 0
   },
@@ -1395,7 +1395,7 @@
     "title": "Coriolan-Ouvertüre",
     "year": 1807,
     "year_note": "vollendet",
-    "query": "Ludwig van Beethoven Coriolan-Overture",
+    "query": "Beethoven Coriolan Overture",
     "spotify": "",
     "start_ms": 0
   },
@@ -1405,7 +1405,7 @@
     "title": "Sinfonie Nr. 5 c-Moll op. 67, 1. Satz (Allegro con brio)",
     "year": 1808,
     "year_note": "vollendet",
-    "query": "Beethoven Symphony No. 5 Op. 67 Allegro con brio",
+    "query": "Beethoven Symphony 5 Op. 67 Allegro con brio",
     "spotify": "",
     "start_ms": 0
   },
@@ -1415,7 +1415,7 @@
     "title": "Sinfonie Nr. 6 „Pastorale“, 1. Satz",
     "year": 1808,
     "year_note": "vollendet",
-    "query": "Ludwig van Beethoven Symphony No. 6 Pastorale",
+    "query": "Beethoven Symphony 6 Pastoral Allegro ma non troppo",
     "spotify": "",
     "start_ms": 0
   },
@@ -1425,7 +1425,7 @@
     "title": "Klavierkonzert Nr. 5 „Emperor“, 1. Satz",
     "year": 1809,
     "year_note": "vollendet",
-    "query": "Ludwig van Beethoven Piano Concerto No. 5 Emperor",
+    "query": "Beethoven Piano Concerto 5 Emperor Allegro",
     "spotify": "",
     "start_ms": 0
   },
@@ -1435,7 +1435,7 @@
     "title": "Egmont-Ouvertüre",
     "year": 1810,
     "year_note": "vollendet",
-    "query": "Ludwig van Beethoven Egmont-Overture",
+    "query": "Beethoven Egmont Overture",
     "spotify": "",
     "start_ms": 0
   },
@@ -1445,7 +1445,7 @@
     "title": "Für Elise",
     "year": 1810,
     "year_note": "vollendet",
-    "query": "Ludwig van Beethoven Für Elise",
+    "query": "Beethoven Für Elise",
     "spotify": "",
     "start_ms": 0
   },
@@ -1455,7 +1455,7 @@
     "title": "Klarinettenkonzert Nr. 1, 3. Satz",
     "year": 1811,
     "year_note": "vollendet",
-    "query": "Carl Maria von Weber Clarinet Concerto No. 1",
+    "query": "Weber Clarinet Concerto 1 Rondo",
     "spotify": "",
     "start_ms": 0
   },
@@ -1465,7 +1465,7 @@
     "title": "Sinfonie Nr. 7, 2. Satz (Allegretto)",
     "year": 1812,
     "year_note": "vollendet",
-    "query": "Ludwig van Beethoven Symphony No. 7 Allegretto",
+    "query": "Beethoven Symphony 7 Allegretto",
     "spotify": "",
     "start_ms": 0
   },
@@ -1475,7 +1475,7 @@
     "title": "Sinfonie Nr. 8, 1. Satz",
     "year": 1812,
     "year_note": "vollendet",
-    "query": "Ludwig van Beethoven Symphony No. 8",
+    "query": "Beethoven Symphony 8 Allegro vivace e con brio",
     "spotify": "",
     "start_ms": 0
   },
@@ -1485,7 +1485,7 @@
     "title": "L'italiana in Algeri: Ouvertüre",
     "year": 1813,
     "year_note": "Uraufführung",
-    "query": "Gioachino Rossini L'italiana in Algeri Overture",
+    "query": "Rossini L'italiana in Algeri Overture",
     "spotify": "",
     "start_ms": 0
   },
@@ -1495,7 +1495,7 @@
     "title": "Gretchen am Spinnrade",
     "year": 1814,
     "year_note": "vollendet",
-    "query": "Franz Schubert Gretchen am Spinnrade",
+    "query": "Schubert Gretchen am Spinnrade",
     "spotify": "",
     "start_ms": 0
   },
@@ -1505,7 +1505,7 @@
     "title": "Fidelio: Gefangenenchor „O welche Lust“",
     "year": 1814,
     "year_note": "Uraufführung",
-    "query": "Ludwig van Beethoven Fidelio Gefangenenchor O welche Lust",
+    "query": "Beethoven Fidelio O welche Lust",
     "spotify": "",
     "start_ms": 0
   },
@@ -1515,7 +1515,7 @@
     "title": "Erlkönig",
     "year": 1815,
     "year_note": "vollendet",
-    "query": "Franz Schubert Erlkönig",
+    "query": "Schubert Erlkönig",
     "spotify": "",
     "start_ms": 0
   },
@@ -1525,7 +1525,7 @@
     "title": "Heidenröslein",
     "year": 1815,
     "year_note": "vollendet",
-    "query": "Franz Schubert Heidenröslein",
+    "query": "Schubert Heidenröslein",
     "spotify": "",
     "start_ms": 0
   },
@@ -1535,7 +1535,7 @@
     "title": "Il barbiere di Siviglia: Largo al factotum",
     "year": 1816,
     "year_note": "Uraufführung",
-    "query": "Gioachino Rossini Il barbiere di Siviglia Largo al factotum",
+    "query": "Rossini Largo al factotum",
     "spotify": "",
     "start_ms": 0
   },
@@ -1545,7 +1545,7 @@
     "title": "La gazza ladra: Ouvertüre",
     "year": 1817,
     "year_note": "Uraufführung",
-    "query": "Gioachino Rossini La gazza ladra Overture",
+    "query": "Rossini La gazza ladra Overture",
     "spotify": "",
     "start_ms": 0
   },
@@ -1555,7 +1555,7 @@
     "title": "Klaviersonate Nr. 29 „Hammerklavier“, 1. Satz",
     "year": 1818,
     "year_note": "vollendet",
-    "query": "Ludwig van Beethoven Piano Sonata No. 29 Hammerklavier",
+    "query": "Beethoven Hammerklavier Allegro | Beethoven Piano Sonata 29 Op. 106 Allegro",
     "spotify": "",
     "start_ms": 0
   },
@@ -1565,7 +1565,7 @@
     "title": "Aufforderung zum Tanz",
     "year": 1819,
     "year_note": "vollendet",
-    "query": "Carl Maria von Weber Aufforderung zum Tanz",
+    "query": "Weber Invitation to the Dance | Weber Aufforderung zum Tanz",
     "spotify": "",
     "start_ms": 0
   },
@@ -1575,7 +1575,7 @@
     "title": "Forellenquintett, 4. Satz",
     "year": 1819,
     "year_note": "vollendet",
-    "query": "Franz Schubert Forellenquintett",
+    "query": "Schubert Trout Quintet Andantino Tema con variazioni | Schubert Forellenquintett Thema mit Variationen",
     "spotify": "",
     "start_ms": 0
   },
@@ -1585,7 +1585,7 @@
     "title": "Caprice Nr. 24 a-Moll",
     "year": 1820,
     "year_note": "Erstdruck",
-    "query": "Niccolò Paganini Caprice No. 24 a-Moll",
+    "query": "Paganini Caprice 24",
     "spotify": "",
     "start_ms": 0
   },
@@ -1595,7 +1595,7 @@
     "title": "Der Freischütz: Jägerchor",
     "year": 1821,
     "year_note": "Uraufführung",
-    "query": "Carl Maria von Weber Der Freischütz Jägerchor",
+    "query": "Weber Freischütz Jägerchor | Weber Freischütz Huntsmen's Chorus",
     "spotify": "",
     "start_ms": 0
   },
@@ -1605,7 +1605,7 @@
     "title": "Sinfonie Nr. 7 h-Moll „Unvollendete“, 1. Satz",
     "year": 1822,
     "year_note": "vollendet",
-    "query": "Franz Schubert Symphony No. 7 h-Moll Unvollendete",
+    "query": "Schubert Unfinished Symphony Allegro moderato | Schubert Unvollendete Allegro moderato",
     "spotify": "",
     "start_ms": 0
   },
@@ -1615,7 +1615,7 @@
     "title": "Wanderer-Fantasie",
     "year": 1822,
     "year_note": "vollendet",
-    "query": "Franz Schubert Wanderer-Fantasie",
+    "query": "Schubert Wanderer Fantasy | Schubert Wandererfantasie",
     "spotify": "",
     "start_ms": 0
   },
@@ -1625,7 +1625,7 @@
     "title": "Rosamunde: Zwischenaktmusik Nr. 3",
     "year": 1823,
     "year_note": "Uraufführung",
-    "query": "Franz Schubert Rosamunde Zwischenaktmusik No. 3",
+    "query": "Schubert Rosamunde Entr'acte 3 | Schubert Rosamunde Zwischenaktmusik",
     "spotify": "",
     "start_ms": 0
   },
@@ -1635,7 +1635,7 @@
     "title": "Missa solemnis: Gloria",
     "year": 1823,
     "year_note": "vollendet",
-    "query": "Ludwig van Beethoven Missa solemnis Gloria",
+    "query": "Beethoven Missa solemnis Gloria",
     "spotify": "",
     "start_ms": 0
   },
@@ -1645,7 +1645,7 @@
     "title": "Arpeggione-Sonate, 1. Satz",
     "year": 1824,
     "year_note": "vollendet",
-    "query": "Franz Schubert Arpeggione-Sonate",
+    "query": "Schubert Arpeggione Sonata Allegro moderato",
     "spotify": "",
     "start_ms": 0
   },
@@ -1655,7 +1655,7 @@
     "title": "Streichquartett „Der Tod und das Mädchen“, 1. Satz",
     "year": 1824,
     "year_note": "vollendet",
-    "query": "Franz Schubert String Quartet Der Tod und das Mädchen",
+    "query": "Schubert Death and the Maiden Allegro | Schubert Der Tod und das Mädchen Allegro",
     "spotify": "",
     "start_ms": 0
   },
@@ -1665,9 +1665,10 @@
     "title": "Sinfonie Nr. 9, 4. Satz („Ode an die Freude“)",
     "year": 1824,
     "year_note": "vollendet",
-    "query": "Ludwig van Beethoven Symphony No. 9 Ode an die Freude",
+    "query": "Beethoven Symphony 9 Presto Allegro assai | Beethoven Symphony 9 Ode to Joy Finale",
     "spotify": "",
-    "start_ms": 0
+    "start_ms": 175000,
+    "hint": "Freude-Thema in den Celli und Bässen ca. 2:50–3:10, Chor ab ca. 9:30 (Zeiten je nach Aufnahme)"
   },
   {
     "id": "vbkqz",
@@ -1675,7 +1676,7 @@
     "title": "Oktett Es-Dur, 1. Satz",
     "year": 1825,
     "year_note": "vollendet",
-    "query": "Felix Mendelssohn Bartholdy Oktett Es-Dur",
+    "query": "Mendelssohn Octet Allegro moderato ma con fuoco",
     "spotify": "",
     "start_ms": 0
   },
@@ -1685,9 +1686,10 @@
     "title": "Ave Maria (Ellens dritter Gesang)",
     "year": 1825,
     "year_note": "vollendet",
-    "query": "Franz Schubert Ave Maria Ellens dritter Gesang",
+    "query": "Schubert Ave Maria Ellens dritter Gesang",
     "spotify": "",
-    "start_ms": 0
+    "start_ms": 0,
+    "hint": "Gesungene Fassung (Deutsch oder Latein) bevorzugen"
   },
   {
     "id": "s2gcv",
@@ -1695,7 +1697,7 @@
     "title": "Große Fuge op. 133",
     "year": 1825,
     "year_note": "vollendet",
-    "query": "Ludwig van Beethoven Große Fuge op. 133",
+    "query": "Beethoven Grosse Fuge Op. 133 | Beethoven Große Fuge",
     "spotify": "",
     "start_ms": 0
   },
@@ -1705,7 +1707,7 @@
     "title": "Oberon: Ouvertüre",
     "year": 1826,
     "year_note": "Uraufführung",
-    "query": "Carl Maria von Weber Oberon Overture",
+    "query": "Weber Oberon Overture",
     "spotify": "",
     "start_ms": 0
   },
@@ -1715,7 +1717,7 @@
     "title": "Ein Sommernachtstraum: Ouvertüre",
     "year": 1826,
     "year_note": "vollendet",
-    "query": "Felix Mendelssohn Bartholdy Ein Sommernachtstraum Overture",
+    "query": "Mendelssohn Midsummer Night's Dream Overture | Mendelssohn Sommernachtstraum Ouvertüre",
     "spotify": "",
     "start_ms": 0
   },
@@ -1725,9 +1727,10 @@
     "title": "Sinfonie Nr. 8 C-Dur „Große“, 1. Satz",
     "year": 1826,
     "year_note": "vollendet",
-    "query": "Franz Schubert Symphony No. 8 C-Dur Große",
+    "query": "Schubert Symphony 9 Great Andante Allegro | Schubert Great C major Symphony D 944 Andante",
     "spotify": "",
-    "start_ms": 0
+    "start_ms": 0,
+    "hint": "Spotify zählt diese Sinfonie meist als Nr. 9, nicht Nr. 8"
   },
   {
     "id": "6s3gf",
@@ -1735,7 +1738,7 @@
     "title": "Streichquartett op. 131, 1. Satz",
     "year": 1826,
     "year_note": "vollendet",
-    "query": "Ludwig van Beethoven String Quartet op. 131",
+    "query": "Beethoven String Quartet 14 Op. 131 Adagio ma non troppo",
     "spotify": "",
     "start_ms": 0
   },
@@ -1745,7 +1748,7 @@
     "title": "Violinkonzert Nr. 2: La Campanella",
     "year": 1826,
     "year_note": "vollendet",
-    "query": "Niccolò Paganini Violin Concerto No. 2 La Campanella",
+    "query": "Paganini Violin Concerto 2 La Campanella Rondo",
     "spotify": "",
     "start_ms": 0
   },
@@ -1755,7 +1758,7 @@
     "title": "Impromptu op. 90 Nr. 3",
     "year": 1827,
     "year_note": "vollendet",
-    "query": "Franz Schubert Impromptu op. 90 No. 3",
+    "query": "Schubert Impromptu Op. 90 No. 3 | Schubert Impromptu D 899 3",
     "spotify": "",
     "start_ms": 0
   },
@@ -1765,7 +1768,7 @@
     "title": "Klaviertrio Nr. 2 Es-Dur, 2. Satz",
     "year": 1827,
     "year_note": "vollendet",
-    "query": "Franz Schubert Piano Trio No. 2 Es-Dur",
+    "query": "Schubert Piano Trio 2 Andante con moto",
     "spotify": "",
     "start_ms": 0
   },
@@ -1775,7 +1778,7 @@
     "title": "Winterreise: Der Leiermann",
     "year": 1827,
     "year_note": "vollendet",
-    "query": "Franz Schubert Winterreise Der Leiermann",
+    "query": "Schubert Winterreise Der Leiermann",
     "spotify": "",
     "start_ms": 0
   },
@@ -1785,7 +1788,7 @@
     "title": "Der Hirt auf dem Felsen",
     "year": 1828,
     "year_note": "vollendet",
-    "query": "Franz Schubert Der Hirt auf dem Felsen",
+    "query": "Schubert Der Hirt auf dem Felsen",
     "spotify": "",
     "start_ms": 0
   },
@@ -1795,7 +1798,7 @@
     "title": "Fantasie f-Moll für Klavier zu vier Händen",
     "year": 1828,
     "year_note": "vollendet",
-    "query": "Franz Schubert Fantasie f-Moll für Klavier zu vier Händen",
+    "query": "Schubert Fantasie F minor D 940 | Schubert Fantasy F minor four hands",
     "spotify": "",
     "start_ms": 0
   },
@@ -1805,7 +1808,7 @@
     "title": "Schwanengesang: Ständchen",
     "year": 1828,
     "year_note": "vollendet",
-    "query": "Franz Schubert Schwanengesang Ständchen",
+    "query": "Schubert Ständchen Leise flehen | Schubert Serenade Schwanengesang",
     "spotify": "",
     "start_ms": 0
   },
@@ -1815,7 +1818,7 @@
     "title": "Streichquintett C-Dur, 2. Satz (Adagio)",
     "year": 1828,
     "year_note": "vollendet",
-    "query": "Franz Schubert String Quintet C-Dur Adagio",
+    "query": "Schubert String Quintet C major Adagio",
     "spotify": "",
     "start_ms": 0
   },
@@ -1825,9 +1828,10 @@
     "title": "Guillaume Tell: Ouvertüre (Finale)",
     "year": 1829,
     "year_note": "Uraufführung",
-    "query": "Gioachino Rossini Guillaume Tell Overture",
+    "query": "Rossini William Tell Overture Finale | Rossini Guillaume Tell Overture",
     "spotify": "",
-    "start_ms": 0
+    "start_ms": 0,
+    "hint": "Galopp (Finale): bei der ganzen Ouvertüre erst ab ca. 8:50. Besser eine Aufnahme mit eigenem Finale-Track wählen"
   },
   {
     "id": "avctc",
@@ -1835,7 +1839,7 @@
     "title": "Klavierkonzert Nr. 1 e-Moll, 2. Satz",
     "year": 1830,
     "year_note": "vollendet",
-    "query": "Frédéric Chopin Piano Concerto No. 1 e-Moll",
+    "query": "Chopin Piano Concerto 1 Romance Larghetto",
     "spotify": "",
     "start_ms": 0
   },
@@ -1845,7 +1849,7 @@
     "title": "Nocturne cis-Moll (posthum)",
     "year": 1830,
     "year_note": "vollendet",
-    "query": "Frédéric Chopin Nocturne cis-Moll posthum",
+    "query": "Chopin Nocturne C sharp minor posthumous | Chopin Nocturne 20 Lento con gran espressione",
     "spotify": "",
     "start_ms": 0
   },
@@ -1855,7 +1859,7 @@
     "title": "Symphonie fantastique: Marche au supplice",
     "year": 1830,
     "year_note": "vollendet",
-    "query": "Hector Berlioz Symphonie fantastique Marche au supplice",
+    "query": "Berlioz Symphonie fantastique Marche au supplice",
     "spotify": "",
     "start_ms": 0
   },
@@ -1865,7 +1869,7 @@
     "title": "Etüde op. 10 Nr. 12 „Revolutionsetüde“",
     "year": 1831,
     "year_note": "vollendet",
-    "query": "Frédéric Chopin Etüde op. 10 No. 12 Revolutionsetüde",
+    "query": "Chopin Revolutionary Etude Op. 10 No. 12",
     "spotify": "",
     "start_ms": 0
   },
@@ -1875,7 +1879,7 @@
     "title": "Norma: Casta diva",
     "year": 1831,
     "year_note": "Uraufführung",
-    "query": "Vincenzo Bellini Norma Casta diva",
+    "query": "Bellini Norma Casta diva",
     "spotify": "",
     "start_ms": 0
   },
@@ -1885,7 +1889,7 @@
     "title": "Die Hebriden (Fingals Höhle)",
     "year": 1832,
     "year_note": "vollendet",
-    "query": "Felix Mendelssohn Bartholdy Die Hebriden Fingals Höhle",
+    "query": "Mendelssohn Hebrides Overture Fingal's Cave",
     "spotify": "",
     "start_ms": 0
   },
@@ -1895,7 +1899,7 @@
     "title": "Nocturne Es-Dur op. 9 Nr. 2",
     "year": 1832,
     "year_note": "vollendet",
-    "query": "Frédéric Chopin Nocturne Es-Dur op. 9 No. 2",
+    "query": "Chopin Nocturne Op. 9 No. 2",
     "spotify": "",
     "start_ms": 0
   },
@@ -1905,7 +1909,7 @@
     "title": "L'elisir d'amore: Una furtiva lagrima",
     "year": 1832,
     "year_note": "Uraufführung",
-    "query": "Gaetano Donizetti L'elisir d'amore Una furtiva lagrima",
+    "query": "Donizetti Una furtiva lagrima",
     "spotify": "",
     "start_ms": 0
   },
@@ -1915,7 +1919,7 @@
     "title": "Sinfonie Nr. 4 „Italienische“, 1. Satz",
     "year": 1833,
     "year_note": "vollendet",
-    "query": "Felix Mendelssohn Bartholdy Symphony No. 4 Italienische",
+    "query": "Mendelssohn Symphony 4 Italian Allegro vivace",
     "spotify": "",
     "start_ms": 0
   },
@@ -1925,7 +1929,7 @@
     "title": "Grande valse brillante op. 18",
     "year": 1833,
     "year_note": "vollendet",
-    "query": "Frédéric Chopin Grande valse brillante op. 18",
+    "query": "Chopin Grande valse brillante Op. 18",
     "spotify": "",
     "start_ms": 0
   },
@@ -1935,7 +1939,7 @@
     "title": "Fantaisie-Impromptu",
     "year": 1834,
     "year_note": "vollendet",
-    "query": "Frédéric Chopin Fantaisie-Impromptu",
+    "query": "Chopin Fantaisie-Impromptu Op. 66",
     "spotify": "",
     "start_ms": 0
   },
@@ -1945,7 +1949,7 @@
     "title": "Klavierkonzert a-Moll, 1. Satz",
     "year": 1835,
     "year_note": "vollendet",
-    "query": "Clara Schumann Piano Concerto a-Moll",
+    "query": "Clara Schumann Piano Concerto A minor Allegro maestoso",
     "spotify": "",
     "start_ms": 0
   },
@@ -1955,7 +1959,7 @@
     "title": "Ballade Nr. 1 g-Moll",
     "year": 1835,
     "year_note": "vollendet",
-    "query": "Frédéric Chopin Ballade No. 1 g-Moll",
+    "query": "Chopin Ballade 1 G minor Op. 23",
     "spotify": "",
     "start_ms": 0
   },
@@ -1965,7 +1969,7 @@
     "title": "Lucia di Lammermoor: Wahnsinnsarie",
     "year": 1835,
     "year_note": "Uraufführung",
-    "query": "Gaetano Donizetti Lucia di Lammermoor Wahnsinnsarie",
+    "query": "Donizetti Lucia di Lammermoor Il dolce suono | Donizetti Lucia Mad Scene",
     "spotify": "",
     "start_ms": 0
   },
@@ -1975,7 +1979,7 @@
     "title": "Carnaval op. 9: Préambule",
     "year": 1835,
     "year_note": "vollendet",
-    "query": "Robert Schumann Carnaval op. 9 Préambule",
+    "query": "Schumann Carnaval Op. 9 Préambule",
     "spotify": "",
     "start_ms": 0
   },
@@ -1985,7 +1989,7 @@
     "title": "Les Huguenots: Ouvertüre",
     "year": 1836,
     "year_note": "Uraufführung",
-    "query": "Giacomo Meyerbeer Les Huguenots Overture",
+    "query": "Meyerbeer Les Huguenots Overture",
     "spotify": "",
     "start_ms": 0
   },
@@ -1995,7 +1999,7 @@
     "title": "Zar und Zimmermann: Holzschuhtanz",
     "year": 1837,
     "year_note": "Uraufführung",
-    "query": "Albert Lortzing Zar und Zimmermann Holzschuhtanz",
+    "query": "Lortzing Zar und Zimmermann Holzschuhtanz | Lortzing Clog Dance",
     "spotify": "",
     "start_ms": 0
   },
@@ -2005,7 +2009,7 @@
     "title": "Kinderszenen: Träumerei",
     "year": 1838,
     "year_note": "vollendet",
-    "query": "Robert Schumann Kinderszenen Träumerei",
+    "query": "Schumann Träumerei Kinderszenen",
     "spotify": "",
     "start_ms": 0
   },
@@ -2015,7 +2019,7 @@
     "title": "Klaviersonate Nr. 2: Trauermarsch",
     "year": 1839,
     "year_note": "vollendet",
-    "query": "Frédéric Chopin Piano Sonata No. 2 Trauermarsch",
+    "query": "Chopin Piano Sonata 2 Marche funèbre | Chopin Funeral March",
     "spotify": "",
     "start_ms": 0
   },
@@ -2025,7 +2029,7 @@
     "title": "Prélude op. 28 Nr. 15 „Regentropfen“",
     "year": 1839,
     "year_note": "vollendet",
-    "query": "Frédéric Chopin Prélude op. 28 No. 15 Regentropfen",
+    "query": "Chopin Prelude Op. 28 No. 15 Raindrop",
     "spotify": "",
     "start_ms": 0
   },
@@ -2035,7 +2039,7 @@
     "title": "Dichterliebe: Im wunderschönen Monat Mai",
     "year": 1840,
     "year_note": "vollendet",
-    "query": "Robert Schumann Dichterliebe Im wunderschönen Monat Mai",
+    "query": "Schumann Dichterliebe Im wunderschönen Monat Mai",
     "spotify": "",
     "start_ms": 0
   },
@@ -2045,7 +2049,7 @@
     "title": "Myrthen: Widmung",
     "year": 1840,
     "year_note": "vollendet",
-    "query": "Robert Schumann Myrthen Widmung",
+    "query": "Schumann Widmung Myrthen",
     "spotify": "",
     "start_ms": 0
   },
@@ -2055,7 +2059,7 @@
     "title": "Das Jahr: März",
     "year": 1841,
     "year_note": "vollendet",
-    "query": "Fanny Hensel Das Jahr März",
+    "query": "Fanny Hensel Das Jahr März | Fanny Mendelssohn Das Jahr March",
     "spotify": "",
     "start_ms": 0
   },
@@ -2065,7 +2069,7 @@
     "title": "Stabat Mater: Cujus animam",
     "year": 1841,
     "year_note": "vollendet",
-    "query": "Gioachino Rossini Stabat Mater Cujus animam",
+    "query": "Rossini Stabat Mater Cujus animam",
     "spotify": "",
     "start_ms": 0
   },
@@ -2075,7 +2079,7 @@
     "title": "Sinfonie Nr. 1 „Frühlingssinfonie“, 1. Satz",
     "year": 1841,
     "year_note": "vollendet",
-    "query": "Robert Schumann Symphony No. 1 Frühlingssinfonie",
+    "query": "Schumann Symphony 1 Spring Andante un poco maestoso Allegro",
     "spotify": "",
     "start_ms": 0
   },
@@ -2085,7 +2089,7 @@
     "title": "Sinfonie Nr. 3 „Schottische“, 1. Satz",
     "year": 1842,
     "year_note": "vollendet",
-    "query": "Felix Mendelssohn Bartholdy Symphony No. 3 Schottische",
+    "query": "Mendelssohn Symphony 3 Scottish Andante con moto Allegro",
     "spotify": "",
     "start_ms": 0
   },
@@ -2095,7 +2099,7 @@
     "title": "Polonaise As-Dur op. 53 „Héroïque“",
     "year": 1842,
     "year_note": "vollendet",
-    "query": "Frédéric Chopin Polonaise As-Dur op. 53 Héroïque",
+    "query": "Chopin Polonaise Op. 53 Heroic",
     "spotify": "",
     "start_ms": 0
   },
@@ -2105,7 +2109,7 @@
     "title": "Nabucco: Gefangenenchor „Va, pensiero“",
     "year": 1842,
     "year_note": "Uraufführung",
-    "query": "Giuseppe Verdi Nabucco Gefangenenchor Va pensiero",
+    "query": "Verdi Nabucco Va pensiero",
     "spotify": "",
     "start_ms": 0
   },
@@ -2115,7 +2119,7 @@
     "title": "Ruslan und Ljudmila: Ouvertüre",
     "year": 1842,
     "year_note": "Uraufführung",
-    "query": "Glinka Ruslan und Ljudmila Overture",
+    "query": "Glinka Ruslan and Ludmila Overture",
     "spotify": "",
     "start_ms": 0
   },
@@ -2125,7 +2129,7 @@
     "title": "Ein Sommernachtstraum: Hochzeitsmarsch",
     "year": 1843,
     "year_note": "Uraufführung",
-    "query": "Felix Mendelssohn Bartholdy Ein Sommernachtstraum Hochzeitsmarsch",
+    "query": "Mendelssohn Wedding March Midsummer Night's Dream | Mendelssohn Hochzeitsmarsch",
     "spotify": "",
     "start_ms": 0
   },
@@ -2135,7 +2139,7 @@
     "title": "Der fliegende Holländer: Ouvertüre",
     "year": 1843,
     "year_note": "Uraufführung",
-    "query": "Richard Wagner Der fliegende Holländer Overture",
+    "query": "Wagner Flying Dutchman Overture | Wagner Der fliegende Holländer Ouvertüre",
     "spotify": "",
     "start_ms": 0
   },
@@ -2145,7 +2149,7 @@
     "title": "Violinkonzert e-Moll, 1. Satz",
     "year": 1844,
     "year_note": "vollendet",
-    "query": "Felix Mendelssohn Bartholdy Violin Concerto e-Moll",
+    "query": "Mendelssohn Violin Concerto E minor Allegro molto appassionato",
     "spotify": "",
     "start_ms": 0
   },
@@ -2155,7 +2159,7 @@
     "title": "Le carnaval romain",
     "year": 1844,
     "year_note": "vollendet",
-    "query": "Hector Berlioz Le carnaval romain",
+    "query": "Berlioz Le carnaval romain overture",
     "spotify": "",
     "start_ms": 0
   },
@@ -2165,7 +2169,7 @@
     "title": "Tannhäuser: Pilgerchor",
     "year": 1845,
     "year_note": "Uraufführung",
-    "query": "Richard Wagner Tannhäuser Pilgerchor",
+    "query": "Wagner Tannhäuser Pilgerchor | Wagner Tannhäuser Pilgrims' Chorus",
     "spotify": "",
     "start_ms": 0
   },
@@ -2175,7 +2179,7 @@
     "title": "Klavierkonzert a-Moll, 1. Satz",
     "year": 1845,
     "year_note": "vollendet",
-    "query": "Robert Schumann Piano Concerto a-Moll",
+    "query": "Schumann Piano Concerto A minor Allegro affettuoso",
     "spotify": "",
     "start_ms": 0
   },
@@ -2185,7 +2189,7 @@
     "title": "Klaviertrio g-Moll, 1. Satz",
     "year": 1846,
     "year_note": "vollendet",
-    "query": "Clara Schumann Piano Trio g-Moll",
+    "query": "Clara Schumann Piano Trio G minor Allegro moderato",
     "spotify": "",
     "start_ms": 0
   },
@@ -2195,7 +2199,7 @@
     "title": "Elias: Hebe deine Augen auf",
     "year": 1846,
     "year_note": "vollendet",
-    "query": "Felix Mendelssohn Bartholdy Elias Hebe deine Augen auf",
+    "query": "Mendelssohn Elias Hebe deine Augen auf | Mendelssohn Elijah Lift thine eyes",
     "spotify": "",
     "start_ms": 0
   },
@@ -2205,7 +2209,7 @@
     "title": "La damnation de Faust: Rákóczy-Marsch",
     "year": 1846,
     "year_note": "vollendet",
-    "query": "Hector Berlioz La damnation de Faust Rákóczy-Marsch",
+    "query": "Berlioz Damnation de Faust Marche hongroise | Berlioz Rakoczy March",
     "spotify": "",
     "start_ms": 0
   },
@@ -2215,9 +2219,10 @@
     "title": "Ungarische Rhapsodie Nr. 2",
     "year": 1847,
     "year_note": "vollendet",
-    "query": "Franz Liszt Ungarische Rhapsodie No. 2",
+    "query": "Liszt Hungarian Rhapsody 2",
     "spotify": "",
-    "start_ms": 0
+    "start_ms": 0,
+    "hint": "Langsamer Beginn; das schnelle, bekannte Friska-Thema kommt später"
   },
   {
     "id": "6rbdm",
@@ -2225,7 +2230,7 @@
     "title": "Martha: Letzte Rose",
     "year": 1847,
     "year_note": "Uraufführung",
-    "query": "Friedrich von Flotow Martha Letzte Rose",
+    "query": "Flotow Martha Letzte Rose | Flotow Last Rose of Summer",
     "spotify": "",
     "start_ms": 0
   },
@@ -2235,7 +2240,7 @@
     "title": "Walzer op. 64 Nr. 1 „Minutenwalzer“",
     "year": 1847,
     "year_note": "vollendet",
-    "query": "Frédéric Chopin Walzer op. 64 No. 1 Minutenwalzer",
+    "query": "Chopin Minute Waltz Op. 64 No. 1",
     "spotify": "",
     "start_ms": 0
   },
@@ -2245,7 +2250,7 @@
     "title": "Sinfonie Nr. 3 g-Moll, 1. Satz",
     "year": 1847,
     "year_note": "vollendet",
-    "query": "Louise Farrenc Symphony No. 3 g-Moll",
+    "query": "Farrenc Symphony 3 Adagio Allegro",
     "spotify": "",
     "start_ms": 0
   },
@@ -2255,7 +2260,7 @@
     "title": "Radetzky-Marsch",
     "year": 1848,
     "year_note": "vollendet",
-    "query": "Johann Strauss I Radetzky-Marsch",
+    "query": "Johann Strauss Radetzky March Op. 228",
     "spotify": "",
     "start_ms": 0
   },
@@ -2265,7 +2270,7 @@
     "title": "Album für die Jugend: Fröhlicher Landmann",
     "year": 1848,
     "year_note": "vollendet",
-    "query": "Robert Schumann Album für die Jugend Fröhlicher Landmann",
+    "query": "Schumann Fröhlicher Landmann Album für die Jugend | Schumann Happy Farmer",
     "spotify": "",
     "start_ms": 0
   },
@@ -2275,7 +2280,7 @@
     "title": "Klavierkonzert Nr. 1 Es-Dur",
     "year": 1849,
     "year_note": "vollendet",
-    "query": "Franz Liszt Piano Concerto No. 1 Es-Dur",
+    "query": "Liszt Piano Concerto 1 E-flat Allegro maestoso",
     "spotify": "",
     "start_ms": 0
   },
@@ -2285,7 +2290,7 @@
     "title": "Die lustigen Weiber von Windsor: Ouvertüre",
     "year": 1849,
     "year_note": "Uraufführung",
-    "query": "Otto Nicolai Die lustigen Weiber von Windsor Overture",
+    "query": "Nicolai Merry Wives of Windsor Overture | Nicolai Die lustigen Weiber von Windsor Ouvertüre",
     "spotify": "",
     "start_ms": 0
   },
@@ -2295,7 +2300,7 @@
     "title": "Liebestraum Nr. 3",
     "year": 1850,
     "year_note": "vollendet",
-    "query": "Franz Liszt Liebestraum No. 3",
+    "query": "Liszt Liebestraum 3",
     "spotify": "",
     "start_ms": 0
   },
@@ -2305,7 +2310,7 @@
     "title": "Lohengrin: Vorspiel zum 3. Akt",
     "year": 1850,
     "year_note": "Uraufführung",
-    "query": "Richard Wagner Lohengrin Vorspiel zum 3. Akt",
+    "query": "Wagner Lohengrin Prelude Act 3 | Wagner Lohengrin Vorspiel 3. Akt",
     "spotify": "",
     "start_ms": 0
   },
@@ -2315,7 +2320,7 @@
     "title": "Cellokonzert a-Moll, 1. Satz",
     "year": 1850,
     "year_note": "vollendet",
-    "query": "Robert Schumann Cello Concerto a-Moll",
+    "query": "Schumann Cello Concerto A minor Nicht zu schnell",
     "spotify": "",
     "start_ms": 0
   },
@@ -2325,7 +2330,7 @@
     "title": "Sinfonie Nr. 3 „Rheinische“, 1. Satz",
     "year": 1850,
     "year_note": "vollendet",
-    "query": "Robert Schumann Symphony No. 3 Rheinische",
+    "query": "Schumann Symphony 3 Rhenish Lebhaft",
     "spotify": "",
     "start_ms": 0
   },
@@ -2335,7 +2340,7 @@
     "title": "Grandes études de Paganini: La Campanella",
     "year": 1851,
     "year_note": "vollendet",
-    "query": "Franz Liszt Grandes études de Paganini La Campanella",
+    "query": "Liszt La Campanella Paganini Etude 3",
     "spotify": "",
     "start_ms": 0
   },
@@ -2345,7 +2350,7 @@
     "title": "Rigoletto: La donna è mobile",
     "year": 1851,
     "year_note": "Uraufführung",
-    "query": "Giuseppe Verdi Rigoletto La donna è mobile",
+    "query": "Verdi Rigoletto La donna è mobile",
     "spotify": "",
     "start_ms": 0
   },
@@ -2355,7 +2360,7 @@
     "title": "Melodie in F",
     "year": 1852,
     "year_note": "vollendet",
-    "query": "Anton Rubinstein Melodie in F",
+    "query": "Rubinstein Melody in F Op. 3",
     "spotify": "",
     "start_ms": 0
   },
@@ -2365,7 +2370,7 @@
     "title": "Annen-Polka",
     "year": 1852,
     "year_note": "vollendet",
-    "query": "Johann Strauss II Annen-Polka",
+    "query": "Johann Strauss Annen-Polka Op. 117",
     "spotify": "",
     "start_ms": 0
   },
@@ -2375,7 +2380,7 @@
     "title": "Klaviersonate h-Moll",
     "year": 1853,
     "year_note": "vollendet",
-    "query": "Franz Liszt Piano Sonata h-Moll",
+    "query": "Liszt Piano Sonata B minor",
     "spotify": "",
     "start_ms": 0
   },
@@ -2385,7 +2390,7 @@
     "title": "Il trovatore: Zigeunerchor",
     "year": 1853,
     "year_note": "Uraufführung",
-    "query": "Giuseppe Verdi Il trovatore Zigeunerchor",
+    "query": "Verdi Trovatore Vedi le fosche Anvil Chorus | Verdi Il trovatore Coro di zingari",
     "spotify": "",
     "start_ms": 0
   },
@@ -2395,7 +2400,7 @@
     "title": "La traviata: Libiamo ne' lieti calici",
     "year": 1853,
     "year_note": "Uraufführung",
-    "query": "Giuseppe Verdi La traviata Libiamo ne' lieti calici",
+    "query": "Verdi Traviata Libiamo ne' lieti calici | Verdi Brindisi",
     "spotify": "",
     "start_ms": 0
   },
@@ -2405,7 +2410,7 @@
     "title": "Les Préludes",
     "year": 1854,
     "year_note": "vollendet",
-    "query": "Franz Liszt Les Préludes",
+    "query": "Liszt Les Préludes",
     "spotify": "",
     "start_ms": 0
   },
@@ -2415,7 +2420,7 @@
     "title": "Sinfonie C-Dur, 1. Satz",
     "year": 1855,
     "year_note": "vollendet",
-    "query": "Georges Bizet Symphony C-Dur",
+    "query": "Bizet Symphony C major Allegro vivo",
     "spotify": "",
     "start_ms": 0
   },
@@ -2425,7 +2430,7 @@
     "title": "Orpheus in der Unterwelt: Galop infernal (Cancan)",
     "year": 1858,
     "year_note": "Uraufführung",
-    "query": "Jacques Offenbach Orpheus in der Unterwelt Galop infernal Cancan",
+    "query": "Offenbach Orpheus in the Underworld Can-can | Offenbach Galop infernal",
     "spotify": "",
     "start_ms": 0
   },
@@ -2435,7 +2440,7 @@
     "title": "Tritsch-Tratsch-Polka",
     "year": 1858,
     "year_note": "vollendet",
-    "query": "Johann Strauss II Tritsch-Tratsch-Polka",
+    "query": "Johann Strauss Tritsch-Tratsch-Polka Op. 214",
     "spotify": "",
     "start_ms": 0
   },
@@ -2445,7 +2450,7 @@
     "title": "Klavierkonzert Nr. 1 d-Moll, 1. Satz",
     "year": 1858,
     "year_note": "vollendet",
-    "query": "Johannes Brahms Piano Concerto No. 1 d-Moll",
+    "query": "Brahms Piano Concerto 1 D minor Maestoso",
     "spotify": "",
     "start_ms": 0
   },
@@ -2455,7 +2460,7 @@
     "title": "Faust: Walzer",
     "year": 1859,
     "year_note": "Uraufführung",
-    "query": "Charles Gounod Faust Walzer",
+    "query": "Gounod Faust Waltz | Gounod Faust Valse",
     "spotify": "",
     "start_ms": 0
   },
@@ -2465,7 +2470,7 @@
     "title": "La forza del destino: Ouvertüre",
     "year": 1862,
     "year_note": "Uraufführung",
-    "query": "Giuseppe Verdi La forza del destino Overture",
+    "query": "Verdi La forza del destino Overture | Verdi La forza del destino Sinfonia",
     "spotify": "",
     "start_ms": 0
   },
@@ -2475,7 +2480,7 @@
     "title": "Introduction et Rondo capriccioso",
     "year": 1863,
     "year_note": "vollendet",
-    "query": "Camille Saint-Saëns Introduction et Rondo capriccioso",
+    "query": "Saint-Saëns Introduction and Rondo capriccioso",
     "spotify": "",
     "start_ms": 0
   },
@@ -2485,7 +2490,7 @@
     "title": "Les pêcheurs de perles: Au fond du temple saint",
     "year": 1863,
     "year_note": "Uraufführung",
-    "query": "Georges Bizet Les pêcheurs de perles Au fond du temple saint",
+    "query": "Bizet Pêcheurs de perles Au fond du temple saint | Bizet Pearl Fishers Duet",
     "spotify": "",
     "start_ms": 0
   },
@@ -2495,7 +2500,7 @@
     "title": "Tristan und Isolde: Vorspiel",
     "year": 1865,
     "year_note": "Uraufführung",
-    "query": "Richard Wagner Tristan und Isolde Vorspiel",
+    "query": "Wagner Tristan und Isolde Prelude | Wagner Tristan Vorspiel",
     "spotify": "",
     "start_ms": 0
   },
@@ -2505,7 +2510,7 @@
     "title": "Die verkaufte Braut: Ouvertüre",
     "year": 1866,
     "year_note": "Uraufführung",
-    "query": "Bedřich Smetana Die verkaufte Braut Overture",
+    "query": "Smetana Bartered Bride Overture | Smetana Verkaufte Braut Ouvertüre",
     "spotify": "",
     "start_ms": 0
   },
@@ -2515,9 +2520,10 @@
     "title": "Leichte Kavallerie: Ouvertüre",
     "year": 1866,
     "year_note": "Uraufführung",
-    "query": "Franz von Suppé Leichte Kavallerie Overture",
+    "query": "Suppé Light Cavalry Overture | Suppé Leichte Kavallerie Ouvertüre",
     "spotify": "",
-    "start_ms": 0
+    "start_ms": 0,
+    "hint": "Beginnt mit der bekannten Fanfare; der Galopp folgt nach ca. 3–4 Minuten"
   },
   {
     "id": "93ph8",
@@ -2525,7 +2531,7 @@
     "title": "Don Carlos: Ouvertüre",
     "year": 1867,
     "year_note": "Uraufführung",
-    "query": "Giuseppe Verdi Don Carlos Overture",
+    "query": "Verdi Don Carlo Prelude | Verdi Don Carlos Ouverture",
     "spotify": "",
     "start_ms": 0
   },
@@ -2535,9 +2541,10 @@
     "title": "An der schönen blauen Donau",
     "year": 1867,
     "year_note": "vollendet",
-    "query": "Johann Strauss II An der schönen blauen Donau",
+    "query": "Johann Strauss Blue Danube Op. 314 | Johann Strauss An der schönen blauen Donau",
     "spotify": "",
-    "start_ms": 0
+    "start_ms": 90000,
+    "hint": "Leise Einleitung; der erste Walzer beginnt meist zwischen 1:20 und 2:00"
   },
   {
     "id": "4vqe4",
@@ -2545,7 +2552,7 @@
     "title": "Violinkonzert Nr. 1 g-Moll, 3. Satz",
     "year": 1867,
     "year_note": "vollendet",
-    "query": "Max Bruch Violin Concerto No. 1 g-Moll",
+    "query": "Bruch Violin Concerto 1 Finale Allegro energico",
     "spotify": "",
     "start_ms": 0
   },
@@ -2555,9 +2562,10 @@
     "title": "Eine Nacht auf dem kahlen Berge",
     "year": 1867,
     "year_note": "vollendet",
-    "query": "Mussorgsky Eine Nacht auf dem kahlen Berge",
+    "query": "Mussorgsky Night on Bald Mountain",
     "spotify": "",
-    "start_ms": 0
+    "start_ms": 0,
+    "hint": "Original oder Rimski-Korsakow-Fassung: die bekanntere ist Rimski-Korsakows"
   },
   {
     "id": "jk7ae",
@@ -2565,7 +2573,7 @@
     "title": "Klavierkonzert Nr. 2, 2. Satz",
     "year": 1868,
     "year_note": "vollendet",
-    "query": "Camille Saint-Saëns Piano Concerto No. 2",
+    "query": "Saint-Saëns Piano Concerto 2 Allegro scherzando",
     "spotify": "",
     "start_ms": 0
   },
@@ -2575,7 +2583,7 @@
     "title": "Klavierkonzert a-Moll, 1. Satz",
     "year": 1868,
     "year_note": "vollendet",
-    "query": "Edvard Grieg Piano Concerto a-Moll",
+    "query": "Grieg Piano Concerto A minor Allegro molto moderato",
     "spotify": "",
     "start_ms": 0
   },
@@ -2585,9 +2593,10 @@
     "title": "G'schichten aus dem Wienerwald",
     "year": 1868,
     "year_note": "vollendet",
-    "query": "Johann Strauss II G'schichten aus dem Wienerwald",
+    "query": "Johann Strauss Tales from the Vienna Woods | Johann Strauss Geschichten aus dem Wienerwald",
     "spotify": "",
-    "start_ms": 0
+    "start_ms": 0,
+    "hint": "Lange Einleitung mit Zither; Walzer nach ca. 2–3 Minuten"
   },
   {
     "id": "9gdyg",
@@ -2595,7 +2604,7 @@
     "title": "Unter Donner und Blitz",
     "year": 1868,
     "year_note": "vollendet",
-    "query": "Johann Strauss II Unter Donner und Blitz",
+    "query": "Johann Strauss Unter Donner und Blitz Op. 324 | Johann Strauss Thunder and Lightning Polka",
     "spotify": "",
     "start_ms": 0
   },
@@ -2605,7 +2614,7 @@
     "title": "Ein deutsches Requiem: Denn alles Fleisch, es ist wie Gras",
     "year": 1868,
     "year_note": "vollendet",
-    "query": "Johannes Brahms Ein deutsches Requiem Denn alles Fleisch es ist wie Gras",
+    "query": "Brahms Deutsches Requiem Denn alles Fleisch | Brahms German Requiem Denn alles Fleisch",
     "spotify": "",
     "start_ms": 0
   },
@@ -2615,7 +2624,7 @@
     "title": "Wiegenlied „Guten Abend, gut' Nacht“",
     "year": 1868,
     "year_note": "vollendet",
-    "query": "Johannes Brahms Wiegenlied Guten Abend gut' Nacht",
+    "query": "Brahms Wiegenlied Op. 49 No. 4 | Brahms Lullaby",
     "spotify": "",
     "start_ms": 0
   },
@@ -2625,7 +2634,7 @@
     "title": "Sphärenklänge",
     "year": 1868,
     "year_note": "vollendet",
-    "query": "Josef Strauss Sphärenklänge",
+    "query": "Josef Strauss Sphärenklänge Op. 235 | Josef Strauss Music of the Spheres",
     "spotify": "",
     "start_ms": 0
   },
@@ -2635,7 +2644,7 @@
     "title": "Die Meistersinger von Nürnberg: Vorspiel",
     "year": 1868,
     "year_note": "Uraufführung",
-    "query": "Richard Wagner Die Meistersinger von Nürnberg Vorspiel",
+    "query": "Wagner Meistersinger Prelude | Wagner Meistersinger Vorspiel",
     "spotify": "",
     "start_ms": 0
   },
@@ -2645,7 +2654,7 @@
     "title": "Locus iste",
     "year": 1869,
     "year_note": "vollendet",
-    "query": "Anton Bruckner Locus iste",
+    "query": "Bruckner Locus iste",
     "spotify": "",
     "start_ms": 0
   },
@@ -2655,7 +2664,7 @@
     "title": "Pizzicato-Polka",
     "year": 1869,
     "year_note": "vollendet",
-    "query": "Johann Strauss II Josef Strauss Pizzicato-Polka",
+    "query": "Strauss Pizzicato Polka",
     "spotify": "",
     "start_ms": 0
   },
@@ -2665,9 +2674,10 @@
     "title": "Ungarischer Tanz Nr. 5",
     "year": 1869,
     "year_note": "Erstdruck",
-    "query": "Johannes Brahms Ungarischer Tanz No. 5",
+    "query": "Brahms Hungarian Dance 5",
     "spotify": "",
-    "start_ms": 0
+    "start_ms": 0,
+    "hint": "Orchesterfassung bevorzugen"
   },
   {
     "id": "gjvj9",
@@ -2685,7 +2695,7 @@
     "title": "Coppélia: Walzer",
     "year": 1870,
     "year_note": "Uraufführung",
-    "query": "Léo Delibes Coppélia Walzer",
+    "query": "Delibes Coppélia Waltz | Delibes Coppelia Valse lente",
     "spotify": "",
     "start_ms": 0
   },
@@ -2695,7 +2705,7 @@
     "title": "Die Walküre: Walkürenritt",
     "year": 1870,
     "year_note": "Uraufführung",
-    "query": "Richard Wagner Die Walküre Walkürenritt",
+    "query": "Wagner Ride of the Valkyries | Wagner Walkürenritt",
     "spotify": "",
     "start_ms": 0
   },
@@ -2705,7 +2715,7 @@
     "title": "Siegfried-Idyll",
     "year": 1870,
     "year_note": "vollendet",
-    "query": "Richard Wagner Siegfried-Idyll",
+    "query": "Wagner Siegfried Idyll",
     "spotify": "",
     "start_ms": 0
   },
@@ -2715,9 +2725,10 @@
     "title": "Aida: Triumphmarsch",
     "year": 1871,
     "year_note": "Uraufführung",
-    "query": "Giuseppe Verdi Aida Triumphmarsch",
+    "query": "Verdi Aida Triumphal March | Verdi Aida Gloria all'Egitto",
     "spotify": "",
-    "start_ms": 0
+    "start_ms": 0,
+    "hint": "Im Track „Gloria all'Egitto“ kommt der Marsch mit den Trompeten erst nach einigen Minuten"
   },
   {
     "id": "gycwn",
@@ -2725,7 +2736,7 @@
     "title": "Trauermarsch einer Marionette",
     "year": 1872,
     "year_note": "vollendet",
-    "query": "Charles Gounod Trauermarsch einer Marionette",
+    "query": "Gounod Funeral March of a Marionette",
     "spotify": "",
     "start_ms": 0
   },
@@ -2735,7 +2746,7 @@
     "title": "Panis angelicus",
     "year": 1872,
     "year_note": "vollendet",
-    "query": "César Franck Panis angelicus",
+    "query": "Franck Panis angelicus",
     "spotify": "",
     "start_ms": 0
   },
@@ -2745,7 +2756,7 @@
     "title": "L'Arlésienne, Suite Nr. 1: Carillon",
     "year": 1872,
     "year_note": "vollendet",
-    "query": "Georges Bizet L'Arlésienne Suite No. 1 Carillon",
+    "query": "Bizet Arlésienne Suite 1 Carillon",
     "spotify": "",
     "start_ms": 0
   },
@@ -2755,7 +2766,7 @@
     "title": "Wiener Blut",
     "year": 1873,
     "year_note": "vollendet",
-    "query": "Johann Strauss II Wiener Blut",
+    "query": "Johann Strauss Wiener Blut Op. 354 | Johann Strauss Vienna Blood",
     "spotify": "",
     "start_ms": 0
   },
@@ -2765,7 +2776,7 @@
     "title": "Variationen über ein Thema von Haydn",
     "year": 1873,
     "year_note": "vollendet",
-    "query": "Johannes Brahms Variationen über ein Thema von Haydn",
+    "query": "Brahms Variations on a Theme by Haydn Op. 56a",
     "spotify": "",
     "start_ms": 0
   },
@@ -2775,9 +2786,10 @@
     "title": "Die Moldau",
     "year": 1874,
     "year_note": "vollendet",
-    "query": "Bedřich Smetana Die Moldau",
+    "query": "Smetana Vltava Moldau | Smetana Die Moldau",
     "spotify": "",
-    "start_ms": 0
+    "start_ms": 55000,
+    "hint": "Zwei Flöten am Anfang; das Moldau-Thema setzt nach ca. 1 Minute ein"
   },
   {
     "id": "snnxz",
@@ -2785,7 +2797,7 @@
     "title": "Danse macabre",
     "year": 1874,
     "year_note": "vollendet",
-    "query": "Camille Saint-Saëns Danse macabre",
+    "query": "Saint-Saëns Danse macabre",
     "spotify": "",
     "start_ms": 0
   },
@@ -2795,7 +2807,7 @@
     "title": "Messa da Requiem: Dies irae",
     "year": 1874,
     "year_note": "vollendet",
-    "query": "Giuseppe Verdi Messa da Requiem Dies irae",
+    "query": "Verdi Requiem Dies irae",
     "spotify": "",
     "start_ms": 0
   },
@@ -2805,7 +2817,7 @@
     "title": "Die Fledermaus: Ouvertüre",
     "year": 1874,
     "year_note": "Uraufführung",
-    "query": "Johann Strauss II Die Fledermaus Overture",
+    "query": "Johann Strauss Fledermaus Overture",
     "spotify": "",
     "start_ms": 0
   },
@@ -2815,9 +2827,10 @@
     "title": "Bilder einer Ausstellung: Das große Tor von Kiew",
     "year": 1874,
     "year_note": "vollendet",
-    "query": "Mussorgsky Bilder einer Ausstellung Das große Tor von Kiew",
+    "query": "Mussorgsky Great Gate of Kiev Pictures at an Exhibition",
     "spotify": "",
-    "start_ms": 0
+    "start_ms": 0,
+    "hint": "Orchesterfassung von Ravel bevorzugen"
   },
   {
     "id": "wm723",
@@ -2825,7 +2838,7 @@
     "title": "Boris Godunow: Krönungsszene",
     "year": 1874,
     "year_note": "Uraufführung",
-    "query": "Mussorgsky Boris Godunow Krönungsszene",
+    "query": "Mussorgsky Boris Godunov Coronation Scene",
     "spotify": "",
     "start_ms": 0
   },
@@ -2835,7 +2848,7 @@
     "title": "Symphonie espagnole, 1. Satz",
     "year": 1874,
     "year_note": "vollendet",
-    "query": "Édouard Lalo Symphonie espagnole",
+    "query": "Lalo Symphonie espagnole Allegro non troppo",
     "spotify": "",
     "start_ms": 0
   },
@@ -2845,7 +2858,7 @@
     "title": "Serenade für Streicher E-Dur, 1. Satz",
     "year": 1875,
     "year_note": "vollendet",
-    "query": "Antonín Dvořák Serenade für Streicher E-Dur",
+    "query": "Dvořák Serenade for Strings Moderato | Dvorak Serenade Strings E major Moderato",
     "spotify": "",
     "start_ms": 0
   },
@@ -2855,7 +2868,7 @@
     "title": "Carmen: Habanera",
     "year": 1875,
     "year_note": "Uraufführung",
-    "query": "Georges Bizet Carmen Habanera",
+    "query": "Bizet Carmen Habanera L'amour est un oiseau rebelle",
     "spotify": "",
     "start_ms": 0
   },
@@ -2865,7 +2878,7 @@
     "title": "Carmen: Torero-Lied",
     "year": 1875,
     "year_note": "Uraufführung",
-    "query": "Georges Bizet Carmen Torero-Lied",
+    "query": "Bizet Carmen Toreador Song Votre toast",
     "spotify": "",
     "start_ms": 0
   },
@@ -2875,7 +2888,7 @@
     "title": "Klavierkonzert Nr. 1 b-Moll, 1. Satz",
     "year": 1875,
     "year_note": "vollendet",
-    "query": "Tchaikovsky Piano Concerto No. 1 b-Moll",
+    "query": "Tchaikovsky Piano Concerto 1 Allegro non troppo e molto maestoso",
     "spotify": "",
     "start_ms": 0
   },
@@ -2885,9 +2898,10 @@
     "title": "La Gioconda: Tanz der Stunden",
     "year": 1876,
     "year_note": "Uraufführung",
-    "query": "Amilcare Ponchielli La Gioconda Tanz der Stunden",
+    "query": "Ponchielli Dance of the Hours",
     "spotify": "",
-    "start_ms": 0
+    "start_ms": 0,
+    "hint": "Das bekannte schnelle Thema kommt erst im letzten Drittel"
   },
   {
     "id": "pejaw",
@@ -2895,7 +2909,7 @@
     "title": "Streichquartett Nr. 1 „Aus meinem Leben“, 1. Satz",
     "year": 1876,
     "year_note": "vollendet",
-    "query": "Bedřich Smetana String Quartet No. 1 Aus meinem Leben",
+    "query": "Smetana String Quartet 1 From My Life Allegro vivo appassionato",
     "spotify": "",
     "start_ms": 0
   },
@@ -2905,7 +2919,7 @@
     "title": "Peer Gynt: In der Halle des Bergkönigs",
     "year": 1876,
     "year_note": "Uraufführung",
-    "query": "Edvard Grieg Peer Gynt In der Halle des Bergkönigs",
+    "query": "Grieg In the Hall of the Mountain King | Grieg In der Halle des Bergkönigs",
     "spotify": "",
     "start_ms": 0
   },
@@ -2915,7 +2929,7 @@
     "title": "Peer Gynt: Morgenstimmung",
     "year": 1876,
     "year_note": "Uraufführung",
-    "query": "Edvard Grieg Peer Gynt Morgenstimmung",
+    "query": "Grieg Peer Gynt Morning Mood | Grieg Morgenstimmung",
     "spotify": "",
     "start_ms": 0
   },
@@ -2925,9 +2939,10 @@
     "title": "Sinfonie Nr. 1 c-Moll, 4. Satz",
     "year": 1876,
     "year_note": "vollendet",
-    "query": "Johannes Brahms Symphony No. 1 c-Moll",
+    "query": "Brahms Symphony 1 Adagio Allegro non troppo ma con brio",
     "spotify": "",
-    "start_ms": 0
+    "start_ms": 0,
+    "hint": "Langsame Einleitung; Alphornruf ca. 3 Minuten, das große Hauptthema nach ca. 5 Minuten"
   },
   {
     "id": "rc769",
@@ -2935,7 +2950,7 @@
     "title": "Götterdämmerung: Siegfrieds Trauermarsch",
     "year": 1876,
     "year_note": "Uraufführung",
-    "query": "Richard Wagner Götterdämmerung Siegfrieds Trauermarsch",
+    "query": "Wagner Siegfried's Funeral March | Wagner Siegfrieds Trauermarsch",
     "spotify": "",
     "start_ms": 0
   },
@@ -2945,7 +2960,7 @@
     "title": "Stabat Mater: Stabat mater dolorosa",
     "year": 1877,
     "year_note": "vollendet",
-    "query": "Antonín Dvořák Stabat Mater Stabat mater dolorosa",
+    "query": "Dvořák Stabat Mater dolorosa | Dvorak Stabat Mater Stabat mater dolorosa",
     "spotify": "",
     "start_ms": 0
   },
@@ -2955,7 +2970,7 @@
     "title": "Samson et Dalila: Bacchanale",
     "year": 1877,
     "year_note": "Uraufführung",
-    "query": "Camille Saint-Saëns Samson et Dalila Bacchanale",
+    "query": "Saint-Saëns Samson et Dalila Bacchanale",
     "spotify": "",
     "start_ms": 0
   },
@@ -2965,7 +2980,7 @@
     "title": "Sinfonie Nr. 2 D-Dur, 1. Satz",
     "year": 1877,
     "year_note": "vollendet",
-    "query": "Johannes Brahms Symphony No. 2 D-Dur",
+    "query": "Brahms Symphony 2 Allegro non troppo",
     "spotify": "",
     "start_ms": 0
   },
@@ -2975,7 +2990,7 @@
     "title": "Rokoko-Variationen",
     "year": 1877,
     "year_note": "vollendet",
-    "query": "Tchaikovsky Rokoko-Variationen",
+    "query": "Tchaikovsky Rococo Variations",
     "spotify": "",
     "start_ms": 0
   },
@@ -2985,7 +3000,7 @@
     "title": "Schwanensee: Szene (Akt II)",
     "year": 1877,
     "year_note": "Uraufführung",
-    "query": "Tchaikovsky Schwanensee Szene Akt II",
+    "query": "Tchaikovsky Swan Lake Scene Act 2 Moderato | Tchaikovsky Swan Lake Scene No. 10",
     "spotify": "",
     "start_ms": 0
   },
@@ -2995,7 +3010,7 @@
     "title": "Slawischer Tanz op. 46 Nr. 8",
     "year": 1878,
     "year_note": "vollendet",
-    "query": "Antonín Dvořák Slawischer Tanz op. 46 No. 8",
+    "query": "Dvořák Slavonic Dance Op. 46 No. 8 | Dvorak Slavonic Dance 8 Furiant",
     "spotify": "",
     "start_ms": 0
   },
@@ -3005,7 +3020,7 @@
     "title": "Violinkonzert D-Dur, 3. Satz",
     "year": 1878,
     "year_note": "vollendet",
-    "query": "Johannes Brahms Violin Concerto D-Dur",
+    "query": "Brahms Violin Concerto Allegro giocoso",
     "spotify": "",
     "start_ms": 0
   },
@@ -3015,7 +3030,7 @@
     "title": "Zigeunerweisen",
     "year": 1878,
     "year_note": "vollendet",
-    "query": "Pablo de Sarasate Zigeunerweisen",
+    "query": "Sarasate Zigeunerweisen",
     "spotify": "",
     "start_ms": 0
   },
@@ -3025,7 +3040,7 @@
     "title": "Sinfonie Nr. 4, 4. Satz",
     "year": 1878,
     "year_note": "vollendet",
-    "query": "Tchaikovsky Symphony No. 4",
+    "query": "Tchaikovsky Symphony 4 Finale Allegro con fuoco",
     "spotify": "",
     "start_ms": 0
   },
@@ -3035,7 +3050,7 @@
     "title": "Violinkonzert D-Dur, 1. Satz",
     "year": 1878,
     "year_note": "vollendet",
-    "query": "Tchaikovsky Violin Concerto D-Dur",
+    "query": "Tchaikovsky Violin Concerto Allegro moderato",
     "spotify": "",
     "start_ms": 0
   },
@@ -3045,7 +3060,7 @@
     "title": "The Pirates of Penzance: I Am the Very Model of a Modern Major-General",
     "year": 1879,
     "year_note": "Uraufführung",
-    "query": "Arthur Sullivan The Pirates of Penzance I Am the Very Model of a Modern Major-General",
+    "query": "Sullivan Modern Major-General",
     "spotify": "",
     "start_ms": 0
   },
@@ -3055,7 +3070,7 @@
     "title": "Orgelsinfonie Nr. 5: Toccata",
     "year": 1879,
     "year_note": "vollendet",
-    "query": "Charles-Marie Widor Orgelsinfonie No. 5 Toccata",
+    "query": "Widor Toccata Symphony 5",
     "spotify": "",
     "start_ms": 0
   },
@@ -3065,7 +3080,7 @@
     "title": "Eugen Onegin: Polonaise",
     "year": 1879,
     "year_note": "Uraufführung",
-    "query": "Tchaikovsky Eugen Onegin Polonaise",
+    "query": "Tchaikovsky Eugene Onegin Polonaise",
     "spotify": "",
     "start_ms": 0
   },
@@ -3075,7 +3090,7 @@
     "title": "Eine Steppenskizze aus Mittelasien",
     "year": 1880,
     "year_note": "vollendet",
-    "query": "Alexander Borodin Eine Steppenskizze aus Mittelasien",
+    "query": "Borodin In the Steppes of Central Asia",
     "spotify": "",
     "start_ms": 0
   },
@@ -3085,7 +3100,7 @@
     "title": "Sinfonie Nr. 4 „Romantische“, 1. Satz",
     "year": 1880,
     "year_note": "vollendet",
-    "query": "Anton Bruckner Symphony No. 4 Romantische",
+    "query": "Bruckner Symphony 4 Romantic Bewegt nicht zu schnell",
     "spotify": "",
     "start_ms": 0
   },
@@ -3095,7 +3110,7 @@
     "title": "Élégie für Violoncello",
     "year": 1880,
     "year_note": "vollendet",
-    "query": "Gabriel Fauré Élégie für Violoncello",
+    "query": "Fauré Élégie Op. 24",
     "spotify": "",
     "start_ms": 0
   },
@@ -3105,7 +3120,7 @@
     "title": "Akademische Festouvertüre",
     "year": 1880,
     "year_note": "vollendet",
-    "query": "Johannes Brahms Akademische Festouvertüre",
+    "query": "Brahms Academic Festival Overture",
     "spotify": "",
     "start_ms": 0
   },
@@ -3115,7 +3130,7 @@
     "title": "Kol Nidrei",
     "year": 1880,
     "year_note": "vollendet",
-    "query": "Max Bruch Kol Nidrei",
+    "query": "Bruch Kol Nidrei",
     "spotify": "",
     "start_ms": 0
   },
@@ -3135,9 +3150,10 @@
     "title": "Ouvertüre 1812",
     "year": 1880,
     "year_note": "vollendet",
-    "query": "Tchaikovsky Overture 1812",
+    "query": "Tchaikovsky 1812 Overture",
     "spotify": "",
-    "start_ms": 0
+    "start_ms": 750000,
+    "hint": "Kanonen und Glocken ganz am Schluss (bei ca. 15 Minuten Länge ab ca. 13:30)"
   },
   {
     "id": "2xysg",
@@ -3145,7 +3161,7 @@
     "title": "Romeo und Julia, Fantasie-Ouvertüre",
     "year": 1880,
     "year_note": "vollendet",
-    "query": "Tchaikovsky Romeo und Julia Fantasie-Overture",
+    "query": "Tchaikovsky Romeo and Juliet Fantasy Overture",
     "spotify": "",
     "start_ms": 0
   },
@@ -3155,7 +3171,7 @@
     "title": "Serenade für Streicher, 2. Satz (Walzer)",
     "year": 1880,
     "year_note": "vollendet",
-    "query": "Tchaikovsky Serenade für Streicher Walzer",
+    "query": "Tchaikovsky Serenade for Strings Waltz",
     "spotify": "",
     "start_ms": 0
   },
@@ -3165,7 +3181,7 @@
     "title": "Streichquartett Nr. 2: Notturno",
     "year": 1881,
     "year_note": "vollendet",
-    "query": "Alexander Borodin String Quartet No. 2 Notturno",
+    "query": "Borodin String Quartet 2 Notturno",
     "spotify": "",
     "start_ms": 0
   },
@@ -3175,7 +3191,7 @@
     "title": "Hoffmanns Erzählungen: Barcarole",
     "year": 1881,
     "year_note": "Uraufführung",
-    "query": "Jacques Offenbach Hoffmanns Erzählungen Barcarole",
+    "query": "Offenbach Barcarolle Belle nuit ô nuit d'amour",
     "spotify": "",
     "start_ms": 0
   },
@@ -3185,7 +3201,7 @@
     "title": "Klavierkonzert Nr. 2 B-Dur, 1. Satz",
     "year": 1881,
     "year_note": "vollendet",
-    "query": "Johannes Brahms Piano Concerto No. 2 B-Dur",
+    "query": "Brahms Piano Concerto 2 Allegro non troppo",
     "spotify": "",
     "start_ms": 0
   },
@@ -3195,7 +3211,7 @@
     "title": "Frühlingsstimmen",
     "year": 1882,
     "year_note": "vollendet",
-    "query": "Johann Strauss II Frühlingsstimmen",
+    "query": "Johann Strauss Frühlingsstimmen Op. 410 | Johann Strauss Voices of Spring",
     "spotify": "",
     "start_ms": 0
   },
@@ -3205,7 +3221,7 @@
     "title": "Parsifal: Vorspiel",
     "year": 1882,
     "year_note": "Uraufführung",
-    "query": "Richard Wagner Parsifal Vorspiel",
+    "query": "Wagner Parsifal Prelude | Wagner Parsifal Vorspiel",
     "spotify": "",
     "start_ms": 0
   },
@@ -3215,7 +3231,7 @@
     "title": "Schlittschuhläufer-Walzer",
     "year": 1882,
     "year_note": "vollendet",
-    "query": "Émile Waldteufel Schlittschuhläufer-Walzer",
+    "query": "Waldteufel Skaters' Waltz | Waldteufel Les Patineurs",
     "spotify": "",
     "start_ms": 0
   },
@@ -3225,7 +3241,7 @@
     "title": "Sinfonie Nr. 7, 2. Satz (Adagio)",
     "year": 1883,
     "year_note": "vollendet",
-    "query": "Anton Bruckner Symphony No. 7 Adagio",
+    "query": "Bruckner Symphony 7 Adagio",
     "spotify": "",
     "start_ms": 0
   },
@@ -3235,7 +3251,7 @@
     "title": "España",
     "year": 1883,
     "year_note": "vollendet",
-    "query": "Emmanuel Chabrier España",
+    "query": "Chabrier España",
     "spotify": "",
     "start_ms": 0
   },
@@ -3245,7 +3261,7 @@
     "title": "Sinfonie Nr. 3 F-Dur, 3. Satz",
     "year": 1883,
     "year_note": "vollendet",
-    "query": "Johannes Brahms Symphony No. 3 F-Dur",
+    "query": "Brahms Symphony 3 Poco allegretto",
     "spotify": "",
     "start_ms": 0
   },
@@ -3255,7 +3271,7 @@
     "title": "Lakmé: Blumenduett",
     "year": 1883,
     "year_note": "Uraufführung",
-    "query": "Léo Delibes Lakmé Blumenduett",
+    "query": "Delibes Lakmé Flower Duet Sous le dôme épais",
     "spotify": "",
     "start_ms": 0
   },
@@ -3265,7 +3281,7 @@
     "title": "Te Deum",
     "year": 1884,
     "year_note": "vollendet",
-    "query": "Anton Bruckner Te Deum",
+    "query": "Bruckner Te Deum",
     "spotify": "",
     "start_ms": 0
   },
@@ -3275,7 +3291,7 @@
     "title": "Aus Holbergs Zeit: Präludium",
     "year": 1884,
     "year_note": "vollendet",
-    "query": "Edvard Grieg Aus Holbergs Zeit Präludium",
+    "query": "Grieg Holberg Suite Prelude",
     "spotify": "",
     "start_ms": 0
   },
@@ -3285,7 +3301,7 @@
     "title": "Der Zigeunerbaron: Ouvertüre",
     "year": 1885,
     "year_note": "Uraufführung",
-    "query": "Johann Strauss II Der Zigeunerbaron Overture",
+    "query": "Johann Strauss Zigeunerbaron Overture | Johann Strauss Gypsy Baron Overture",
     "spotify": "",
     "start_ms": 0
   },
@@ -3295,7 +3311,7 @@
     "title": "Sinfonie Nr. 4 e-Moll, 1. Satz",
     "year": 1885,
     "year_note": "vollendet",
-    "query": "Johannes Brahms Symphony No. 4 e-Moll",
+    "query": "Brahms Symphony 4 Allegro non troppo",
     "spotify": "",
     "start_ms": 0
   },
@@ -3305,9 +3321,10 @@
     "title": "Der Karneval der Tiere: Der Schwan",
     "year": 1886,
     "year_note": "vollendet",
-    "query": "Camille Saint-Saëns Der Karneval der Tiere Der Schwan",
+    "query": "Saint-Saëns The Swan Carnival of the Animals | Saint-Saëns Le cygne",
     "spotify": "",
-    "start_ms": 0
+    "start_ms": 0,
+    "hint": "Fassung ohne Sprecher wählen (manche Aufnahmen haben gesprochene Texte, die den Titel verraten)"
   },
   {
     "id": "s4h3b",
@@ -3315,7 +3332,7 @@
     "title": "Sinfonie Nr. 3 „Orgelsinfonie“, Finale",
     "year": 1886,
     "year_note": "vollendet",
-    "query": "Camille Saint-Saëns Symphony No. 3 Orgelsinfonie",
+    "query": "Saint-Saëns Organ Symphony Maestoso Allegro",
     "spotify": "",
     "start_ms": 0
   },
@@ -3325,7 +3342,7 @@
     "title": "Violinsonate A-Dur, 4. Satz",
     "year": 1886,
     "year_note": "vollendet",
-    "query": "César Franck Violin Sonata A-Dur",
+    "query": "Franck Violin Sonata Allegretto poco mosso",
     "spotify": "",
     "start_ms": 0
   },
@@ -3335,7 +3352,7 @@
     "title": "Pavane",
     "year": 1887,
     "year_note": "vollendet",
-    "query": "Gabriel Fauré Pavane",
+    "query": "Fauré Pavane Op. 50",
     "spotify": "",
     "start_ms": 0
   },
@@ -3345,7 +3362,7 @@
     "title": "Otello: Ave Maria",
     "year": 1887,
     "year_note": "Uraufführung",
-    "query": "Giuseppe Verdi Otello Ave Maria",
+    "query": "Verdi Otello Ave Maria",
     "spotify": "",
     "start_ms": 0
   },
@@ -3355,7 +3372,7 @@
     "title": "Italienische Serenade",
     "year": 1887,
     "year_note": "vollendet",
-    "query": "Hugo Wolf Italienische Serenade",
+    "query": "Wolf Italian Serenade | Hugo Wolf Italienische Serenade",
     "spotify": "",
     "start_ms": 0
   },
@@ -3365,7 +3382,7 @@
     "title": "Menuett G-Dur",
     "year": 1887,
     "year_note": "vollendet",
-    "query": "Ignacy Jan Paderewski Menuett G-Dur",
+    "query": "Paderewski Minuet G major Op. 14",
     "spotify": "",
     "start_ms": 0
   },
@@ -3375,7 +3392,7 @@
     "title": "Doppelkonzert a-Moll, 1. Satz",
     "year": 1887,
     "year_note": "vollendet",
-    "query": "Johannes Brahms Doppelkonzert a-Moll",
+    "query": "Brahms Double Concerto Allegro",
     "spotify": "",
     "start_ms": 0
   },
@@ -3395,7 +3412,7 @@
     "title": "Sinfonie d-Moll, 1. Satz",
     "year": 1888,
     "year_note": "vollendet",
-    "query": "César Franck Symphony d-Moll",
+    "query": "Franck Symphony D minor Lento Allegro non troppo",
     "spotify": "",
     "start_ms": 0
   },
@@ -3405,7 +3422,7 @@
     "title": "Salut d'amour",
     "year": 1888,
     "year_note": "vollendet",
-    "query": "Edward Elgar Salut d'amour",
+    "query": "Elgar Salut d'amour",
     "spotify": "",
     "start_ms": 0
   },
@@ -3415,7 +3432,7 @@
     "title": "Gymnopédie Nr. 1",
     "year": 1888,
     "year_note": "vollendet",
-    "query": "Erik Satie Gymnopédie No. 1",
+    "query": "Satie Gymnopédie 1",
     "spotify": "",
     "start_ms": 0
   },
@@ -3425,7 +3442,7 @@
     "title": "Requiem: Pie Jesu",
     "year": 1888,
     "year_note": "vollendet",
-    "query": "Gabriel Fauré Requiem Pie Jesu",
+    "query": "Fauré Requiem Pie Jesu",
     "spotify": "",
     "start_ms": 0
   },
@@ -3435,7 +3452,7 @@
     "title": "Sinfonie Nr. 1 „Titan“, 3. Satz",
     "year": 1888,
     "year_note": "vollendet",
-    "query": "Gustav Mahler Symphony No. 1 Titan",
+    "query": "Mahler Symphony 1 Feierlich und gemessen",
     "spotify": "",
     "start_ms": 0
   },
@@ -3445,7 +3462,7 @@
     "title": "Scheherazade: Das Meer und Sindbads Schiff",
     "year": 1888,
     "year_note": "vollendet",
-    "query": "Rimsky-Korsakov Scheherazade Das Meer und Sindbads Schiff",
+    "query": "Rimsky-Korsakov Scheherazade The Sea and Sinbad's Ship",
     "spotify": "",
     "start_ms": 0
   },
@@ -3455,7 +3472,7 @@
     "title": "Sinfonie Nr. 5, 2. Satz",
     "year": 1888,
     "year_note": "vollendet",
-    "query": "Tchaikovsky Symphony No. 5",
+    "query": "Tchaikovsky Symphony 5 Andante cantabile",
     "spotify": "",
     "start_ms": 0
   },
@@ -3465,7 +3482,7 @@
     "title": "Don Juan",
     "year": 1888,
     "year_note": "vollendet",
-    "query": "Richard Strauss Don Juan",
+    "query": "Richard Strauss Don Juan Op. 20",
     "spotify": "",
     "start_ms": 0
   },
@@ -3475,7 +3492,7 @@
     "title": "Sinfonie Nr. 8 G-Dur, 3. Satz",
     "year": 1889,
     "year_note": "vollendet",
-    "query": "Antonín Dvořák Symphony No. 8 G-Dur",
+    "query": "Dvořák Symphony 8 Allegretto grazioso | Dvorak Symphony 8 Allegretto grazioso",
     "spotify": "",
     "start_ms": 0
   },
@@ -3485,9 +3502,10 @@
     "title": "Kaiserwalzer",
     "year": 1889,
     "year_note": "vollendet",
-    "query": "Johann Strauss II Kaiserwalzer",
+    "query": "Johann Strauss Emperor Waltz Op. 437 | Johann Strauss Kaiserwalzer",
     "spotify": "",
-    "start_ms": 0
+    "start_ms": 0,
+    "hint": "Beginnt mit einem Marsch; der Walzer setzt nach ca. 2 Minuten ein"
   },
   {
     "id": "ztxm7",
@@ -3495,9 +3513,10 @@
     "title": "Fürst Igor: Polowetzer Tänze",
     "year": 1890,
     "year_note": "Uraufführung",
-    "query": "Alexander Borodin Fürst Igor Polowetzer Tänze",
+    "query": "Borodin Polovtsian Dances",
     "spotify": "",
-    "start_ms": 0
+    "start_ms": 0,
+    "hint": "Bei der vollständigen Fassung zuerst Einleitung; der „Gleitende Tanz der Mädchen“ folgt kurz danach"
   },
   {
     "id": "eym5e",
@@ -3505,7 +3524,7 @@
     "title": "Rêverie",
     "year": 1890,
     "year_note": "vollendet",
-    "query": "Claude Debussy Rêverie",
+    "query": "Debussy Rêverie",
     "spotify": "",
     "start_ms": 0
   },
@@ -3515,7 +3534,7 @@
     "title": "Gnossienne Nr. 1",
     "year": 1890,
     "year_note": "vollendet",
-    "query": "Erik Satie Gnossienne No. 1",
+    "query": "Satie Gnossienne 1",
     "spotify": "",
     "start_ms": 0
   },
@@ -3525,7 +3544,7 @@
     "title": "Cavalleria rusticana: Intermezzo",
     "year": 1890,
     "year_note": "Uraufführung",
-    "query": "Pietro Mascagni Cavalleria rusticana Intermezzo",
+    "query": "Mascagni Cavalleria rusticana Intermezzo",
     "spotify": "",
     "start_ms": 0
   },
@@ -3535,7 +3554,7 @@
     "title": "Dornröschen: Walzer",
     "year": 1890,
     "year_note": "Uraufführung",
-    "query": "Tchaikovsky Dornröschen Walzer",
+    "query": "Tchaikovsky Sleeping Beauty Waltz",
     "spotify": "",
     "start_ms": 0
   },
@@ -3545,7 +3564,7 @@
     "title": "Arabesque Nr. 1",
     "year": 1891,
     "year_note": "vollendet",
-    "query": "Claude Debussy Arabesque No. 1",
+    "query": "Debussy Arabesque 1",
     "spotify": "",
     "start_ms": 0
   },
@@ -3555,7 +3574,7 @@
     "title": "Klarinettenquintett h-Moll, 2. Satz",
     "year": 1891,
     "year_note": "vollendet",
-    "query": "Johannes Brahms Klarinettenquintett h-Moll",
+    "query": "Brahms Clarinet Quintet Adagio",
     "spotify": "",
     "start_ms": 0
   },
@@ -3565,7 +3584,7 @@
     "title": "La Wally: Ebben? Ne andrò lontana",
     "year": 1892,
     "year_note": "Uraufführung",
-    "query": "Alfredo Catalani La Wally Ebben? Ne andrò lontana",
+    "query": "Catalani La Wally Ebben ne andrò lontana",
     "spotify": "",
     "start_ms": 0
   },
@@ -3575,7 +3594,7 @@
     "title": "Werther: Pourquoi me réveiller",
     "year": 1892,
     "year_note": "Uraufführung",
-    "query": "Jules Massenet Werther Pourquoi me réveiller",
+    "query": "Massenet Werther Pourquoi me réveiller",
     "spotify": "",
     "start_ms": 0
   },
@@ -3585,7 +3604,7 @@
     "title": "Der Nussknacker: Blumenwalzer",
     "year": 1892,
     "year_note": "Uraufführung",
-    "query": "Tchaikovsky Der Nussknacker Blumenwalzer",
+    "query": "Tchaikovsky Waltz of the Flowers",
     "spotify": "",
     "start_ms": 0
   },
@@ -3595,7 +3614,7 @@
     "title": "Der Nussknacker: Tanz der Zuckerfee",
     "year": 1892,
     "year_note": "Uraufführung",
-    "query": "Tchaikovsky Der Nussknacker Tanz der Zuckerfee",
+    "query": "Tchaikovsky Dance of the Sugar Plum Fairy",
     "spotify": "",
     "start_ms": 0
   },
@@ -3605,7 +3624,7 @@
     "title": "Pagliacci: Vesti la giubba",
     "year": 1892,
     "year_note": "Uraufführung",
-    "query": "Ruggero Leoncavallo Pagliacci Vesti la giubba",
+    "query": "Leoncavallo Pagliacci Vesti la giubba",
     "spotify": "",
     "start_ms": 0
   },
@@ -3615,7 +3634,7 @@
     "title": "Prélude cis-Moll op. 3 Nr. 2",
     "year": 1892,
     "year_note": "vollendet",
-    "query": "Rachmaninoff Prélude cis-Moll op. 3 No. 2",
+    "query": "Rachmaninoff Prelude C sharp minor Op. 3 No. 2",
     "spotify": "",
     "start_ms": 0
   },
@@ -3625,7 +3644,7 @@
     "title": "Sinfonie Nr. 9 „Aus der Neuen Welt“, 4. Satz (Allegro con fuoco)",
     "year": 1893,
     "year_note": "vollendet",
-    "query": "Dvorak Symphony No. 9 From the New World Allegro con fuoco",
+    "query": "Dvořák Symphony 9 New World Allegro con fuoco | Dvorak New World Symphony Allegro con fuoco",
     "spotify": "",
     "start_ms": 0
   },
@@ -3635,7 +3654,7 @@
     "title": "Streichquartett Nr. 12 „Amerikanisches“, 1. Satz",
     "year": 1893,
     "year_note": "vollendet",
-    "query": "Antonín Dvořák String Quartet No. 12 Amerikanisches",
+    "query": "Dvořák String Quartet 12 American Allegro ma non troppo | Dvorak American Quartet Allegro ma non troppo",
     "spotify": "",
     "start_ms": 0
   },
@@ -3645,7 +3664,7 @@
     "title": "Hänsel und Gretel: Abendsegen",
     "year": 1893,
     "year_note": "Uraufführung",
-    "query": "Engelbert Humperdinck Hänsel und Gretel Abendsegen",
+    "query": "Humperdinck Hänsel und Gretel Abendsegen | Humperdinck Evening Prayer",
     "spotify": "",
     "start_ms": 0
   },
@@ -3655,7 +3674,7 @@
     "title": "Chaconne d-Moll (nach Bach)",
     "year": 1893,
     "year_note": "vollendet",
-    "query": "Ferruccio Busoni Chaconne d-Moll nach Bach",
+    "query": "Bach Busoni Chaconne",
     "spotify": "",
     "start_ms": 0
   },
@@ -3665,7 +3684,7 @@
     "title": "Manon Lescaut: Intermezzo",
     "year": 1893,
     "year_note": "Uraufführung",
-    "query": "Giacomo Puccini Manon Lescaut Intermezzo",
+    "query": "Puccini Manon Lescaut Intermezzo",
     "spotify": "",
     "start_ms": 0
   },
@@ -3675,7 +3694,7 @@
     "title": "Falstaff: Tutto nel mondo è burla",
     "year": 1893,
     "year_note": "Uraufführung",
-    "query": "Giuseppe Verdi Falstaff Tutto nel mondo è burla",
+    "query": "Verdi Falstaff Tutto nel mondo è burla",
     "spotify": "",
     "start_ms": 0
   },
@@ -3685,7 +3704,7 @@
     "title": "Karelia-Suite: Alla marcia",
     "year": 1893,
     "year_note": "vollendet",
-    "query": "Jean Sibelius Karelia-Suite Alla marcia",
+    "query": "Sibelius Karelia Suite Alla marcia",
     "spotify": "",
     "start_ms": 0
   },
@@ -3695,7 +3714,7 @@
     "title": "Intermezzo A-Dur op. 118 Nr. 2",
     "year": 1893,
     "year_note": "vollendet",
-    "query": "Johannes Brahms Intermezzo A-Dur op. 118 No. 2",
+    "query": "Brahms Intermezzo Op. 118 No. 2",
     "spotify": "",
     "start_ms": 0
   },
@@ -3705,7 +3724,7 @@
     "title": "Sinfonie Nr. 6 „Pathétique“, 1. Satz",
     "year": 1893,
     "year_note": "vollendet",
-    "query": "Tchaikovsky Symphony No. 6 Pathétique",
+    "query": "Tchaikovsky Symphony 6 Pathétique Adagio Allegro non troppo",
     "spotify": "",
     "start_ms": 0
   },
@@ -3715,7 +3734,7 @@
     "title": "Etüde dis-Moll op. 8 Nr. 12",
     "year": 1894,
     "year_note": "vollendet",
-    "query": "Scriabin Etüde dis-Moll op. 8 No. 12",
+    "query": "Scriabin Etude Op. 8 No. 12",
     "spotify": "",
     "start_ms": 0
   },
@@ -3725,7 +3744,7 @@
     "title": "Humoreske Ges-Dur op. 101 Nr. 7",
     "year": 1894,
     "year_note": "vollendet",
-    "query": "Antonín Dvořák Humoreske Ges-Dur op. 101 No. 7",
+    "query": "Dvořák Humoresque Op. 101 No. 7 | Dvorak Humoresque 7",
     "spotify": "",
     "start_ms": 0
   },
@@ -3735,7 +3754,7 @@
     "title": "Prélude à l'après-midi d'un faune",
     "year": 1894,
     "year_note": "vollendet",
-    "query": "Claude Debussy Prélude à l'après-midi d'un faune",
+    "query": "Debussy Prélude à l'après-midi d'un faune",
     "spotify": "",
     "start_ms": 0
   },
@@ -3745,9 +3764,10 @@
     "title": "Sinfonie Nr. 2 „Auferstehung“, Finale",
     "year": 1894,
     "year_note": "vollendet",
-    "query": "Gustav Mahler Symphony No. 2 Auferstehung",
+    "query": "Mahler Symphony 2 Resurrection Finale Im Tempo des Scherzos",
     "spotify": "",
-    "start_ms": 0
+    "start_ms": 0,
+    "hint": "Sehr lang (über 30 Minuten); Choreinsatz „Aufersteh'n“ erst nach etwa 20 Minuten"
   },
   {
     "id": "yyhj6",
@@ -3755,7 +3775,7 @@
     "title": "Thaïs: Méditation",
     "year": 1894,
     "year_note": "Uraufführung",
-    "query": "Jules Massenet Thaïs Méditation",
+    "query": "Massenet Thaïs Méditation",
     "spotify": "",
     "start_ms": 0
   },
@@ -3765,7 +3785,7 @@
     "title": "Kaukasische Skizzen: Zug des Sardar",
     "year": 1894,
     "year_note": "vollendet",
-    "query": "Ippolitov-Ivanov Kaukasische Skizzen Zug des Sardar",
+    "query": "Ippolitov-Ivanov Procession of the Sardar",
     "spotify": "",
     "start_ms": 0
   },
@@ -3775,7 +3795,7 @@
     "title": "Morgen!",
     "year": 1894,
     "year_note": "vollendet",
-    "query": "Richard Strauss Morgen!",
+    "query": "Richard Strauss Morgen Op. 27",
     "spotify": "",
     "start_ms": 0
   },
@@ -3785,7 +3805,7 @@
     "title": "Cellokonzert h-Moll, 1. Satz",
     "year": 1895,
     "year_note": "vollendet",
-    "query": "Antonín Dvořák Cello Concerto h-Moll",
+    "query": "Dvořák Cello Concerto B minor Allegro | Dvorak Cello Concerto Allegro",
     "spotify": "",
     "start_ms": 0
   },
@@ -3795,7 +3815,7 @@
     "title": "Suite gothique: Toccata",
     "year": 1895,
     "year_note": "vollendet",
-    "query": "Léon Boëllmann Suite gothique Toccata",
+    "query": "Boëllmann Toccata Suite gothique",
     "spotify": "",
     "start_ms": 0
   },
@@ -3805,7 +3825,7 @@
     "title": "Till Eulenspiegels lustige Streiche",
     "year": 1895,
     "year_note": "vollendet",
-    "query": "Richard Strauss Till Eulenspiegels lustige Streiche",
+    "query": "Richard Strauss Till Eulenspiegel",
     "spotify": "",
     "start_ms": 0
   },
@@ -3815,7 +3835,7 @@
     "title": "Gaelic Symphony, 2. Satz",
     "year": 1896,
     "year_note": "vollendet",
-    "query": "Amy Beach Gaelic Symphony",
+    "query": "Amy Beach Gaelic Symphony Alla siciliana",
     "spotify": "",
     "start_ms": 0
   },
@@ -3825,7 +3845,7 @@
     "title": "Hochzeitstag auf Troldhaugen",
     "year": 1896,
     "year_note": "vollendet",
-    "query": "Edvard Grieg Hochzeitstag auf Troldhaugen",
+    "query": "Grieg Wedding Day at Troldhaugen",
     "spotify": "",
     "start_ms": 0
   },
@@ -3835,7 +3855,7 @@
     "title": "To a Wild Rose",
     "year": 1896,
     "year_note": "vollendet",
-    "query": "Edward MacDowell To a Wild Rose",
+    "query": "MacDowell To a Wild Rose",
     "spotify": "",
     "start_ms": 0
   },
@@ -3845,7 +3865,7 @@
     "title": "Poème für Violine und Orchester",
     "year": 1896,
     "year_note": "vollendet",
-    "query": "Ernest Chausson Poème für Violine und Orchester",
+    "query": "Chausson Poème Op. 25",
     "spotify": "",
     "start_ms": 0
   },
@@ -3855,7 +3875,7 @@
     "title": "La Bohème: Che gelida manina",
     "year": 1896,
     "year_note": "Uraufführung",
-    "query": "Giacomo Puccini La Bohème Che gelida manina",
+    "query": "Puccini Bohème Che gelida manina",
     "spotify": "",
     "start_ms": 0
   },
@@ -3865,7 +3885,7 @@
     "title": "The Stars and Stripes Forever",
     "year": 1896,
     "year_note": "vollendet",
-    "query": "John Philip Sousa The Stars and Stripes Forever",
+    "query": "Sousa Stars and Stripes Forever",
     "spotify": "",
     "start_ms": 0
   },
@@ -3875,7 +3895,7 @@
     "title": "Also sprach Zarathustra: Sonnenaufgang",
     "year": 1896,
     "year_note": "vollendet",
-    "query": "Richard Strauss Also sprach Zarathustra Sonnenaufgang",
+    "query": "Richard Strauss Also sprach Zarathustra Einleitung Sonnenaufgang",
     "spotify": "",
     "start_ms": 0
   },
@@ -3885,7 +3905,7 @@
     "title": "Andrea Chénier: La mamma morta",
     "year": 1896,
     "year_note": "Uraufführung",
-    "query": "Umberto Giordano Andrea Chénier La mamma morta",
+    "query": "Giordano Andrea Chénier La mamma morta",
     "spotify": "",
     "start_ms": 0
   },
@@ -3895,7 +3915,7 @@
     "title": "Einzug der Gladiatoren",
     "year": 1897,
     "year_note": "vollendet",
-    "query": "Julius Fučík Einzug der Gladiatoren",
+    "query": "Fučík Entrance of the Gladiators | Fucik Einzug der Gladiatoren",
     "spotify": "",
     "start_ms": 0
   },
@@ -3905,9 +3925,10 @@
     "title": "Der Zauberlehrling",
     "year": 1897,
     "year_note": "vollendet",
-    "query": "Paul Dukas Der Zauberlehrling",
+    "query": "Dukas Sorcerer's Apprentice | Dukas L'apprenti sorcier",
     "spotify": "",
-    "start_ms": 0
+    "start_ms": 0,
+    "hint": "Leise Einleitung; das Fagott-Thema kommt nach ca. 1 Minute"
   },
   {
     "id": "6cre3",
@@ -3915,7 +3936,7 @@
     "title": "Pelléas et Mélisande: Sicilienne",
     "year": 1898,
     "year_note": "vollendet",
-    "query": "Gabriel Fauré Pelléas et Mélisande Sicilienne",
+    "query": "Fauré Pelléas et Mélisande Sicilienne",
     "spotify": "",
     "start_ms": 0
   },
@@ -3935,7 +3956,7 @@
     "title": "Nocturnes: Fêtes",
     "year": 1899,
     "year_note": "vollendet",
-    "query": "Claude Debussy Nocturnes Fêtes",
+    "query": "Debussy Nocturnes Fêtes",
     "spotify": "",
     "start_ms": 0
   },
@@ -3945,7 +3966,7 @@
     "title": "Enigma-Variationen: Nimrod",
     "year": 1899,
     "year_note": "vollendet",
-    "query": "Edward Elgar Enigma-Variationen Nimrod",
+    "query": "Elgar Enigma Variations Nimrod",
     "spotify": "",
     "start_ms": 0
   },
@@ -3955,7 +3976,7 @@
     "title": "Pavane pour une infante défunte",
     "year": 1899,
     "year_note": "vollendet",
-    "query": "Maurice Ravel Pavane pour une infante défunte",
+    "query": "Ravel Pavane pour une infante défunte",
     "spotify": "",
     "start_ms": 0
   },
@@ -3965,7 +3986,7 @@
     "title": "Maple Leaf Rag",
     "year": 1899,
     "year_note": "vollendet",
-    "query": "Scott Joplin Maple Leaf Rag",
+    "query": "Joplin Maple Leaf Rag",
     "spotify": "",
     "start_ms": 0
   },
@@ -3975,7 +3996,7 @@
     "title": "Die Jahreszeiten: Herbst (Bacchanal)",
     "year": 1900,
     "year_note": "Uraufführung",
-    "query": "Glazunov Die Jahreszeiten Herbst Bacchanal",
+    "query": "Glazunov Seasons Autumn Bacchanal | Glazunov The Seasons Autumn",
     "spotify": "",
     "start_ms": 0
   },
@@ -3985,7 +4006,7 @@
     "title": "Tosca: E lucevan le stelle",
     "year": 1900,
     "year_note": "Uraufführung",
-    "query": "Giacomo Puccini Tosca E lucevan le stelle",
+    "query": "Puccini Tosca E lucevan le stelle",
     "spotify": "",
     "start_ms": 0
   },
@@ -3995,7 +4016,7 @@
     "title": "Sinfonie Nr. 4, 1. Satz",
     "year": 1900,
     "year_note": "vollendet",
-    "query": "Gustav Mahler Symphony No. 4",
+    "query": "Mahler Symphony 4 Bedächtig nicht eilen",
     "spotify": "",
     "start_ms": 0
   },
@@ -4005,9 +4026,10 @@
     "title": "Finlandia",
     "year": 1900,
     "year_note": "vollendet",
-    "query": "Jean Sibelius Finlandia",
+    "query": "Sibelius Finlandia Op. 26",
     "spotify": "",
-    "start_ms": 0
+    "start_ms": 0,
+    "hint": "Der Finlandia-Hymnus kommt gegen Ende (ca. 5:30)"
   },
   {
     "id": "4awvy",
@@ -4015,7 +4037,7 @@
     "title": "Das Märchen vom Zaren Saltan: Hummelflug",
     "year": 1900,
     "year_note": "Uraufführung",
-    "query": "Rimsky-Korsakov Das Märchen vom Zaren Saltan Hummelflug",
+    "query": "Rimsky-Korsakov Flight of the Bumblebee",
     "spotify": "",
     "start_ms": 0
   },
@@ -4025,7 +4047,7 @@
     "title": "Rusalka: Lied an den Mond",
     "year": 1901,
     "year_note": "Uraufführung",
-    "query": "Antonín Dvořák Rusalka Lied an den Mond",
+    "query": "Dvořák Rusalka Song to the Moon | Dvorak Rusalka Mesicku na nebi",
     "spotify": "",
     "start_ms": 0
   },
@@ -4035,9 +4057,10 @@
     "title": "Pomp and Circumstance Nr. 1",
     "year": 1901,
     "year_note": "vollendet",
-    "query": "Edward Elgar Pomp and Circumstance No. 1",
+    "query": "Elgar Pomp and Circumstance March 1",
     "spotify": "",
-    "start_ms": 0
+    "start_ms": 105000,
+    "hint": "Das Trio („Land of Hope and Glory“) beginnt meist bei ca. 1:40–2:00"
   },
   {
     "id": "634kf",
@@ -4045,7 +4068,7 @@
     "title": "Rumänische Rhapsodie Nr. 1",
     "year": 1901,
     "year_note": "vollendet",
-    "query": "George Enescu Rumänische Rhapsodie No. 1",
+    "query": "Enescu Romanian Rhapsody 1",
     "spotify": "",
     "start_ms": 0
   },
@@ -4055,7 +4078,7 @@
     "title": "Rückert-Lieder: Ich bin der Welt abhanden gekommen",
     "year": 1901,
     "year_note": "vollendet",
-    "query": "Gustav Mahler Rückert-Lieder Ich bin der Welt abhanden gekommen",
+    "query": "Mahler Ich bin der Welt abhanden gekommen",
     "spotify": "",
     "start_ms": 0
   },
@@ -4065,7 +4088,7 @@
     "title": "Jeux d'eau",
     "year": 1901,
     "year_note": "vollendet",
-    "query": "Maurice Ravel Jeux d'eau",
+    "query": "Ravel Jeux d'eau",
     "spotify": "",
     "start_ms": 0
   },
@@ -4075,7 +4098,7 @@
     "title": "Klavierkonzert Nr. 2 c-Moll, 1. Satz",
     "year": 1901,
     "year_note": "vollendet",
-    "query": "Rachmaninoff Piano Concerto No. 2 c-Moll",
+    "query": "Rachmaninoff Piano Concerto 2 Moderato",
     "spotify": "",
     "start_ms": 0
   },
@@ -4085,7 +4108,7 @@
     "title": "Pelléas et Mélisande: Vorspiel",
     "year": 1902,
     "year_note": "Uraufführung",
-    "query": "Claude Debussy Pelléas et Mélisande Vorspiel",
+    "query": "Debussy Pelléas et Mélisande Prélude",
     "spotify": "",
     "start_ms": 0
   },
@@ -4095,7 +4118,7 @@
     "title": "Concertino für Flöte op. 107",
     "year": 1902,
     "year_note": "vollendet",
-    "query": "Cécile Chaminade Concertino für Flöte op. 107",
+    "query": "Chaminade Concertino Op. 107",
     "spotify": "",
     "start_ms": 0
   },
@@ -4105,7 +4128,7 @@
     "title": "Sinfonie Nr. 5: Adagietto",
     "year": 1902,
     "year_note": "vollendet",
-    "query": "Gustav Mahler Symphony No. 5 Adagietto",
+    "query": "Mahler Symphony 5 Adagietto",
     "spotify": "",
     "start_ms": 0
   },
@@ -4115,7 +4138,7 @@
     "title": "Sinfonie Nr. 2 D-Dur, Finale",
     "year": 1902,
     "year_note": "vollendet",
-    "query": "Jean Sibelius Symphony No. 2 D-Dur",
+    "query": "Sibelius Symphony 2 Finale Allegro moderato",
     "spotify": "",
     "start_ms": 0
   },
@@ -4125,7 +4148,7 @@
     "title": "The Entertainer",
     "year": 1902,
     "year_note": "vollendet",
-    "query": "Scott Joplin The Entertainer",
+    "query": "Joplin The Entertainer",
     "spotify": "",
     "start_ms": 0
   },
@@ -4135,7 +4158,7 @@
     "title": "Madama Butterfly: Un bel dì vedremo",
     "year": 1904,
     "year_note": "Uraufführung",
-    "query": "Giacomo Puccini Madama Butterfly Un bel dì vedremo",
+    "query": "Puccini Madama Butterfly Un bel dì vedremo",
     "spotify": "",
     "start_ms": 0
   },
@@ -4145,7 +4168,7 @@
     "title": "Kindertotenlieder: Nun will die Sonn' so hell aufgeh'n",
     "year": 1904,
     "year_note": "vollendet",
-    "query": "Gustav Mahler Kindertotenlieder Nun will die Sonn' so hell aufgeh'n",
+    "query": "Mahler Kindertotenlieder Nun will die Sonn' so hell aufgehn",
     "spotify": "",
     "start_ms": 0
   },
@@ -4155,7 +4178,7 @@
     "title": "Valse triste",
     "year": 1904,
     "year_note": "vollendet",
-    "query": "Jean Sibelius Valse triste",
+    "query": "Sibelius Valse triste",
     "spotify": "",
     "start_ms": 0
   },
@@ -4165,7 +4188,7 @@
     "title": "Jenůfa: Vorspiel",
     "year": 1904,
     "year_note": "Uraufführung",
-    "query": "Leoš Janáček Jenůfa Vorspiel",
+    "query": "Janáček Jenůfa Prelude | Janacek Jenufa",
     "spotify": "",
     "start_ms": 0
   },
@@ -4175,7 +4198,7 @@
     "title": "Csárdás",
     "year": 1904,
     "year_note": "vollendet",
-    "query": "Vittorio Monti Csárdás",
+    "query": "Monti Csárdás",
     "spotify": "",
     "start_ms": 0
   },
@@ -4185,7 +4208,7 @@
     "title": "La mer: De l'aube à midi sur la mer",
     "year": 1905,
     "year_note": "vollendet",
-    "query": "Claude Debussy La mer De l'aube à midi sur la mer",
+    "query": "Debussy La mer De l'aube à midi sur la mer",
     "spotify": "",
     "start_ms": 0
   },
@@ -4195,9 +4218,10 @@
     "title": "Suite bergamasque: Clair de lune",
     "year": 1905,
     "year_note": "Erstdruck",
-    "query": "Claude Debussy Suite bergamasque Clair de lune",
+    "query": "Debussy Clair de lune",
     "spotify": "",
-    "start_ms": 0
+    "start_ms": 0,
+    "hint": "Klavierfassung (Original) bevorzugen"
   },
   {
     "id": "et9mk",
@@ -4205,7 +4229,7 @@
     "title": "Die lustige Witwe: Vilja-Lied",
     "year": 1905,
     "year_note": "Uraufführung",
-    "query": "Franz Lehár Die lustige Witwe Vilja-Lied",
+    "query": "Lehár Lustige Witwe Vilja-Lied | Lehar Merry Widow Vilja",
     "spotify": "",
     "start_ms": 0
   },
@@ -4215,7 +4239,7 @@
     "title": "Violinkonzert d-Moll, 1. Satz",
     "year": 1905,
     "year_note": "vollendet",
-    "query": "Jean Sibelius Violin Concerto d-Moll",
+    "query": "Sibelius Violin Concerto Allegro moderato",
     "spotify": "",
     "start_ms": 0
   },
@@ -4225,7 +4249,7 @@
     "title": "Salome: Tanz der sieben Schleier",
     "year": 1905,
     "year_note": "Uraufführung",
-    "query": "Richard Strauss Salome Tanz der sieben Schleier",
+    "query": "Richard Strauss Salome Dance of the Seven Veils | Strauss Tanz der sieben Schleier",
     "spotify": "",
     "start_ms": 0
   },
@@ -4235,7 +4259,7 @@
     "title": "Maskarade: Ouvertüre",
     "year": 1906,
     "year_note": "Uraufführung",
-    "query": "Carl Nielsen Maskarade Overture",
+    "query": "Nielsen Maskarade Overture",
     "spotify": "",
     "start_ms": 0
   },
@@ -4245,7 +4269,7 @@
     "title": "Sinfonie Nr. 2, 3. Satz (Adagio)",
     "year": 1907,
     "year_note": "vollendet",
-    "query": "Rachmaninoff Symphony No. 2 Adagio",
+    "query": "Rachmaninoff Symphony 2 Adagio",
     "spotify": "",
     "start_ms": 0
   },
@@ -4255,7 +4279,7 @@
     "title": "Le Poème de l'extase",
     "year": 1908,
     "year_note": "vollendet",
-    "query": "Scriabin Le Poème de l'extase",
+    "query": "Scriabin Poem of Ecstasy | Scriabin Le Poème de l'extase",
     "spotify": "",
     "start_ms": 0
   },
@@ -4265,7 +4289,7 @@
     "title": "Passacaglia op. 1",
     "year": 1908,
     "year_note": "vollendet",
-    "query": "Anton Webern Passacaglia op. 1",
+    "query": "Webern Passacaglia Op. 1",
     "spotify": "",
     "start_ms": 0
   },
@@ -4275,7 +4299,7 @@
     "title": "The Unanswered Question",
     "year": 1908,
     "year_note": "vollendet",
-    "query": "Charles Ives The Unanswered Question",
+    "query": "Ives The Unanswered Question",
     "spotify": "",
     "start_ms": 0
   },
@@ -4285,7 +4309,7 @@
     "title": "Children's Corner: Golliwogg's Cakewalk",
     "year": 1908,
     "year_note": "vollendet",
-    "query": "Claude Debussy Children's Corner Golliwogg's Cakewalk",
+    "query": "Debussy Golliwogg's Cakewalk",
     "spotify": "",
     "start_ms": 0
   },
@@ -4295,7 +4319,7 @@
     "title": "Sinfonie Nr. 1 As-Dur, 1. Satz",
     "year": 1908,
     "year_note": "vollendet",
-    "query": "Edward Elgar Symphony No. 1 As-Dur",
+    "query": "Elgar Symphony 1 Andante nobilmente e semplice",
     "spotify": "",
     "start_ms": 0
   },
@@ -4305,7 +4329,7 @@
     "title": "Rapsodie espagnole: Feria",
     "year": 1908,
     "year_note": "vollendet",
-    "query": "Maurice Ravel Rapsodie espagnole Feria",
+    "query": "Ravel Rapsodie espagnole Feria",
     "spotify": "",
     "start_ms": 0
   },
@@ -4315,7 +4339,7 @@
     "title": "Sechs Stücke für Orchester op. 6",
     "year": 1909,
     "year_note": "vollendet",
-    "query": "Anton Webern Sechs Stücke für Orchester op. 6",
+    "query": "Webern Six Pieces for Orchestra Op. 6",
     "spotify": "",
     "start_ms": 0
   },
@@ -4325,7 +4349,7 @@
     "title": "Fünf Orchesterstücke op. 16: Farben",
     "year": 1909,
     "year_note": "vollendet",
-    "query": "Schoenberg Fünf Orchesterstücke op. 16 Farben",
+    "query": "Schoenberg Five Pieces for Orchestra Op. 16 Farben | Schoenberg Fünf Orchesterstücke Farben",
     "spotify": "",
     "start_ms": 0
   },
@@ -4335,7 +4359,7 @@
     "title": "Das Lied von der Erde: Der Abschied",
     "year": 1909,
     "year_note": "vollendet",
-    "query": "Gustav Mahler Das Lied von der Erde Der Abschied",
+    "query": "Mahler Lied von der Erde Der Abschied",
     "spotify": "",
     "start_ms": 0
   },
@@ -4345,7 +4369,7 @@
     "title": "Die Toteninsel",
     "year": 1909,
     "year_note": "vollendet",
-    "query": "Rachmaninoff Die Toteninsel",
+    "query": "Rachmaninoff Isle of the Dead | Rachmaninoff Die Toteninsel",
     "spotify": "",
     "start_ms": 0
   },
@@ -4355,7 +4379,7 @@
     "title": "Klavierkonzert Nr. 3 d-Moll, 1. Satz",
     "year": 1909,
     "year_note": "vollendet",
-    "query": "Rachmaninoff Piano Concerto No. 3 d-Moll",
+    "query": "Rachmaninoff Piano Concerto 3 Allegro ma non tanto",
     "spotify": "",
     "start_ms": 0
   },
@@ -4365,7 +4389,7 @@
     "title": "Préludes I: La fille aux cheveux de lin",
     "year": 1910,
     "year_note": "vollendet",
-    "query": "Claude Debussy Préludes I La fille aux cheveux de lin",
+    "query": "Debussy La fille aux cheveux de lin",
     "spotify": "",
     "start_ms": 0
   },
@@ -4375,7 +4399,7 @@
     "title": "Der Feuervogel: Finale",
     "year": 1910,
     "year_note": "Uraufführung",
-    "query": "Stravinsky Der Feuervogel",
+    "query": "Stravinsky Firebird Finale",
     "spotify": "",
     "start_ms": 0
   },
@@ -4385,7 +4409,7 @@
     "title": "Ma mère l'Oye: Le jardin féerique",
     "year": 1910,
     "year_note": "vollendet",
-    "query": "Maurice Ravel Ma mère l'Oye Le jardin féerique",
+    "query": "Ravel Ma mère l'Oye Le jardin féerique | Ravel Mother Goose Fairy Garden",
     "spotify": "",
     "start_ms": 0
   },
@@ -4395,7 +4419,7 @@
     "title": "Fantasia on a Theme by Thomas Tallis",
     "year": 1910,
     "year_note": "vollendet",
-    "query": "Ralph Vaughan Williams Fantasia on a Theme by Thomas Tallis",
+    "query": "Vaughan Williams Fantasia on a Theme by Thomas Tallis",
     "spotify": "",
     "start_ms": 0
   },
@@ -4405,7 +4429,7 @@
     "title": "Gurre-Lieder: Lied der Waldtaube",
     "year": 1911,
     "year_note": "vollendet",
-    "query": "Schoenberg Gurre-Lieder Lied der Waldtaube",
+    "query": "Schoenberg Gurre-Lieder Lied der Waldtaube | Schoenberg Gurrelieder Song of the Wood Dove",
     "spotify": "",
     "start_ms": 0
   },
@@ -4415,7 +4439,7 @@
     "title": "Allegro barbaro",
     "year": 1911,
     "year_note": "vollendet",
-    "query": "Béla Bartók Allegro barbaro",
+    "query": "Bartók Allegro barbaro | Bartok Allegro barbaro",
     "spotify": "",
     "start_ms": 0
   },
@@ -4435,7 +4459,7 @@
     "title": "Petruschka: Russischer Tanz",
     "year": 1911,
     "year_note": "Uraufführung",
-    "query": "Stravinsky Petruschka Russischer Tanz",
+    "query": "Stravinsky Petrushka Russian Dance",
     "spotify": "",
     "start_ms": 0
   },
@@ -4445,7 +4469,7 @@
     "title": "Der Rosenkavalier: Walzer",
     "year": 1911,
     "year_note": "Uraufführung",
-    "query": "Richard Strauss Der Rosenkavalier Walzer",
+    "query": "Richard Strauss Rosenkavalier Waltz",
     "spotify": "",
     "start_ms": 0
   },
@@ -4465,7 +4489,7 @@
     "title": "On Hearing the First Cuckoo in Spring",
     "year": 1912,
     "year_note": "vollendet",
-    "query": "Frederick Delius On Hearing the First Cuckoo in Spring",
+    "query": "Delius On Hearing the First Cuckoo in Spring",
     "spotify": "",
     "start_ms": 0
   },
@@ -4475,7 +4499,7 @@
     "title": "Daphnis et Chloé: Lever du jour",
     "year": 1912,
     "year_note": "Uraufführung",
-    "query": "Maurice Ravel Daphnis et Chloé Lever du jour",
+    "query": "Ravel Daphnis et Chloé Lever du jour",
     "spotify": "",
     "start_ms": 0
   },
@@ -4485,7 +4509,7 @@
     "title": "The Banks of Green Willow",
     "year": 1913,
     "year_note": "vollendet",
-    "query": "George Butterworth The Banks of Green Willow",
+    "query": "Butterworth The Banks of Green Willow",
     "spotify": "",
     "start_ms": 0
   },
@@ -4495,7 +4519,7 @@
     "title": "St Paul's Suite: Finale",
     "year": 1913,
     "year_note": "vollendet",
-    "query": "Gustav Holst St Paul's Suite",
+    "query": "Holst St Paul's Suite Finale Dargason",
     "spotify": "",
     "start_ms": 0
   },
@@ -4505,9 +4529,10 @@
     "title": "Le sacre du printemps: Frühlingsreigen",
     "year": 1913,
     "year_note": "Uraufführung",
-    "query": "Stravinsky Le sacre du printemps Frühlingsreigen",
+    "query": "Stravinsky Rite of Spring Spring Rounds | Stravinsky Sacre du printemps Rondes printanières",
     "spotify": "",
-    "start_ms": 0
+    "start_ms": 0,
+    "hint": "Die stampfenden Akkorde („Augures printaniers“) liegen davor; dieser Track ist der Frühlingsreigen"
   },
   {
     "id": "exaw5",
@@ -4515,7 +4540,7 @@
     "title": "Variationen und Fuge über ein Thema von Mozart",
     "year": 1914,
     "year_note": "vollendet",
-    "query": "Max Reger Variationen und Fuge über ein Thema von Mozart",
+    "query": "Reger Mozart Variations Op. 132",
     "spotify": "",
     "start_ms": 0
   },
@@ -4525,7 +4550,7 @@
     "title": "Rumänische Volkstänze",
     "year": 1915,
     "year_note": "vollendet",
-    "query": "Béla Bartók Rumänische Volkstänze",
+    "query": "Bartók Romanian Folk Dances | Bartok Romanian Folk Dances",
     "spotify": "",
     "start_ms": 0
   },
@@ -4535,7 +4560,7 @@
     "title": "Die Csárdásfürstin: Jaj, mamám, Bruderherz",
     "year": 1915,
     "year_note": "Uraufführung",
-    "query": "Emmerich Kálmán Die Csárdásfürstin Jaj mamám Bruderherz",
+    "query": "Kálmán Csárdásfürstin Jaj mamám | Kalman Csardasfurstin",
     "spotify": "",
     "start_ms": 0
   },
@@ -4545,7 +4570,7 @@
     "title": "El amor brujo: Feuertanz",
     "year": 1915,
     "year_note": "Uraufführung",
-    "query": "Manuel de Falla El amor brujo Feuertanz",
+    "query": "Falla Ritual Fire Dance | Falla Danza ritual del fuego",
     "spotify": "",
     "start_ms": 0
   },
@@ -4555,7 +4580,7 @@
     "title": "Nächte in spanischen Gärten",
     "year": 1915,
     "year_note": "vollendet",
-    "query": "Manuel de Falla Nächte in spanischen Gärten",
+    "query": "Falla Nights in the Gardens of Spain | Falla Noches en los jardines de España",
     "spotify": "",
     "start_ms": 0
   },
@@ -4565,7 +4590,7 @@
     "title": "Eine Alpensinfonie: Auf dem Gipfel",
     "year": 1915,
     "year_note": "vollendet",
-    "query": "Richard Strauss Eine Alpensinfonie Auf dem Gipfel",
+    "query": "Richard Strauss Alpine Symphony Auf dem Gipfel | Strauss Alpensinfonie Auf dem Gipfel",
     "spotify": "",
     "start_ms": 0
   },
@@ -4575,7 +4600,7 @@
     "title": "Das große Abend- und Morgenlob (Vesper): Nun lässt du deinen Diener",
     "year": 1915,
     "year_note": "vollendet",
-    "query": "Rachmaninoff Das große Abend- und Morgenlob Vesper Nun lässt du deinen Diener",
+    "query": "Rachmaninoff Vespers Nunc dimittis | Rachmaninoff All-Night Vigil Nyne otpushchayeshi",
     "spotify": "",
     "start_ms": 0
   },
@@ -4585,7 +4610,7 @@
     "title": "Vocalise",
     "year": 1915,
     "year_note": "vollendet",
-    "query": "Rachmaninoff Vocalise",
+    "query": "Rachmaninoff Vocalise Op. 34 No. 14",
     "spotify": "",
     "start_ms": 0
   },
@@ -4595,7 +4620,7 @@
     "title": "Sinfonie Nr. 4 „Das Unauslöschliche“, Finale",
     "year": 1916,
     "year_note": "vollendet",
-    "query": "Carl Nielsen Symphony No. 4 Das Unauslöschliche",
+    "query": "Nielsen Symphony 4 Inextinguishable Allegro",
     "spotify": "",
     "start_ms": 0
   },
@@ -4605,7 +4630,7 @@
     "title": "Jerusalem",
     "year": 1916,
     "year_note": "vollendet",
-    "query": "Hubert Parry Jerusalem",
+    "query": "Parry Jerusalem",
     "spotify": "",
     "start_ms": 0
   },
@@ -4615,7 +4640,7 @@
     "title": "Fontane di Roma",
     "year": 1916,
     "year_note": "vollendet",
-    "query": "Ottorino Respighi Fontane di Roma",
+    "query": "Respighi Fountains of Rome | Respighi Fontane di Roma",
     "spotify": "",
     "start_ms": 0
   },
@@ -4625,7 +4650,7 @@
     "title": "À Chloris",
     "year": 1916,
     "year_note": "vollendet",
-    "query": "Reynaldo Hahn À Chloris",
+    "query": "Hahn À Chloris",
     "spotify": "",
     "start_ms": 0
   },
@@ -4635,7 +4660,7 @@
     "title": "Parade",
     "year": 1917,
     "year_note": "Uraufführung",
-    "query": "Erik Satie Parade",
+    "query": "Satie Parade",
     "spotify": "",
     "start_ms": 0
   },
@@ -4645,9 +4670,10 @@
     "title": "Die Planeten: Jupiter",
     "year": 1917,
     "year_note": "vollendet",
-    "query": "Gustav Holst Die Planeten Jupiter",
+    "query": "Holst Planets Jupiter Bringer of Jollity",
     "spotify": "",
-    "start_ms": 0
+    "start_ms": 0,
+    "hint": "Die bekannte Hymne („I Vow to Thee“) kommt in der Mitte, ca. 3:10"
   },
   {
     "id": "655ax",
@@ -4655,7 +4681,7 @@
     "title": "Die Planeten: Mars",
     "year": 1917,
     "year_note": "vollendet",
-    "query": "Gustav Holst Die Planeten Mars",
+    "query": "Holst Planets Mars Bringer of War",
     "spotify": "",
     "start_ms": 0
   },
@@ -4665,7 +4691,7 @@
     "title": "Palestrina: Vorspiel zum 1. Akt",
     "year": 1917,
     "year_note": "Uraufführung",
-    "query": "Hans Pfitzner Palestrina Vorspiel zum 1. Akt",
+    "query": "Pfitzner Palestrina Prelude Act 1 | Pfitzner Palestrina Vorspiel",
     "spotify": "",
     "start_ms": 0
   },
@@ -4675,7 +4701,7 @@
     "title": "Le tombeau de Couperin: Rigaudon",
     "year": 1917,
     "year_note": "vollendet",
-    "query": "Maurice Ravel Le tombeau de Couperin Rigaudon",
+    "query": "Ravel Tombeau de Couperin Rigaudon",
     "spotify": "",
     "start_ms": 0
   },
@@ -4685,7 +4711,7 @@
     "title": "Sinfonie Nr. 1 „Klassische“, 1. Satz",
     "year": 1917,
     "year_note": "vollendet",
-    "query": "Prokofiev Symphony No. 1 Klassische",
+    "query": "Prokofiev Classical Symphony Allegro",
     "spotify": "",
     "start_ms": 0
   },
@@ -4695,7 +4721,7 @@
     "title": "Herzog Blaubarts Burg: Fünfte Tür",
     "year": 1918,
     "year_note": "Uraufführung",
-    "query": "Béla Bartók Herzog Blaubarts Burg Fünfte Tür",
+    "query": "Bartók Bluebeard's Castle Fifth Door | Bartok Bluebeard Fifth Door",
     "spotify": "",
     "start_ms": 0
   },
@@ -4705,7 +4731,7 @@
     "title": "Gianni Schicchi: O mio babbino caro",
     "year": 1918,
     "year_note": "Uraufführung",
-    "query": "Giacomo Puccini Gianni Schicchi O mio babbino caro",
+    "query": "Puccini Gianni Schicchi O mio babbino caro",
     "spotify": "",
     "start_ms": 0
   },
@@ -4715,9 +4741,10 @@
     "title": "Die Geschichte vom Soldaten: Marsch des Soldaten",
     "year": 1918,
     "year_note": "Uraufführung",
-    "query": "Stravinsky Die Geschichte vom Soldaten Marsch des Soldaten",
+    "query": "Stravinsky Soldier's Tale Soldier's March | Stravinsky Histoire du soldat Marche du soldat",
     "spotify": "",
-    "start_ms": 0
+    "start_ms": 0,
+    "hint": "Instrumentalfassung (Suite) ohne Sprecher bevorzugen"
   },
   {
     "id": "mdf67",
@@ -4725,7 +4752,7 @@
     "title": "Taras Bulba",
     "year": 1918,
     "year_note": "vollendet",
-    "query": "Leoš Janáček Taras Bulba",
+    "query": "Janáček Taras Bulba | Janacek Taras Bulba",
     "spotify": "",
     "start_ms": 0
   },
@@ -4745,7 +4772,7 @@
     "title": "Cellokonzert e-Moll, 1. Satz",
     "year": 1919,
     "year_note": "vollendet",
-    "query": "Edward Elgar Cello Concerto e-Moll",
+    "query": "Elgar Cello Concerto Adagio Moderato",
     "spotify": "",
     "start_ms": 0
   },
@@ -4755,7 +4782,7 @@
     "title": "Sinfonie Nr. 5, Finale",
     "year": 1919,
     "year_note": "vollendet",
-    "query": "Jean Sibelius Symphony No. 5",
+    "query": "Sibelius Symphony 5 Allegro molto",
     "spotify": "",
     "start_ms": 0
   },
@@ -4765,7 +4792,7 @@
     "title": "Bratschensonate, 1. Satz",
     "year": 1919,
     "year_note": "vollendet",
-    "query": "Rebecca Clarke Bratschensonate",
+    "query": "Rebecca Clarke Viola Sonata Impetuoso",
     "spotify": "",
     "start_ms": 0
   },
@@ -4775,7 +4802,7 @@
     "title": "Le bœuf sur le toit",
     "year": 1920,
     "year_note": "vollendet",
-    "query": "Darius Milhaud Le bœuf sur le toit",
+    "query": "Milhaud Le bœuf sur le toit",
     "spotify": "",
     "start_ms": 0
   },
@@ -4785,7 +4812,7 @@
     "title": "Die tote Stadt: Glück, das mir verblieb",
     "year": 1920,
     "year_note": "Uraufführung",
-    "query": "Erich Wolfgang Korngold Die tote Stadt Glück das mir verblieb",
+    "query": "Korngold Die tote Stadt Glück das mir verblieb | Korngold Marietta's Lied",
     "spotify": "",
     "start_ms": 0
   },
@@ -4795,7 +4822,7 @@
     "title": "Pulcinella: Sinfonia",
     "year": 1920,
     "year_note": "Uraufführung",
-    "query": "Stravinsky Pulcinella Sinfonia",
+    "query": "Stravinsky Pulcinella Suite Sinfonia",
     "spotify": "",
     "start_ms": 0
   },
@@ -4805,9 +4832,10 @@
     "title": "La valse",
     "year": 1920,
     "year_note": "vollendet",
-    "query": "Maurice Ravel La valse",
+    "query": "Ravel La valse",
     "spotify": "",
-    "start_ms": 0
+    "start_ms": 0,
+    "hint": "Leiser, dunkler Beginn; der Walzer wird erst nach ca. 1–2 Minuten deutlich"
   },
   {
     "id": "6cm7q",
@@ -4815,9 +4843,10 @@
     "title": "The Lark Ascending",
     "year": 1920,
     "year_note": "vollendet",
-    "query": "Ralph Vaughan Williams The Lark Ascending",
+    "query": "Vaughan Williams The Lark Ascending",
     "spotify": "",
-    "start_ms": 0
+    "start_ms": 0,
+    "hint": "Orchesterfassung bevorzugen"
   },
   {
     "id": "tzytp",
@@ -4825,7 +4854,7 @@
     "title": "Kammermusik Nr. 1, Finale „1921“",
     "year": 1921,
     "year_note": "vollendet",
-    "query": "Paul Hindemith Kammermusik No. 1 1921",
+    "query": "Hindemith Kammermusik 1 Finale 1921",
     "spotify": "",
     "start_ms": 0
   },
@@ -4835,7 +4864,7 @@
     "title": "Die Liebe zu den drei Orangen: Marsch",
     "year": 1921,
     "year_note": "Uraufführung",
-    "query": "Prokofiev Die Liebe zu den drei Orangen Marsch",
+    "query": "Prokofiev Love for Three Oranges March",
     "spotify": "",
     "start_ms": 0
   },
@@ -4845,7 +4874,7 @@
     "title": "Klavierkonzert Nr. 3 C-Dur, 1. Satz",
     "year": 1921,
     "year_note": "vollendet",
-    "query": "Prokofiev Piano Concerto No. 3 C-Dur",
+    "query": "Prokofiev Piano Concerto 3 Andante Allegro",
     "spotify": "",
     "start_ms": 0
   },
@@ -4855,7 +4884,7 @@
     "title": "Façade: Popular Song",
     "year": 1922,
     "year_note": "Uraufführung",
-    "query": "William Walton Façade Popular Song",
+    "query": "Walton Façade Popular Song",
     "spotify": "",
     "start_ms": 0
   },
@@ -4865,7 +4894,7 @@
     "title": "Lyrische Sinfonie: Ich bin friedlos",
     "year": 1923,
     "year_note": "vollendet",
-    "query": "Alexander Zemlinsky Lyrische Symphony Ich bin friedlos",
+    "query": "Zemlinsky Lyric Symphony Ich bin friedlos | Zemlinsky Lyrische Symphonie",
     "spotify": "",
     "start_ms": 0
   },
@@ -4875,7 +4904,7 @@
     "title": "Suite für Klavier op. 25",
     "year": 1923,
     "year_note": "vollendet",
-    "query": "Schoenberg Suite für Klavier op. 25",
+    "query": "Schoenberg Suite for Piano Op. 25 Präludium",
     "spotify": "",
     "start_ms": 0
   },
@@ -4885,7 +4914,7 @@
     "title": "Pacific 231",
     "year": 1923,
     "year_note": "vollendet",
-    "query": "Arthur Honegger Pacific 231",
+    "query": "Honegger Pacific 231",
     "spotify": "",
     "start_ms": 0
   },
@@ -4895,7 +4924,7 @@
     "title": "Streichquartett Nr. 1 „Kreutzersonate“",
     "year": 1923,
     "year_note": "vollendet",
-    "query": "Leoš Janáček String Quartet No. 1 Kreutzersonate",
+    "query": "Janáček String Quartet 1 Kreutzer Sonata | Janacek String Quartet 1 Kreutzer",
     "spotify": "",
     "start_ms": 0
   },
@@ -4905,7 +4934,7 @@
     "title": "Les Biches: Rondeau",
     "year": 1924,
     "year_note": "Uraufführung",
-    "query": "Francis Poulenc Les Biches Rondeau",
+    "query": "Poulenc Les Biches Rondeau",
     "spotify": "",
     "start_ms": 0
   },
@@ -4915,7 +4944,7 @@
     "title": "Rhapsody in Blue",
     "year": 1924,
     "year_note": "vollendet",
-    "query": "George Gershwin Rhapsody in Blue",
+    "query": "Gershwin Rhapsody in Blue",
     "spotify": "",
     "start_ms": 0
   },
@@ -4925,7 +4954,7 @@
     "title": "Tzigane",
     "year": 1924,
     "year_note": "vollendet",
-    "query": "Maurice Ravel Tzigane",
+    "query": "Ravel Tzigane",
     "spotify": "",
     "start_ms": 0
   },
@@ -4935,7 +4964,7 @@
     "title": "Pini di Roma: I pini della Via Appia",
     "year": 1924,
     "year_note": "vollendet",
-    "query": "Ottorino Respighi Pini di Roma I pini della Via Appia",
+    "query": "Respighi Pines of Rome Pines of the Appian Way | Respighi Pini della Via Appia",
     "spotify": "",
     "start_ms": 0
   },
@@ -4945,7 +4974,7 @@
     "title": "Wozzeck: Invention über einen Ton",
     "year": 1925,
     "year_note": "Uraufführung",
-    "query": "Alban Berg Wozzeck Invention über einen Ton",
+    "query": "Berg Wozzeck Invention über einen Ton | Berg Wozzeck Act 3",
     "spotify": "",
     "start_ms": 0
   },
@@ -4955,7 +4984,7 @@
     "title": "Klavierkonzert F-Dur, 3. Satz",
     "year": 1925,
     "year_note": "vollendet",
-    "query": "George Gershwin Piano Concerto F-Dur",
+    "query": "Gershwin Concerto in F Allegro agitato",
     "spotify": "",
     "start_ms": 0
   },
@@ -4965,7 +4994,7 @@
     "title": "Lyrische Suite, 1. Satz",
     "year": 1926,
     "year_note": "vollendet",
-    "query": "Alban Berg Lyrische Suite",
+    "query": "Berg Lyric Suite Allegretto gioviale",
     "spotify": "",
     "start_ms": 0
   },
@@ -4975,7 +5004,7 @@
     "title": "Der wunderbare Mandarin",
     "year": 1926,
     "year_note": "Uraufführung",
-    "query": "Béla Bartók Der wunderbare Mandarin",
+    "query": "Bartók Miraculous Mandarin | Bartok Miraculous Mandarin",
     "spotify": "",
     "start_ms": 0
   },
@@ -4985,7 +5014,7 @@
     "title": "Turandot: Nessun dorma",
     "year": 1926,
     "year_note": "Uraufführung",
-    "query": "Giacomo Puccini Turandot Nessun dorma",
+    "query": "Puccini Turandot Nessun dorma",
     "spotify": "",
     "start_ms": 0
   },
@@ -4995,7 +5024,7 @@
     "title": "Sinfonietta: Fanfare",
     "year": 1926,
     "year_note": "vollendet",
-    "query": "Leoš Janáček Sinfonietta Fanfare",
+    "query": "Janáček Sinfonietta Allegretto Fanfare | Janacek Sinfonietta Fanfare",
     "spotify": "",
     "start_ms": 0
   },
@@ -5005,7 +5034,7 @@
     "title": "Háry János: Die Wiener Spieluhr",
     "year": 1926,
     "year_note": "Uraufführung",
-    "query": "Zoltán Kodály Háry János Die Wiener Spieluhr",
+    "query": "Kodály Háry János Viennese Musical Clock | Kodaly Hary Janos Viennese Musical Clock",
     "spotify": "",
     "start_ms": 0
   },
@@ -5015,7 +5044,7 @@
     "title": "Carillon de Westminster",
     "year": 1927,
     "year_note": "vollendet",
-    "query": "Louis Vierne Carillon de Westminster",
+    "query": "Vierne Carillon de Westminster",
     "spotify": "",
     "start_ms": 0
   },
@@ -5025,7 +5054,7 @@
     "title": "Sinfonie op. 21",
     "year": 1928,
     "year_note": "vollendet",
-    "query": "Anton Webern Symphony op. 21",
+    "query": "Webern Symphony Op. 21",
     "spotify": "",
     "start_ms": 0
   },
@@ -5035,7 +5064,7 @@
     "title": "Ein Amerikaner in Paris",
     "year": 1928,
     "year_note": "vollendet",
-    "query": "George Gershwin Ein Amerikaner in Paris",
+    "query": "Gershwin An American in Paris",
     "spotify": "",
     "start_ms": 0
   },
@@ -5045,9 +5074,10 @@
     "title": "Die Dreigroschenoper: Die Moritat von Mackie Messer",
     "year": 1928,
     "year_note": "Uraufführung",
-    "query": "Kurt Weill Die Dreigroschenoper Die Moritat von Mackie Messer",
+    "query": "Weill Dreigroschenoper Moritat von Mackie Messer | Weill Threepenny Opera Mack the Knife",
     "spotify": "",
-    "start_ms": 0
+    "start_ms": 0,
+    "hint": "Deutsche Originalfassung oder Instrumental; der gesungene Text verrät nur den Namen Mackie Messer"
   },
   {
     "id": "r2h7c",
@@ -5065,7 +5095,7 @@
     "title": "Psalmensinfonie, 3. Satz",
     "year": 1930,
     "year_note": "vollendet",
-    "query": "Stravinsky Psalmensinfonie",
+    "query": "Stravinsky Symphony of Psalms Laudate Dominum",
     "spotify": "",
     "start_ms": 0
   },
@@ -5075,7 +5105,7 @@
     "title": "Aufstieg und Fall der Stadt Mahagonny: Alabama-Song",
     "year": 1930,
     "year_note": "Uraufführung",
-    "query": "Kurt Weill Aufstieg und Fall der Stadt Mahagonny Alabama-Song",
+    "query": "Weill Alabama Song Mahagonny",
     "spotify": "",
     "start_ms": 0
   },
@@ -5085,7 +5115,7 @@
     "title": "Klavierkonzert für die linke Hand",
     "year": 1930,
     "year_note": "vollendet",
-    "query": "Maurice Ravel Piano Concerto für die linke Hand",
+    "query": "Ravel Piano Concerto for the Left Hand",
     "spotify": "",
     "start_ms": 0
   },
@@ -5095,7 +5125,7 @@
     "title": "Afro-American Symphony, 3. Satz",
     "year": 1930,
     "year_note": "vollendet",
-    "query": "William Grant Still Afro-American Symphony",
+    "query": "William Grant Still Afro-American Symphony Animato",
     "spotify": "",
     "start_ms": 0
   },
@@ -5105,7 +5135,7 @@
     "title": "Klavierkonzert G-Dur, 2. Satz (Adagio assai)",
     "year": 1931,
     "year_note": "vollendet",
-    "query": "Maurice Ravel Piano Concerto G-Dur Adagio assai",
+    "query": "Ravel Piano Concerto G major Adagio assai",
     "spotify": "",
     "start_ms": 0
   },
@@ -5115,7 +5145,7 @@
     "title": "Sinfonie Nr. 1 e-Moll, 3. Satz (Juba Dance)",
     "year": 1932,
     "year_note": "vollendet",
-    "query": "Florence Price Symphony No. 1 e-Moll Juba Dance",
+    "query": "Florence Price Symphony 1 Juba Dance",
     "spotify": "",
     "start_ms": 0
   },
@@ -5125,7 +5155,7 @@
     "title": "Konzert für zwei Klaviere d-Moll, 1. Satz",
     "year": 1932,
     "year_note": "vollendet",
-    "query": "Francis Poulenc Konzert für zwei Klaviere d-Moll",
+    "query": "Poulenc Concerto for Two Pianos Allegro ma non troppo",
     "spotify": "",
     "start_ms": 0
   },
@@ -5135,7 +5165,7 @@
     "title": "Cuban Overture",
     "year": 1932,
     "year_note": "vollendet",
-    "query": "George Gershwin Cuban Overture",
+    "query": "Gershwin Cuban Overture",
     "spotify": "",
     "start_ms": 0
   },
@@ -5145,7 +5175,7 @@
     "title": "Tänze aus Galánta",
     "year": 1933,
     "year_note": "vollendet",
-    "query": "Zoltán Kodály Tänze aus Galánta",
+    "query": "Kodály Dances of Galánta | Kodaly Dances of Galanta",
     "spotify": "",
     "start_ms": 0
   },
@@ -5155,7 +5185,7 @@
     "title": "Simple Symphony: Playful Pizzicato",
     "year": 1934,
     "year_note": "vollendet",
-    "query": "Benjamin Britten Simple Symphony Playful Pizzicato",
+    "query": "Britten Simple Symphony Playful Pizzicato",
     "spotify": "",
     "start_ms": 0
   },
@@ -5165,9 +5195,10 @@
     "title": "Jazz-Suite Nr. 1: Walzer",
     "year": 1934,
     "year_note": "vollendet",
-    "query": "Shostakovich Jazz-Suite No. 1 Walzer",
+    "query": "Shostakovich Jazz Suite 1 Waltz",
     "spotify": "",
-    "start_ms": 0
+    "start_ms": 0,
+    "hint": "Nicht verwechseln mit dem bekannteren „Walzer Nr. 2“ (Suite für Varieté-Orchester)"
   },
   {
     "id": "b3yn3",
@@ -5175,7 +5206,7 @@
     "title": "Sinfonie „Mathis der Maler“: Engelkonzert",
     "year": 1934,
     "year_note": "vollendet",
-    "query": "Paul Hindemith Symphony Mathis der Maler Engelkonzert",
+    "query": "Hindemith Mathis der Maler Engelkonzert",
     "spotify": "",
     "start_ms": 0
   },
@@ -5185,7 +5216,7 @@
     "title": "Fantasia on Greensleeves",
     "year": 1934,
     "year_note": "vollendet",
-    "query": "Ralph Vaughan Williams Fantasia on Greensleeves",
+    "query": "Vaughan Williams Fantasia on Greensleeves",
     "spotify": "",
     "start_ms": 0
   },
@@ -5195,9 +5226,10 @@
     "title": "Leutnant Kishe: Troika",
     "year": 1934,
     "year_note": "vollendet",
-    "query": "Prokofiev Leutnant Kishe Troika",
+    "query": "Prokofiev Lieutenant Kijé Troika | Prokofiev Lieutenant Kije Troika",
     "spotify": "",
-    "start_ms": 0
+    "start_ms": 0,
+    "hint": "Gesungene oder instrumentale Fassung; instrumental ist bekannter"
   },
   {
     "id": "d22r8",
@@ -5205,7 +5237,7 @@
     "title": "Rhapsodie über ein Thema von Paganini: 18. Variation",
     "year": 1934,
     "year_note": "vollendet",
-    "query": "Rachmaninoff Rhapsodie über ein Thema von Paganini 18. Variation",
+    "query": "Rachmaninoff Rhapsody on a Theme of Paganini Variation 18",
     "spotify": "",
     "start_ms": 0
   },
@@ -5215,7 +5247,7 @@
     "title": "Violinkonzert „Dem Andenken eines Engels“",
     "year": 1935,
     "year_note": "vollendet",
-    "query": "Alban Berg Violin Concerto Dem Andenken eines Engels",
+    "query": "Berg Violin Concerto Andante Allegretto",
     "spotify": "",
     "start_ms": 0
   },
@@ -5225,7 +5257,7 @@
     "title": "Porgy and Bess: Summertime",
     "year": 1935,
     "year_note": "Uraufführung",
-    "query": "George Gershwin Porgy and Bess Summertime",
+    "query": "Gershwin Summertime Porgy and Bess",
     "spotify": "",
     "start_ms": 0
   },
@@ -5235,7 +5267,7 @@
     "title": "Der Schwanendreher, 1. Satz",
     "year": 1935,
     "year_note": "vollendet",
-    "query": "Paul Hindemith Der Schwanendreher",
+    "query": "Hindemith Der Schwanendreher Langsam Mässig bewegt",
     "spotify": "",
     "start_ms": 0
   },
@@ -5245,7 +5277,7 @@
     "title": "El Salón México",
     "year": 1936,
     "year_note": "vollendet",
-    "query": "Aaron Copland El Salón México",
+    "query": "Copland El Salón México",
     "spotify": "",
     "start_ms": 0
   },
@@ -5255,7 +5287,7 @@
     "title": "Musik für Saiteninstrumente, Schlagzeug und Celesta, 2. Satz",
     "year": 1936,
     "year_note": "vollendet",
-    "query": "Béla Bartók Musik für Saiteninstrumente Schlagzeug und Celesta",
+    "query": "Bartók Music for Strings Percussion and Celesta Allegro | Bartok Music for Strings Percussion Celesta Allegro",
     "spotify": "",
     "start_ms": 0
   },
@@ -5265,7 +5297,7 @@
     "title": "Trauermusik für Bratsche und Streicher",
     "year": 1936,
     "year_note": "vollendet",
-    "query": "Paul Hindemith Trauermusik für Bratsche und Streicher",
+    "query": "Hindemith Trauermusik",
     "spotify": "",
     "start_ms": 0
   },
@@ -5275,7 +5307,7 @@
     "title": "Adagio for Strings",
     "year": 1936,
     "year_note": "vollendet",
-    "query": "Samuel Barber Adagio for Strings",
+    "query": "Barber Adagio for Strings",
     "spotify": "",
     "start_ms": 0
   },
@@ -5285,9 +5317,10 @@
     "title": "Peter und der Wolf",
     "year": 1936,
     "year_note": "vollendet",
-    "query": "Prokofiev Peter und der Wolf",
+    "query": "Prokofiev Peter and the Wolf",
     "spotify": "",
-    "start_ms": 0
+    "start_ms": 0,
+    "hint": "Sprecher nennen meist gleich den Titel: Aufnahme ohne Sprecher wählen oder Start nach der Einleitung setzen"
   },
   {
     "id": "ude4s",
@@ -5295,7 +5328,7 @@
     "title": "Carmina Burana: O Fortuna",
     "year": 1937,
     "year_note": "Uraufführung",
-    "query": "Carl Orff Carmina Burana O Fortuna",
+    "query": "Orff Carmina Burana O Fortuna",
     "spotify": "",
     "start_ms": 0
   },
@@ -5305,7 +5338,7 @@
     "title": "Scaramouche: Brazileira",
     "year": 1937,
     "year_note": "vollendet",
-    "query": "Darius Milhaud Scaramouche Brazileira",
+    "query": "Milhaud Scaramouche Brazileira",
     "spotify": "",
     "start_ms": 0
   },
@@ -5315,7 +5348,7 @@
     "title": "Sinfonie Nr. 5 d-Moll, Finale",
     "year": 1937,
     "year_note": "vollendet",
-    "query": "Shostakovich Symphony No. 5 d-Moll",
+    "query": "Shostakovich Symphony 5 Allegro non troppo Finale",
     "spotify": "",
     "start_ms": 0
   },
@@ -5325,7 +5358,7 @@
     "title": "Crown Imperial",
     "year": 1937,
     "year_note": "vollendet",
-    "query": "William Walton Crown Imperial",
+    "query": "Walton Crown Imperial",
     "spotify": "",
     "start_ms": 0
   },
@@ -5335,7 +5368,7 @@
     "title": "Doppelkonzert H. 271, 1. Satz",
     "year": 1938,
     "year_note": "vollendet",
-    "query": "Bohuslav Martinů Doppelkonzert H. 271",
+    "query": "Martinů Double Concerto H 271 | Martinu Double Concerto",
     "spotify": "",
     "start_ms": 0
   },
@@ -5345,7 +5378,7 @@
     "title": "Bachianas Brasileiras Nr. 5: Aria (Cantilena)",
     "year": 1938,
     "year_note": "vollendet",
-    "query": "Heitor Villa-Lobos Bachianas Brasileiras No. 5 Aria Cantilena",
+    "query": "Villa-Lobos Bachianas Brasileiras 5 Aria Cantilena",
     "spotify": "",
     "start_ms": 0
   },
@@ -5355,9 +5388,10 @@
     "title": "Romeo und Julia: Tanz der Ritter",
     "year": 1938,
     "year_note": "Uraufführung",
-    "query": "Prokofiev Romeo und Julia Tanz der Ritter",
+    "query": "Prokofiev Romeo and Juliet Dance of the Knights | Prokofiev Montagues and Capulets",
     "spotify": "",
-    "start_ms": 0
+    "start_ms": 0,
+    "hint": "Bei „Montagues and Capulets“ zuerst dissonante Einleitung; das Ritter-Thema folgt nach ca. 1:30"
   },
   {
     "id": "fwyqg",
@@ -5365,7 +5399,7 @@
     "title": "Concierto de Aranjuez, 2. Satz (Adagio)",
     "year": 1939,
     "year_note": "vollendet",
-    "query": "Joaquín Rodrigo Concierto de Aranjuez Adagio",
+    "query": "Rodrigo Concierto de Aranjuez Adagio",
     "spotify": "",
     "start_ms": 0
   },
@@ -5375,7 +5409,7 @@
     "title": "Vom Winde verweht: Taras Thema",
     "year": 1939,
     "year_note": "vollendet",
-    "query": "Max Steiner Vom Winde verweht Taras Thema",
+    "query": "Max Steiner Tara's Theme Gone with the Wind",
     "spotify": "",
     "start_ms": 0
   },
@@ -5385,7 +5419,7 @@
     "title": "Alexander Newski: Die Schlacht auf dem Eise",
     "year": 1939,
     "year_note": "vollendet",
-    "query": "Prokofiev Alexander Newski Die Schlacht auf dem Eise",
+    "query": "Prokofiev Alexander Nevsky Battle on the Ice",
     "spotify": "",
     "start_ms": 0
   },
@@ -5395,7 +5429,7 @@
     "title": "Die Komödianten: Galopp",
     "year": 1940,
     "year_note": "vollendet",
-    "query": "Kabalevsky Die Komödianten Galopp",
+    "query": "Kabalevsky Comedians Galop",
     "spotify": "",
     "start_ms": 0
   },
@@ -5405,7 +5439,7 @@
     "title": "Maskerade: Walzer",
     "year": 1941,
     "year_note": "vollendet",
-    "query": "Khachaturian Maskerade Walzer",
+    "query": "Khachaturian Masquerade Waltz",
     "spotify": "",
     "start_ms": 0
   },
@@ -5415,9 +5449,10 @@
     "title": "Sinfonie Nr. 7 „Leningrader“, 1. Satz",
     "year": 1941,
     "year_note": "vollendet",
-    "query": "Shostakovich Symphony No. 7 Leningrader",
+    "query": "Shostakovich Symphony 7 Leningrad Allegretto",
     "spotify": "",
-    "start_ms": 0
+    "start_ms": 0,
+    "hint": "Sehr lang; das bekannte „Invasionsthema“ beginnt nach ca. 6–7 Minuten"
   },
   {
     "id": "qswxf",
@@ -5425,7 +5460,7 @@
     "title": "A Child of Our Time: Steal Away",
     "year": 1941,
     "year_note": "vollendet",
-    "query": "Michael Tippett A Child of Our Time Steal Away",
+    "query": "Tippett A Child of Our Time Steal Away",
     "spotify": "",
     "start_ms": 0
   },
@@ -5435,7 +5470,7 @@
     "title": "Quatuor pour la fin du temps: Louange à l'éternité de Jésus",
     "year": 1941,
     "year_note": "vollendet",
-    "query": "Olivier Messiaen Quatuor pour la fin du temps Louange à l'éternité de Jésus",
+    "query": "Messiaen Quartet for the End of Time Louange à l'éternité de Jésus",
     "spotify": "",
     "start_ms": 0
   },
@@ -5445,7 +5480,7 @@
     "title": "Fanfare for the Common Man",
     "year": 1942,
     "year_note": "vollendet",
-    "query": "Aaron Copland Fanfare for the Common Man",
+    "query": "Copland Fanfare for the Common Man",
     "spotify": "",
     "start_ms": 0
   },
@@ -5455,7 +5490,7 @@
     "title": "Rodeo: Hoe-Down",
     "year": 1942,
     "year_note": "Uraufführung",
-    "query": "Aaron Copland Rodeo Hoe-Down",
+    "query": "Copland Rodeo Hoe-Down",
     "spotify": "",
     "start_ms": 0
   },
@@ -5465,7 +5500,7 @@
     "title": "Gajaneh: Säbeltanz",
     "year": 1942,
     "year_note": "Uraufführung",
-    "query": "Khachaturian Gajaneh Säbeltanz",
+    "query": "Khachaturian Sabre Dance",
     "spotify": "",
     "start_ms": 0
   },
@@ -5475,7 +5510,7 @@
     "title": "A Ceremony of Carols: This Little Babe",
     "year": 1942,
     "year_note": "vollendet",
-    "query": "Benjamin Britten A Ceremony of Carols This Little Babe",
+    "query": "Britten Ceremony of Carols This Little Babe",
     "spotify": "",
     "start_ms": 0
   },
@@ -5485,7 +5520,7 @@
     "title": "Ludus tonalis: Praeludium",
     "year": 1942,
     "year_note": "vollendet",
-    "query": "Paul Hindemith Ludus tonalis Praeludium",
+    "query": "Hindemith Ludus tonalis Praeludium",
     "spotify": "",
     "start_ms": 0
   },
@@ -5495,7 +5530,7 @@
     "title": "Klaviersonate Nr. 7, 3. Satz (Precipitato)",
     "year": 1942,
     "year_note": "vollendet",
-    "query": "Prokofiev Piano Sonata No. 7 Precipitato",
+    "query": "Prokofiev Piano Sonata 7 Precipitato",
     "spotify": "",
     "start_ms": 0
   },
@@ -5505,7 +5540,7 @@
     "title": "Konzert für Orchester, 4. Satz",
     "year": 1943,
     "year_note": "vollendet",
-    "query": "Béla Bartók Konzert für Orchester",
+    "query": "Bartók Concerto for Orchestra Intermezzo interrotto | Bartok Concerto for Orchestra Intermezzo interrotto",
     "spotify": "",
     "start_ms": 0
   },
@@ -5515,7 +5550,7 @@
     "title": "One Touch of Venus: Speak Low",
     "year": 1943,
     "year_note": "Uraufführung",
-    "query": "Kurt Weill One Touch of Venus Speak Low",
+    "query": "Weill Speak Low",
     "spotify": "",
     "start_ms": 0
   },
@@ -5525,7 +5560,7 @@
     "title": "Sinfonische Metamorphosen über Themen von Weber: Marsch",
     "year": 1943,
     "year_note": "vollendet",
-    "query": "Paul Hindemith Sinfonische Metamorphosen über Themen von Weber Marsch",
+    "query": "Hindemith Symphonic Metamorphosis March",
     "spotify": "",
     "start_ms": 0
   },
@@ -5535,7 +5570,7 @@
     "title": "Konzert für Koloratursopran, 1. Satz",
     "year": 1943,
     "year_note": "vollendet",
-    "query": "Reinhold Glière Konzert für Koloratursopran",
+    "query": "Glière Concerto for Coloratura Soprano Andante | Gliere Coloratura Concerto",
     "spotify": "",
     "start_ms": 0
   },
@@ -5545,9 +5580,10 @@
     "title": "Appalachian Spring: Simple Gifts",
     "year": 1944,
     "year_note": "Uraufführung",
-    "query": "Aaron Copland Appalachian Spring Simple Gifts",
+    "query": "Copland Appalachian Spring Simple Gifts | Copland Appalachian Spring Variations on a Shaker Melody",
     "spotify": "",
-    "start_ms": 0
+    "start_ms": 0,
+    "hint": "Bei der ganzen Suite kommen die „Simple Gifts“-Variationen erst gegen Ende"
   },
   {
     "id": "nu53b",
@@ -5555,7 +5591,7 @@
     "title": "Sinfonie Nr. 5, 2. Satz",
     "year": 1944,
     "year_note": "vollendet",
-    "query": "Prokofiev Symphony No. 5",
+    "query": "Prokofiev Symphony 5 Allegro marcato",
     "spotify": "",
     "start_ms": 0
   },
@@ -5565,7 +5601,7 @@
     "title": "Peter Grimes: Four Sea Interludes, Dawn",
     "year": 1945,
     "year_note": "Uraufführung",
-    "query": "Benjamin Britten Peter Grimes Four Sea Interludes Dawn",
+    "query": "Britten Four Sea Interludes Dawn",
     "spotify": "",
     "start_ms": 0
   },
@@ -5575,7 +5611,7 @@
     "title": "Klavierkonzert Nr. 3, 2. Satz",
     "year": 1945,
     "year_note": "vollendet",
-    "query": "Béla Bartók Piano Concerto No. 3",
+    "query": "Bartók Piano Concerto 3 Adagio religioso | Bartok Piano Concerto 3 Adagio religioso",
     "spotify": "",
     "start_ms": 0
   },
@@ -5585,7 +5621,7 @@
     "title": "Violinkonzert D-Dur, 1. Satz",
     "year": 1945,
     "year_note": "vollendet",
-    "query": "Erich Wolfgang Korngold Violin Concerto D-Dur",
+    "query": "Korngold Violin Concerto Moderato nobile",
     "spotify": "",
     "start_ms": 0
   },
@@ -5615,7 +5651,7 @@
     "title": "Aschenbrödel: Walzer",
     "year": 1945,
     "year_note": "Uraufführung",
-    "query": "Prokofiev Aschenbrödel Walzer",
+    "query": "Prokofiev Cinderella Waltz",
     "spotify": "",
     "start_ms": 0
   },
@@ -5625,9 +5661,10 @@
     "title": "The Young Person's Guide to the Orchestra",
     "year": 1946,
     "year_note": "vollendet",
-    "query": "Benjamin Britten The Young Person's Guide to the Orchestra",
+    "query": "Britten Young Person's Guide to the Orchestra",
     "spotify": "",
-    "start_ms": 0
+    "start_ms": 0,
+    "hint": "Fassung ohne Sprecher wählen (der Sprecher nennt sonst den Titel)"
   },
   {
     "id": "n326m",
@@ -5635,7 +5672,7 @@
     "title": "Ein Überlebender aus Warschau",
     "year": 1947,
     "year_note": "vollendet",
-    "query": "Schoenberg Ein Überlebender aus Warschau",
+    "query": "Schoenberg A Survivor from Warsaw",
     "spotify": "",
     "start_ms": 0
   },
@@ -5645,7 +5682,7 @@
     "title": "Knoxville: Summer of 1915",
     "year": 1947,
     "year_note": "vollendet",
-    "query": "Samuel Barber Knoxville Summer of 1915",
+    "query": "Barber Knoxville Summer of 1915",
     "spotify": "",
     "start_ms": 0
   },
@@ -5655,7 +5692,7 @@
     "title": "In a Landscape",
     "year": 1948,
     "year_note": "vollendet",
-    "query": "John Cage In a Landscape",
+    "query": "Cage In a Landscape",
     "spotify": "",
     "start_ms": 0
   },
@@ -5665,7 +5702,7 @@
     "title": "Turangalîla-Sinfonie: Joie du sang des étoiles",
     "year": 1948,
     "year_note": "vollendet",
-    "query": "Olivier Messiaen Turangalîla-Symphony Joie du sang des étoiles",
+    "query": "Messiaen Turangalîla Joie du sang des étoiles | Messiaen Turangalila Joie du sang des etoiles",
     "spotify": "",
     "start_ms": 0
   },
@@ -5675,7 +5712,7 @@
     "title": "Vier letzte Lieder: Im Abendrot",
     "year": 1948,
     "year_note": "vollendet",
-    "query": "Richard Strauss Vier letzte Lieder Im Abendrot",
+    "query": "Richard Strauss Vier letzte Lieder Im Abendrot | Strauss Four Last Songs Im Abendrot",
     "spotify": "",
     "start_ms": 0
   },
@@ -5685,7 +5722,7 @@
     "title": "The Rake's Progress: Vorspiel",
     "year": 1951,
     "year_note": "Uraufführung",
-    "query": "Stravinsky The Rake's Progress Vorspiel",
+    "query": "Stravinsky Rake's Progress Prelude",
     "spotify": "",
     "start_ms": 0
   },
@@ -5695,9 +5732,10 @@
     "title": "4′33″",
     "year": 1952,
     "year_note": "vollendet",
-    "query": "John Cage 4′33″",
+    "query": "Cage 4'33",
     "spotify": "",
-    "start_ms": 0
+    "start_ms": 0,
+    "hint": "Stille: Spaßkarte. Jede Aufnahme passt; „Von vorne“ ist hier sinnlos"
   },
   {
     "id": "b798z",
@@ -5705,7 +5743,7 @@
     "title": "Sinfonie Nr. 10, 2. Satz",
     "year": 1953,
     "year_note": "vollendet",
-    "query": "Shostakovich Symphony No. 10",
+    "query": "Shostakovich Symphony 10 Allegro",
     "spotify": "",
     "start_ms": 0
   },
@@ -5715,7 +5753,7 @@
     "title": "Musica ricercata Nr. 2",
     "year": 1953,
     "year_note": "vollendet",
-    "query": "György Ligeti Musica ricercata No. 2",
+    "query": "Ligeti Musica ricercata 2",
     "spotify": "",
     "start_ms": 0
   },
@@ -5725,7 +5763,7 @@
     "title": "Festliche Ouvertüre",
     "year": 1954,
     "year_note": "vollendet",
-    "query": "Shostakovich Festliche Overture",
+    "query": "Shostakovich Festive Overture",
     "spotify": "",
     "start_ms": 0
   },
@@ -5735,7 +5773,7 @@
     "title": "Konzert für Orchester, 3. Satz",
     "year": 1954,
     "year_note": "vollendet",
-    "query": "Witold Lutosławski Konzert für Orchester",
+    "query": "Lutosławski Concerto for Orchestra Passacaglia Toccata e Corale | Lutoslawski Concerto for Orchestra",
     "spotify": "",
     "start_ms": 0
   },
@@ -5745,7 +5783,7 @@
     "title": "Die Hornisse: Romanze",
     "year": 1955,
     "year_note": "vollendet",
-    "query": "Shostakovich Die Hornisse Romanze",
+    "query": "Shostakovich The Gadfly Romance",
     "spotify": "",
     "start_ms": 0
   },
@@ -5755,7 +5793,7 @@
     "title": "Le marteau sans maître",
     "year": 1955,
     "year_note": "vollendet",
-    "query": "Pierre Boulez Le marteau sans maître",
+    "query": "Boulez Le marteau sans maître",
     "spotify": "",
     "start_ms": 0
   },
@@ -5765,7 +5803,7 @@
     "title": "Spartacus: Adagio",
     "year": 1956,
     "year_note": "Uraufführung",
-    "query": "Khachaturian Spartacus Adagio",
+    "query": "Khachaturian Spartacus Adagio Spartacus and Phrygia",
     "spotify": "",
     "start_ms": 0
   },
@@ -5775,7 +5813,7 @@
     "title": "Gesang der Jünglinge",
     "year": 1956,
     "year_note": "vollendet",
-    "query": "Karlheinz Stockhausen Gesang der Jünglinge",
+    "query": "Stockhausen Gesang der Jünglinge",
     "spotify": "",
     "start_ms": 0
   },
@@ -5785,7 +5823,7 @@
     "title": "Candide: Ouvertüre",
     "year": 1956,
     "year_note": "Uraufführung",
-    "query": "Leonard Bernstein Candide Overture",
+    "query": "Bernstein Candide Overture",
     "spotify": "",
     "start_ms": 0
   },
@@ -5795,7 +5833,7 @@
     "title": "Klavierkonzert Nr. 2, 2. Satz (Andante)",
     "year": 1957,
     "year_note": "vollendet",
-    "query": "Shostakovich Piano Concerto No. 2 Andante",
+    "query": "Shostakovich Piano Concerto 2 Andante",
     "spotify": "",
     "start_ms": 0
   },
@@ -5815,7 +5853,7 @@
     "title": "West Side Story: Mambo",
     "year": 1957,
     "year_note": "Uraufführung",
-    "query": "Leonard Bernstein West Side Story Mambo",
+    "query": "Bernstein West Side Story Mambo",
     "spotify": "",
     "start_ms": 0
   },
@@ -5825,7 +5863,7 @@
     "title": "Adagio g-Moll („Albinoni-Adagio“)",
     "year": 1958,
     "year_note": "vollendet",
-    "query": "Remo Giazotto Adagio g-Moll Albinoni-Adagio",
+    "query": "Albinoni Adagio G minor Giazotto | Albinoni Adagio in G minor",
     "spotify": "",
     "start_ms": 0
   },
@@ -5835,7 +5873,7 @@
     "title": "Adiós Nonino",
     "year": 1959,
     "year_note": "vollendet",
-    "query": "Astor Piazzolla Adiós Nonino",
+    "query": "Piazzolla Adiós Nonino | Piazzolla Adios Nonino",
     "spotify": "",
     "start_ms": 0
   },
@@ -5845,7 +5883,7 @@
     "title": "Cellokonzert Nr. 1, 1. Satz",
     "year": 1959,
     "year_note": "vollendet",
-    "query": "Shostakovich Cello Concerto No. 1",
+    "query": "Shostakovich Cello Concerto 1 Allegretto",
     "spotify": "",
     "start_ms": 0
   },
@@ -5855,7 +5893,7 @@
     "title": "Psycho: Prelude",
     "year": 1960,
     "year_note": "vollendet",
-    "query": "Bernard Herrmann Psycho Prelude",
+    "query": "Herrmann Psycho Prelude",
     "spotify": "",
     "start_ms": 0
   },
@@ -5865,7 +5903,7 @@
     "title": "Streichquartett Nr. 8, 2. Satz",
     "year": 1960,
     "year_note": "vollendet",
-    "query": "Shostakovich String Quartet No. 8",
+    "query": "Shostakovich String Quartet 8 Allegro molto",
     "spotify": "",
     "start_ms": 0
   },
@@ -5875,7 +5913,7 @@
     "title": "Gloria: Laudamus te",
     "year": 1960,
     "year_note": "vollendet",
-    "query": "Francis Poulenc Gloria Laudamus te",
+    "query": "Poulenc Gloria Laudamus te",
     "spotify": "",
     "start_ms": 0
   },
@@ -5885,7 +5923,7 @@
     "title": "Threnos – Den Opfern von Hiroshima",
     "year": 1960,
     "year_note": "vollendet",
-    "query": "Krzysztof Penderecki Threnos Den Opfern von Hiroshima",
+    "query": "Penderecki Threnody for the Victims of Hiroshima",
     "spotify": "",
     "start_ms": 0
   },
@@ -5895,7 +5933,7 @@
     "title": "Atmosphères",
     "year": 1961,
     "year_note": "vollendet",
-    "query": "György Ligeti Atmosphères",
+    "query": "Ligeti Atmosphères | Ligeti Atmospheres",
     "spotify": "",
     "start_ms": 0
   },
@@ -5905,7 +5943,7 @@
     "title": "War Requiem: Dies irae",
     "year": 1962,
     "year_note": "vollendet",
-    "query": "Benjamin Britten War Requiem Dies irae",
+    "query": "Britten War Requiem Dies irae",
     "spotify": "",
     "start_ms": 0
   },
@@ -5915,7 +5953,7 @@
     "title": "Lawrence von Arabien: Overture",
     "year": 1962,
     "year_note": "vollendet",
-    "query": "Maurice Jarre Lawrence von Arabien Overture",
+    "query": "Jarre Lawrence of Arabia Overture | Maurice Jarre Lawrence of Arabia Main Title",
     "spotify": "",
     "start_ms": 0
   },
@@ -5935,7 +5973,7 @@
     "title": "Chichester Psalms, 1. Satz",
     "year": 1965,
     "year_note": "vollendet",
-    "query": "Leonard Bernstein Chichester Psalms",
+    "query": "Bernstein Chichester Psalms Psalm 108",
     "spotify": "",
     "start_ms": 0
   },
@@ -5945,7 +5983,7 @@
     "title": "Zwei glorreiche Halunken: Main Title",
     "year": 1966,
     "year_note": "vollendet",
-    "query": "Ennio Morricone Zwei glorreiche Halunken Main Title",
+    "query": "Morricone The Good the Bad and the Ugly Main Title",
     "spotify": "",
     "start_ms": 0
   },
@@ -5955,7 +5993,7 @@
     "title": "Lux aeterna",
     "year": 1966,
     "year_note": "vollendet",
-    "query": "György Ligeti Lux aeterna",
+    "query": "Ligeti Lux aeterna",
     "spotify": "",
     "start_ms": 0
   },
@@ -5965,7 +6003,7 @@
     "title": "Spiel mir das Lied vom Tod: Main Title",
     "year": 1968,
     "year_note": "vollendet",
-    "query": "Ennio Morricone Spiel mir das Lied vom Tod Main Title",
+    "query": "Morricone Once Upon a Time in the West | Morricone C'era una volta il West",
     "spotify": "",
     "start_ms": 0
   },
@@ -5975,7 +6013,7 @@
     "title": "Tout un monde lointain …, 1. Satz",
     "year": 1970,
     "year_note": "vollendet",
-    "query": "Henri Dutilleux Tout un monde lointain",
+    "query": "Dutilleux Tout un monde lointain Énigme",
     "spotify": "",
     "start_ms": 0
   },
@@ -5985,7 +6023,7 @@
     "title": "Der Pate: Love Theme",
     "year": 1972,
     "year_note": "vollendet",
-    "query": "Nino Rota Der Pate Love Theme",
+    "query": "Nino Rota Godfather Love Theme",
     "spotify": "",
     "start_ms": 0
   },
@@ -6005,7 +6043,7 @@
     "title": "Libertango",
     "year": 1974,
     "year_note": "vollendet",
-    "query": "Astor Piazzolla Libertango",
+    "query": "Piazzolla Libertango",
     "spotify": "",
     "start_ms": 0
   },
@@ -6015,7 +6053,7 @@
     "title": "Für Alina",
     "year": 1976,
     "year_note": "vollendet",
-    "query": "Arvo Pärt Für Alina",
+    "query": "Pärt Für Alina | Part Fur Alina",
     "spotify": "",
     "start_ms": 0
   },
@@ -6025,7 +6063,7 @@
     "title": "Sinfonie Nr. 3, 2. Satz",
     "year": 1976,
     "year_note": "vollendet",
-    "query": "Henryk Mikołaj Górecki Symphony No. 3",
+    "query": "Górecki Symphony 3 Lento e largo tranquillissimo | Gorecki Symphony 3 Lento e largo",
     "spotify": "",
     "start_ms": 0
   },
@@ -6055,7 +6093,7 @@
     "title": "Concerto grosso Nr. 1: Tango",
     "year": 1977,
     "year_note": "vollendet",
-    "query": "Alfred Schnittke Concerto grosso No. 1 Tango",
+    "query": "Schnittke Concerto grosso 1 Tango",
     "spotify": "",
     "start_ms": 0
   },
@@ -6065,7 +6103,7 @@
     "title": "Fratres",
     "year": 1977,
     "year_note": "vollendet",
-    "query": "Arvo Pärt Fratres",
+    "query": "Pärt Fratres | Arvo Part Fratres",
     "spotify": "",
     "start_ms": 0
   },
@@ -6085,7 +6123,7 @@
     "title": "Spiegel im Spiegel",
     "year": 1978,
     "year_note": "vollendet",
-    "query": "Arvo Pärt Spiegel im Spiegel",
+    "query": "Pärt Spiegel im Spiegel | Arvo Part Spiegel im Spiegel",
     "spotify": "",
     "start_ms": 0
   },
@@ -6095,7 +6133,7 @@
     "title": "Indiana Jones: Raiders March",
     "year": 1981,
     "year_note": "vollendet",
-    "query": "John Williams Indiana Jones Raiders March",
+    "query": "John Williams Raiders March",
     "spotify": "",
     "start_ms": 0
   },
@@ -6115,7 +6153,7 @@
     "title": "The Lamb",
     "year": 1982,
     "year_note": "vollendet",
-    "query": "John Tavener The Lamb",
+    "query": "Tavener The Lamb",
     "spotify": "",
     "start_ms": 0
   },
@@ -6145,7 +6183,7 @@
     "title": "Requiem: Pie Jesu",
     "year": 1985,
     "year_note": "vollendet",
-    "query": "John Rutter Requiem Pie Jesu",
+    "query": "Rutter Requiem Pie Jesu",
     "spotify": "",
     "start_ms": 0
   },
@@ -6155,7 +6193,7 @@
     "title": "The Mission: Gabriel's Oboe",
     "year": 1986,
     "year_note": "vollendet",
-    "query": "Ennio Morricone The Mission Gabriel's Oboe",
+    "query": "Morricone Gabriel's Oboe",
     "spotify": "",
     "start_ms": 0
   },
@@ -6175,7 +6213,7 @@
     "title": "Batman: Main Title",
     "year": 1989,
     "year_note": "vollendet",
-    "query": "Danny Elfman Batman Main Title",
+    "query": "Danny Elfman Batman Theme",
     "spotify": "",
     "start_ms": 0
   },
@@ -6185,7 +6223,7 @@
     "title": "Song for Athene",
     "year": 1993,
     "year_note": "vollendet",
-    "query": "John Tavener Song for Athene",
+    "query": "Tavener Song for Athene",
     "spotify": "",
     "start_ms": 0
   },
@@ -6205,7 +6243,7 @@
     "title": "Schindlers Liste: Theme",
     "year": 1993,
     "year_note": "vollendet",
-    "query": "John Williams Schindlers Liste Theme",
+    "query": "John Williams Schindler's List Theme",
     "spotify": "",
     "start_ms": 0
   },
@@ -6215,7 +6253,7 @@
     "title": "Das Piano: The Heart Asks Pleasure First",
     "year": 1993,
     "year_note": "vollendet",
-    "query": "Michael Nyman Das Piano The Heart Asks Pleasure First",
+    "query": "Michael Nyman The Heart Asks Pleasure First",
     "spotify": "",
     "start_ms": 0
   },
@@ -6225,7 +6263,7 @@
     "title": "O magnum mysterium",
     "year": 1994,
     "year_note": "vollendet",
-    "query": "Morten Lauridsen O magnum mysterium",
+    "query": "Lauridsen O magnum mysterium",
     "spotify": "",
     "start_ms": 0
   },
@@ -6235,7 +6273,7 @@
     "title": "Palladio, 1. Satz",
     "year": 1996,
     "year_note": "vollendet",
-    "query": "Karl Jenkins Palladio",
+    "query": "Karl Jenkins Palladio Allegretto",
     "spotify": "",
     "start_ms": 0
   },
@@ -6245,7 +6283,7 @@
     "title": "Titanic: Hymn to the Sea",
     "year": 1997,
     "year_note": "vollendet",
-    "query": "James Horner Titanic Hymn to the Sea",
+    "query": "James Horner Hymn to the Sea Titanic",
     "spotify": "",
     "start_ms": 0
   },
@@ -6255,7 +6293,7 @@
     "title": "Gladiator: Now We Are Free",
     "year": 2000,
     "year_note": "vollendet",
-    "query": "Hans Zimmer Lisa Gerrard Gladiator Now We Are Free",
+    "query": "Hans Zimmer Now We Are Free Gladiator",
     "spotify": "",
     "start_ms": 0
   },
@@ -6275,7 +6313,7 @@
     "title": "Der Herr der Ringe: Concerning the Hobbits",
     "year": 2001,
     "year_note": "vollendet",
-    "query": "Howard Shore Der Herr der Ringe Concerning the Hobbits",
+    "query": "Howard Shore Concerning Hobbits",
     "spotify": "",
     "start_ms": 0
   },
@@ -6285,7 +6323,7 @@
     "title": "Harry Potter: Hedwig's Theme",
     "year": 2001,
     "year_note": "vollendet",
-    "query": "John Williams Harry Potter Hedwig's Theme",
+    "query": "John Williams Hedwig's Theme",
     "spotify": "",
     "start_ms": 0
   },
@@ -6295,7 +6333,7 @@
     "title": "Die fabelhafte Welt der Amélie: Comptine d'un autre été",
     "year": 2001,
     "year_note": "vollendet",
-    "query": "Yann Tiersen Die fabelhafte Welt der Amélie Comptine d'un autre été",
+    "query": "Yann Tiersen Comptine d'un autre été | Yann Tiersen Comptine d'un autre ete",
     "spotify": "",
     "start_ms": 0
   },
@@ -6305,7 +6343,7 @@
     "title": "Fluch der Karibik: He's a Pirate",
     "year": 2003,
     "year_note": "vollendet",
-    "query": "Klaus Badelt Fluch der Karibik He's a Pirate",
+    "query": "Klaus Badelt He's a Pirate",
     "spotify": "",
     "start_ms": 0
   },
@@ -6315,7 +6353,7 @@
     "title": "Nuvole bianche",
     "year": 2004,
     "year_note": "vollendet",
-    "query": "Ludovico Einaudi Nuvole bianche",
+    "query": "Einaudi Nuvole bianche",
     "spotify": "",
     "start_ms": 0
   },
@@ -6355,7 +6393,7 @@
     "title": "Interstellar: Cornfield Chase",
     "year": 2014,
     "year_note": "vollendet",
-    "query": "Hans Zimmer Interstellar Cornfield Chase",
+    "query": "Hans Zimmer Cornfield Chase",
     "spotify": "",
     "start_ms": 0
   },
@@ -6365,7 +6403,7 @@
     "title": "Joker: Bathroom Dance",
     "year": 2019,
     "year_note": "vollendet",
-    "query": "Hildur Guðnadóttir Joker Bathroom Dance",
+    "query": "Hildur Guðnadóttir Bathroom Dance | Hildur Gudnadottir Bathroom Dance",
     "spotify": "",
     "start_ms": 0
   }
