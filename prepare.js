@@ -43,8 +43,43 @@
         el("span", { class: "muted" }, message)
       )
     );
-    for (const c of cards) parts.push(cardPanel(c));
+    const filterBox = el("input", { type: "text", class: "grow", placeholder: "Filter: Komponist, Titel oder Jahr", value: filter.text });
+    filterBox.addEventListener("input", () => {
+      filter.text = filterBox.value;
+      renderList();
+    });
+    const only = (key, label) => {
+      const box = el("input", { type: "checkbox", checked: filter[key] });
+      box.addEventListener("change", () => {
+        filter[key] = box.checked;
+        renderList();
+      });
+      return el("label", {}, box, label);
+    };
+    parts.push(el("div", { class: "row", style: "justify-content:flex-start" }, filterBox, only("noTrack", "nur ohne Aufnahme"), only("check", "nur „Jahr prüfen“")));
+    const listBox = el("div", { class: "stack", id: "card-list" });
+    parts.push(listBox);
     main.replaceChildren(...parts);
+    renderList();
+  }
+
+  const filter = { text: "", noTrack: false, check: false };
+  const PAGE = 40;
+  function renderList() {
+    const box = document.getElementById("card-list");
+    if (!box) return;
+    const q = filter.text.trim().toLowerCase();
+    const shown = cards.filter(
+      (c) =>
+        (!q || (c.composer + " " + c.title + " " + c.year).toLowerCase().includes(q)) &&
+        (!filter.noTrack || !c.spotify) &&
+        (!filter.check || c.check)
+    );
+    const done = cards.filter((c) => c.spotify).length;
+    const head = el("div", { class: "muted" }, `${shown.length} von ${cards.length} Karten · ${done} mit gewählter Aufnahme`);
+    const items = shown.slice(0, PAGE).map(cardPanel);
+    const more = shown.length > PAGE ? el("div", { class: "muted" }, `… und ${shown.length - PAGE} weitere. Filter benutzen, um sie zu sehen.`) : null;
+    box.replaceChildren(head, ...items, ...(more ? [more] : []));
   }
 
   function cardPanel(c) {
@@ -84,6 +119,7 @@
       "section",
       { class: "panel stack" },
       el("div", { class: "card-head" }, el("h2", {}, c.composer + ": " + c.title), el("span", { class: "yr" }, String(c.year) + (c.year_note ? " (" + c.year_note + ")" : ""))),
+      c.check ? el("div", { class: "muted", style: "color:var(--danger)" }, "⚠ Jahr noch prüfen (z. B. Wikipedia), dann in data/*.tsv die 1 in der Spalte check löschen") : null,
       el("div", { class: "muted" }, "Karte " + c.id + " · Aufnahme: " + (c.spotify ? c.spotify_label || c.spotify : "noch keine gewählt (im Spiel wird das erste Suchergebnis genommen)")),
       el(
         "label",

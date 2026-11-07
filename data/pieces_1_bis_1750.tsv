@@ -1,0 +1,99 @@
+# Klassik-Zeitreise: list of pieces. Tab-separated. Edit freely, then run: python tools/build_cards.py
+# Columns: id (empty = new, filled in by the script; never change it once printed) | composer | title | year | note | check
+# note: empty = year completed; UA = first performance (operas, ballets, stage music); Druck = first printing; Widmung = dedication copy
+# check: 1 = year not certain, look it up before printing
+id	composer	title	year	note	check
+# ---------- Renaissance & frühes 17. Jahrhundert ----------
+r945g	Josquin des Prez	Ave Maria … virgo serena	1502	Druck
+qav64	Josquin des Prez	El Grillo	1505	Druck	1
+7bx94	Clément Janequin	La guerre (La bataille de Marignan)	1528	Druck	1
+q5yzh	Jacques Arcadelt	Il bianco e dolce cigno	1539	Druck
+am7gu	Tielman Susato	Danserye: La Mourisque	1551	Druck
+mj6e9	Giovanni Pierluigi da Palestrina	Missa Papae Marcelli: Kyrie	1567	Druck
+jnshk	Thomas Tallis	Spem in alium	1570		1
+nsgpp	Tomás Luis de Victoria	O magnum mysterium	1572	Druck
+ddchr	Orlando di Lasso	Matona mia cara	1581	Druck	1
+xae99	Thoinot Arbeau	Belle qui tiens ma vie	1589	Druck
+bg9xw	William Byrd	The Bells	1591
+fyn6x	Giovanni Giacomo Gastoldi	Amor vittorioso	1591	Druck
+ym7qx	Thomas Morley	Now is the month of maying	1595	Druck
+x9s8x	Giovanni Gabrieli	Sonata pian' e forte	1597	Druck
+4txbd	John Dowland	Flow, my tears	1600	Druck
+349tw	Thomas Weelkes	As Vesta was from Latmos hill descending	1601	Druck
+zf3a7	Hans Leo Hassler	Mein G'müt ist mir verwirret	1601	Druck
+b6eaq	Giulio Caccini	Amarilli, mia bella	1602	Druck	1
+wd58k	John Dowland	Lachrimae Antiquae	1604	Druck
+hzxbs	William Byrd	Ave verum corpus	1605	Druck
+rmrz8	Claudio Monteverdi	Cruda Amarilli	1605	Druck
+55csa	Tomás Luis de Victoria	Officium defunctorum: Introitus	1605	Druck
+3t796	Claudio Monteverdi	L'Orfeo: Toccata	1607	UA
+4jukh	Michael Praetorius	Es ist ein Ros entsprungen	1609	Druck
+cbspn	Claudio Monteverdi	Marienvesper: Deus in adjutorium	1610	Druck
+r5wtt	Carlo Gesualdo	Moro, lasso, al mio duolo	1611	Druck
+92scu	Michael Praetorius	Terpsichore: La Volta	1612	Druck
+yd4dc	Orlando Gibbons	The Silver Swan	1612	Druck
+pp66w	Girolamo Frescobaldi	Toccata prima (Primo libro)	1615	Druck
+4qrf6	Heinrich Schütz	Psalmen Davids: Jauchzet dem Herren	1619	Druck
+axc4h	Heinrich Schütz	Musikalische Exequien	1636	Druck
+uayb4	Claudio Monteverdi	Lamento della ninfa	1638	Druck
+2x6qa	Gregorio Allegri	Miserere mei, Deus	1638		1
+e55dg	Barbara Strozzi	Che si può fare	1664	Druck
+# ---------- Barock ----------
+9vnrx	Jean-Baptiste Lully	Le Bourgeois gentilhomme: Marche pour la cérémonie des Turcs	1670	UA
+h77rs	Heinrich Ignaz Franz Biber	Battalia	1673
+5bx3p	Henry Purcell	Dido and Aeneas: When I am laid in earth	1689	UA	1
+chuqv	Marc-Antoine Charpentier	Te Deum: Prélude	1690		1
+hpc6y	Henry Purcell	King Arthur: Cold Song	1691	UA
+s3caz	Henry Purcell	The Fairy Queen: Hark! The echoing air	1692	UA
+wbw58	Henry Purcell	Music for the Funeral of Queen Mary: March	1695
+bc6un	Henry Purcell	Abdelazer: Rondeau	1695	UA
+ff8z4	Arcangelo Corelli	Violinsonate op. 5 Nr. 12 „La Folia“	1700	Druck
+fd25e	Georg Friedrich Händel	Rinaldo: Lascia ch'io pianga	1711	UA
+gz6t4	Antonio Vivaldi	L'estro armonico op. 3 Nr. 10 (Konzert für vier Violinen)	1711	Druck
+wa5dm	Johann Sebastian Bach	Kantate BWV 208: Schafe können sicher weiden	1713
+m4w8p	Arcangelo Corelli	Concerto grosso op. 6 Nr. 8 „Weihnachtskonzert“	1714	Druck
+7h9hv	Antonio Vivaldi	Gloria RV 589: Gloria in excelsis Deo	1715		1
+dq87u	Georg Friedrich Händel	Wassermusik: Alla Hornpipe	1717	UA
+hkprt	François Couperin	Les barricades mystérieuses	1717	Druck
+5n49f	Alessandro Marcello	Oboenkonzert d-Moll, 2. Satz (Adagio)	1717	Druck	1
+qftph	Johann Sebastian Bach	Partita Nr. 2 d-Moll: Chaconne	1720
+hzfp7	Johann Sebastian Bach	Cellosuite Nr. 1 G-Dur: Prélude	1720		1
+s8dpe	Georg Friedrich Händel	Suite HWV 430: Air und Variationen „The Harmonious Blacksmith“	1720	Druck
+etbpx	Johann Sebastian Bach	Brandenburgisches Konzert Nr. 3, 1. Satz	1721	Widmung
+8fjbx	Johann Sebastian Bach	Brandenburgisches Konzert Nr. 5, 1. Satz	1721	Widmung
+62pf7	Johann Sebastian Bach	Das Wohltemperierte Klavier I: Präludium C-Dur	1722
+7tm62	Tomaso Albinoni	Oboenkonzert op. 9 Nr. 2, 2. Satz (Adagio)	1722	Druck
+ck9um	Johann Sebastian Bach	Kantate BWV 147: Jesus bleibet meine Freude	1723
+n5fwg	Georg Philipp Telemann	Wassermusik „Hamburger Ebb' und Fluth“	1723
+zdmww	Marin Marais	La sonnerie de Sainte-Geneviève du Mont-de-Paris	1723	Druck
+5nq5p	Johann Sebastian Bach	Johannes-Passion: Herr, unser Herrscher	1724
+8gfjx	Jean-Philippe Rameau	Le rappel des oiseaux	1724	Druck
+v7k2p	Antonio Vivaldi	Die vier Jahreszeiten: Der Frühling, 1. Satz (Allegro)	1725	Druck
+2mw7t	Antonio Vivaldi	Die vier Jahreszeiten: Der Sommer, 3. Satz (Presto)	1725	Druck
+7xky9	Antonio Vivaldi	Die vier Jahreszeiten: Der Winter, 1. Satz (Allegro non molto)	1725	Druck
+u4a3w	Johann Sebastian Bach	Matthäus-Passion: Kommt, ihr Töchter, helft mir klagen	1727
+2ycjn	Georg Friedrich Händel	Zadok the Priest	1727
+nkys3	Jean-Joseph Mouret	Suite de symphonies: Rondeau	1729	Druck	1
+m6dw6	Johann Sebastian Bach	Orchestersuite Nr. 3 D-Dur: Air	1731		1
+myyu3	Johann Sebastian Bach	Kantate BWV 140: Wachet auf, ruft uns die Stimme	1731
+ngbwx	Johann Sebastian Bach	Magnificat D-Dur BWV 243	1733		1
+yj7ps	Georg Philipp Telemann	Tafelmusik: Ouvertüre e-Moll	1733	Druck
+mekb4	Giovanni Battista Pergolesi	La serva padrona: Stizzoso, mio stizzoso	1733	UA
+3x966	Georg Friedrich Händel	Suite d-Moll HWV 437: Sarabande	1733	Druck	1
+3x7gb	Johann Sebastian Bach	Weihnachtsoratorium: Jauchzet, frohlocket	1734
+4epre	Johann Sebastian Bach	Italienisches Konzert, 1. Satz	1735	Druck
+f9txb	Jean-Philippe Rameau	Les Indes galantes: Danse du grand calumet de la paix	1735	UA
+wmrca	Louis-Claude Daquin	Le coucou	1735	Druck
+27acw	Giovanni Battista Pergolesi	Stabat Mater: Stabat mater dolorosa	1736
+ekg2s	Jean-Féry Rebel	Les Élémens: Le Chaos	1737
+7s2mn	Georg Friedrich Händel	Serse: Ombra mai fù	1738	UA
+wzdk8	Georg Friedrich Händel	Concerto grosso op. 6 Nr. 5	1739
+ywkhw	Georg Friedrich Händel	Orgelkonzert „The Cuckoo and the Nightingale“	1739
+z9bxq	Johann Sebastian Bach	Orchestersuite Nr. 2 h-Moll: Badinerie	1739		1
+zad5q	Johann Sebastian Bach	Goldberg-Variationen: Aria	1741	Druck
+8tvyg	Georg Friedrich Händel	Messiah: Hallelujah	1741
+ywjuz	Johann Sebastian Bach	Musikalisches Opfer: Ricercar a 6	1747
+z6gjw	Georg Friedrich Händel	Solomon: Ankunft der Königin von Saba	1748
+3629r	Georg Friedrich Händel	Feuerwerksmusik: Ouvertüre	1749	UA
+8bqpk	Johann Sebastian Bach	h-Moll-Messe: Kyrie	1749
+pjhr6	Johann Sebastian Bach	Die Kunst der Fuge: Contrapunctus 1	1751	Druck

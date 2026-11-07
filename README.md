@@ -16,8 +16,7 @@ No app to install: it's a web page that works on any phone with a browser.
 | `config.js` | The only settings: Spotify Client ID and the public address |
 | `common.js`, `scanner.js`, `style.css` | Shared code and styles |
 
-Year rule on the cards: the year the work was completed; if unknown, its first publication
-(Vivaldi's Four Seasons: printed 1725).
+See "The piece list" below for the year rule.
 
 ## Setup (once)
 
@@ -68,11 +67,26 @@ save as PDF and send it to a card printer.
 
 Scanning with the normal camera app also works (it opens the game page with that card).
 
-## Adding cards
+## The piece list
 
-Add an entry to `cards.json` with a new unique random `id` (letters and digits, e.g.
-`k4t9s`). Never reuse or change the id of a printed card: the QR code contains only the id,
-so you can change the recording or start time later without reprinting.
+The pieces live in `data/*.tsv` (one file per era, tab-separated: id, composer, title, year,
+note, check, optional Spotify search text). Edit them in any editor or in Excel, then run
+
+    python tools/build_cards.py
+
+It gives new rows an id, checks years and duplicates, keeps the Spotify choices already in
+`cards.json`, and rebuilds `cards.json`. Rows with `1` in the check column are marked
+"Jahr prüfen" on `prepare.html`: look the year up, fix it if needed, delete the `1`.
+
+Year rule on the cards: the year the work was completed; for operas, ballets and stage music
+the first performance (`UA`); if only the first printing is known, its year (`Druck`).
+
+Never reuse or change the id of a printed card: the QR code contains only the id, so you can
+change the recording, start time or even the year later without reprinting the front.
+
+## Rules
+
+`rules.html`: rules in German and English plus a setup sheet, 3 A4 pages (print or save as PDF).
 
 Optional: `"audio": "<url of an mp3>"` on a card plays that file in the browser when the
 phone is not connected to Spotify (e.g. guests).
