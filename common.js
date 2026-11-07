@@ -240,7 +240,15 @@
           limit = 10;
           continue;
         }
-        if (!r.ok) throw new Error("Spotify-Suche fehlgeschlagen (" + r.status + ")");
+        if (!r.ok) {
+          const detail = await r.text().catch(() => "");
+          if (r.status === 403)
+            throw new Error(
+              "Spotify verweigert den Zugriff (403). Meist ist das angemeldete Spotify-Konto nicht in der Spotify-App freigeschaltet (User Management). Spotify sagt: " +
+                (detail.replace(/\s+/g, " ").slice(0, 200) || "–")
+            );
+          throw new Error("Spotify-Suche fehlgeschlagen (" + r.status + ") " + detail.slice(0, 200));
+        }
         return ((await r.json()).tracks || {}).items || [];
       }
       throw new Error("Spotify-Suche: zu viele Anfragen, bitte später nochmal");

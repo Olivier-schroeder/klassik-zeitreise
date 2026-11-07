@@ -60,6 +60,20 @@
             ),
         el("button", { class: "btn btn-primary btn-small", onclick: exportJson }, "cards.json herunterladen"),
         el("button", { class: "btn btn-small", onclick: () => spotify.pause() }, "⏸ Pause"),
+        spotify.isLoggedIn()
+          ? el(
+              "button",
+              {
+                class: "btn btn-ghost btn-small",
+                onclick: () => {
+                  spotify.logout();
+                  message = "Abgemeldet. Zum Kontowechsel vorher auf accounts.spotify.com abmelden.";
+                  render();
+                },
+              },
+              "Spotify abmelden"
+            )
+          : null,
         el("button", { class: "btn btn-ghost btn-small", onclick: resetAll }, "Änderungen verwerfen"),
         el("span", { class: "muted", id: "message" }, message)
       )
