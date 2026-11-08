@@ -271,18 +271,20 @@
           if (t.duration_ms && pos > t.duration_ms - 15000) pos = 0;
         }
       }
-      // Wake the device up first if it is not the active one (phones fall asleep in the background).
-      if (!dev.is_active) {
-        await spotify.api("PUT", "/me/player", { device_ids: [dev.id], play: false });
-        await new Promise((res) => setTimeout(res, 700));
-      }
       const body = { uris: [uri], position_ms: pos };
       const path = "/me/player/play?device_id=" + encodeURIComponent(dev.id);
-      let r = await spotify.api("PUT", path, body);
-      if (r.status === 404 || r.status === 502) {
-        await new Promise((res) => setTimeout(res, 1200));
-        r = await spotify.api("PUT", path, body);
-      }
+      const wait = (ms) => new Promise((res) => setTimeout(res, ms));
+      const send = async () => {
+        let r = await spotify.api("PUT", path, body);
+        if (r.status === 404 || r.status === 502) {
+          // Device asleep or not reachable yet: hand playback over to it, then ask again.
+          await spotify.api("PUT", "/me/player", { device_ids: [dev.id], play: false });
+          await wait(1200);
+          r = await spotify.api("PUT", path, body);
+        }
+        return r;
+      };
+      const r = await send();
       if (r.status === 401) return { ok: false, reason: "login" };
       if (!r.ok) {
         const detail = await spotify.apiError(r);
@@ -290,15 +292,19 @@
         if (r.status === 404) return { ok: false, reason: "no_device", detail, device: dev, devices: ds };
         return { ok: false, reason: "error", detail: r.status + " " + detail, device: dev };
       }
-      // Check that Spotify really plays it there.
-      for (let i = 0; i < 4; i++) {
-        await new Promise((res) => setTimeout(res, 700));
+      // Check that Spotify really plays there. A phone app waking up from the background can take
+      // several seconds, so wait up to ~10 s and nudge it again after 3 and 6 s.
+      let last = null;
+      for (let i = 1; i <= 10; i++) {
+        await wait(1000);
         const st = await spotify.state();
+        last = st;
         // (Spotify may play a regional copy of the track, so the device and "is playing" are what counts.)
         if (st && st.is_playing && (!st.device || st.device.id === dev.id)) return { ok: true, device: dev };
-        if (st && st.device && st.device.id !== dev.id && i === 3)
-          return { ok: false, reason: "not_playing", detail: "Spotify spielt auf „" + st.device.name + "“ statt auf „" + dev.name + "“.", device: dev, devices: ds };
+        if (i === 3 || i === 6) await send();
       }
+      if (last && last.device && last.device.id !== dev.id)
+        return { ok: false, reason: "not_playing", detail: "Spotify spielt auf „" + last.device.name + "“ statt auf „" + dev.name + "“.", device: dev, devices: ds };
       return { ok: false, reason: "not_playing", detail: "Spotify meldet keine Wiedergabe auf „" + dev.name + "“.", device: dev, devices: ds };
     },
 
@@ -381,6 +387,10 @@
       return r.ok;
     },
   });
+
+  // Link that opens the Spotify app: Chrome on Android needs an intent link, iPhone understands "spotify:".
+  KZ.spotifyAppUrl = () =>
+    /Android/i.test(navigator.userAgent) ? "intent://open#Intent;scheme=spotify;package=com.spotify.music;end" : "spotify:";
 
   // ---------- choosing the right recording ----------
   KZ.queryAlternatives = (query) =>

@@ -118,7 +118,7 @@
         el(
           "div",
           { class: "row" },
-          el("a", { class: "btn", href: "spotify:" }, "Spotify öffnen"),
+          el("a", { class: "btn", href: KZ.spotifyAppUrl() }, "Spotify öffnen"),
           el("button", { class: "btn", onclick: chooseDevice }, "Gerät wählen"),
           el("button", { class: "btn btn-primary", onclick: () => start(true) }, "Nochmal versuchen")
         )
@@ -129,7 +129,7 @@
         el(
           "div",
           { class: "stack" },
-          el("a", { class: "btn btn-primary", href: "spotify:" }, "Spotify-App öffnen"),
+          el("a", { class: "btn btn-primary", href: KZ.spotifyAppUrl() }, "Spotify-App öffnen"),
           el("button", { class: "btn", onclick: switchAccount }, "Mit anderem Spotify-Konto verbinden"),
           el("button", { class: "btn btn-ghost", onclick: chooseDevice }, "Auf einem anderen Gerät abspielen")
         )
