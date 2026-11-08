@@ -285,6 +285,7 @@
         }
         return r;
       };
+      KZ.expectUri = uri; // only so the log can say whether the loaded track is the right one
       const r = await send();
       if (r.status === 401) return { ok: false, reason: "login" };
       if (!r.ok) {
@@ -295,6 +296,9 @@
       }
       // Check that Spotify really plays there. A phone app waking up from the background can take
       // several seconds, so wait up to ~10 s and nudge it again after 3 and 6 s.
+      // Phones often load the track but stay paused: then a plain "resume" starts it.
+      const resume = () => spotify.api("PUT", "/me/player/play?device_id=" + encodeURIComponent(dev.id));
+      const isOurs = (st) => st && st.item && (st.item.uri === uri || (st.item.linked_from && st.item.linked_from.uri === uri));
       let last = null;
       for (let i = 1; i <= 10; i++) {
         await wait(1000);
@@ -302,7 +306,9 @@
         last = st;
         // (Spotify may play a regional copy of the track, so the device and "is playing" are what counts.)
         if (st && st.is_playing && (!st.device || st.device.id === dev.id)) return { ok: true, device: dev };
-        if (i === 3 || i === 6) await send();
+        const pausedHere = st && st.device && st.device.id === dev.id && !st.is_playing;
+        if (pausedHere && isOurs(st) && i % 2 === 1) await resume();
+        else if (i === 4 || i === 7) await send();
       }
       if (last && last.device && last.device.id !== dev.id)
         return { ok: false, reason: "not_playing", detail: "Spotify spielt auf „" + last.device.name + "“ statt auf „" + dev.name + "“.", device: dev, devices: ds };
@@ -403,7 +409,12 @@
         try {
           const j = JSON.parse(txt);
           if (j.devices) entry.line += " · " + j.devices.map((d) => d.name + (d.is_active ? " (aktiv)" : "") + (d.is_restricted ? " (gesperrt)" : "")).join(", ");
-          else if (j.device) entry.line += " · " + (j.is_playing ? "spielt" : "pausiert") + " auf " + j.device.name;
+          else if (j.device) {
+            entry.line += " · " + (j.is_playing ? "spielt" : "pausiert") + " auf " + j.device.name;
+            if (j.item && KZ.expectUri)
+              entry.line += " · " + (j.item.uri === KZ.expectUri || (j.item.linked_from && j.item.linked_from.uri === KZ.expectUri) ? "richtiger Titel geladen" : "anderer Titel geladen");
+            else if (!j.item) entry.line += " · kein Titel geladen";
+          }
         } catch (e) {
           if (txt) entry.line += " · " + txt.slice(0, 80);
         }
