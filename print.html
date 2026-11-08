@@ -7,25 +7,41 @@
   <title>Karten drucken</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
   <style>
-    /* A4, 3 x 4 square cards per sheet. Print double-sided, "flip on long edge", scale 100%. */
-    :root { --card: 63mm; --gold: #b8892f; --ink: #1d1d24; }
+    /* A4, 3 x 4 square cards per sheet, black and white. Print double-sided, "flip on long edge", scale 100%.
+       Front: family drawing (woodcut) + QR code. Back: answer in a double frame.
+       The drawing lives in private/familie_linien.png (never published); without it the front shows the QR code only. */
+    :root { --card: 63mm; --ink: #111; }
     @page { size: A4; margin: 0; }
     * { box-sizing: border-box; }
     body { margin: 0; font-family: Georgia, "Times New Roman", serif; color: var(--ink); background: #e9e6df; }
     .controls { font-family: system-ui, sans-serif; padding: 16px; max-width: 210mm; margin: 0 auto; display: flex; flex-direction: column; gap: 8px; }
     .controls button { font: 600 16px system-ui, sans-serif; padding: 10px 18px; border-radius: 999px; border: 0; background: #1d2030; color: #fff; cursor: pointer; align-self: flex-start; }
     .controls .warn { background: #fde8e4; border-left: 4px solid #c9503f; padding: 8px 12px; }
+    .controls .ok { background: #e6f2e8; border-left: 4px solid #3f8f52; padding: 8px 12px; }
     .sheet { width: 210mm; height: 297mm; margin: 0 auto 10mm; background: #fff; display: grid; grid-template-columns: repeat(3, var(--card)); grid-auto-rows: var(--card); justify-content: center; align-content: center; page-break-after: always; break-after: page; }
-    .card { border: 0.2mm dashed #c9c4b8; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 6mm; text-align: center; overflow: hidden; }
-    .front .qr { width: 38mm; height: 38mm; }
-    .front .qr svg { width: 100%; height: 100%; display: block; }
-    .front .name { margin-top: 4mm; font-size: 9pt; letter-spacing: 0.12em; text-transform: uppercase; color: var(--gold); }
-    .back .composer { font-size: 11pt; font-weight: bold; line-height: 1.2; }
-    .back .year { font-size: 30pt; color: var(--gold); line-height: 1; margin: 3mm 0; }
-    .back .note { font-family: system-ui, sans-serif; font-size: 6.5pt; color: #8a8576; text-transform: uppercase; letter-spacing: 0.08em; margin-top: -2mm; margin-bottom: 2mm; }
-    .back .title { font-size: 8.5pt; line-height: 1.25; color: #3d3b36; }
-    .back .egg { font-family: system-ui, sans-serif; font-size: 6.5pt; color: var(--gold); margin-top: 2mm; letter-spacing: 0.02em; }
-    .empty { border-color: transparent; }
+    /* thin grey cutting lines between the cards */
+    .card { position: relative; overflow: hidden; }
+    .card::after { content: ""; position: absolute; inset: 0; border: 0.15mm solid #999; pointer-events: none; z-index: 2; }
+    .empty::after { display: none; }
+    .qr svg { width: 100%; height: 100%; display: block; }
+
+    /* ---------- front (design B) ---------- */
+    .front .img { position: absolute; left: 0; right: 0; top: 0; height: 27mm; border-bottom: 0.5mm solid var(--ink); overflow: hidden; }
+    .front .img img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 35%; display: block; }
+    .front .qr { position: absolute; width: 25mm; height: 25mm; left: 50%; bottom: 7mm; transform: translateX(-50%); }
+    .front .name { position: absolute; bottom: 2.3mm; left: 0; right: 0; text-align: center; font: 700 6pt system-ui, sans-serif; letter-spacing: 0.3em; }
+    body.no-photo .front .img { display: none; }
+    body.no-photo .front .qr { width: 36mm; height: 36mm; bottom: auto; top: 9mm; }
+
+    /* ---------- back (design A) ---------- */
+    .back .frame { position: absolute; inset: 2.5mm; border: 0.4mm solid #222; outline: 0.2mm solid #222; outline-offset: -1.3mm; border-radius: 1.5mm;
+      display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 4mm; overflow: hidden; }
+    .back .composer { font-weight: 700; font-size: 9.5pt; line-height: 1.15; }
+    .back .year { font-size: 30pt; line-height: 1; margin: 2.5mm 0 0.5mm; }
+    .back .note { font-family: system-ui, sans-serif; font-size: 5.5pt; letter-spacing: 0.12em; text-transform: uppercase; color: #444; margin-bottom: 2mm; }
+    .back .title { font-style: italic; font-size: 7.5pt; line-height: 1.25; }
+    .back .egg { font-family: system-ui, sans-serif; font-size: 5.8pt; margin-top: 2mm; }
+
     @media print {
       body { background: #fff; }
       .controls { display: none; }
@@ -36,22 +52,29 @@
 <body>
   <div class="controls" id="controls">
     <strong>Karten drucken</strong>
-    <span>Vorderseiten (QR-Code) und Rückseiten (Lösung) wechseln sich ab. Doppelseitig drucken, „an der langen Kante spiegeln“, Skalierung 100 % / „Tatsächliche Größe“. Die Rückseiten sind gespiegelt angeordnet, damit sie genau hinter ihrer Vorderseite landen.</span>
+    <span>Vorderseiten (QR-Code) und Rückseiten (Lösung) wechseln sich ab. Doppelseitig drucken, „an der langen Kante spiegeln“, Skalierung 100 % / „Tatsächliche Größe“. Die Rückseiten sind gespiegelt angeordnet, damit sie genau hinter ihrer Vorderseite landen. Entlang der dünnen grauen Linien schneiden.</span>
     <button onclick="window.print()">Drucken / als PDF speichern</button>
   </div>
   <div id="sheets"></div>
-  <script src="config.js?v=20261107d"></script>
-  <script src="common.js?v=20261107d"></script>
+  <script src="config.js?v=20261108a"></script>
+  <script src="common.js?v=20261108a"></script>
   <script>
     (async function () {
       const KZ = window.KZ, el = KZ.el;
       const PER = 12, COLS = 3;
+      const PHOTO = "private/familie_linien.png";
       const cards = await KZ.loadCards();
       const controls = document.getElementById("controls");
       const base = KZ.baseUrl();
       if (!KZ.config.BASE_URL || /\/\/(127\.0\.0\.1|localhost)/.test(base)) {
         controls.append(el("div", { class: "warn" }, "Achtung: Die QR-Codes zeigen auf " + base + ". Für die echten Karten in config.js BASE_URL auf die öffentliche Adresse setzen."));
       }
+      // The family drawing exists only on the computer that prints (folder private/).
+      const hasPhoto = await new Promise((res) => { const i = new Image(); i.onload = () => res(true); i.onerror = () => res(false); i.src = PHOTO; });
+      if (!hasPhoto) document.body.classList.add("no-photo");
+      controls.append(el("div", { class: hasPhoto ? "ok" : "warn" }, hasPhoto
+        ? `Familienbild gefunden. ${cards.length} Karten auf ${Math.ceil(cards.length / PER)} Blättern (${2 * Math.ceil(cards.length / PER)} Seiten).`
+        : "Ohne Familienbild (Datei private/familie_linien.png fehlt): Die Vorderseiten zeigen nur den QR-Code. Zum Drucken die Seite auf dem eigenen Computer öffnen."));
 
       function qrSvg(text) {
         const qr = qrcode(0, "M");
@@ -70,7 +93,10 @@
           if (!c) { front.append(el("div", { class: "card empty" })); continue; }
           const qr = el("div", { class: "qr" });
           qr.innerHTML = qrSvg(KZ.cardUrl(c.id));
-          front.append(el("div", { class: "card front" }, qr, el("div", { class: "name" }, KZ.gameName)));
+          front.append(el("div", { class: "card front" },
+            hasPhoto ? el("div", { class: "img" }, el("img", { src: PHOTO, alt: "" })) : null,
+            qr,
+            el("div", { class: "name" }, KZ.gameName.toUpperCase())));
         }
 
         // Back side: each row mirrored left-right so card n's back lands behind its front.
@@ -79,16 +105,30 @@
           const row = chunk.slice(r * COLS, r * COLS + COLS).reverse();
           for (const c of row) {
             if (!c) { back.append(el("div", { class: "card empty" })); continue; }
-            back.append(el("div", { class: "card back" },
+            back.append(el("div", { class: "card back" }, el("div", { class: "frame" },
               el("div", { class: "composer" }, c.composer),
               el("div", { class: "year" }, String(c.year)),
               c.year_note ? el("div", { class: "note" }, c.year_note) : null,
               el("div", { class: "title" }, c.title),
-              c.back_note ? el("div", { class: "egg" }, c.back_note) : null));
+              c.back_note ? el("div", { class: "egg" }, c.back_note) : null)));
           }
         }
         sheets.append(front, back);
       }
+
+      // Long titles: shrink text step by step until it fits inside the frame.
+      for (const f of document.querySelectorAll(".back .frame")) {
+        let scale = 1;
+        while (f.scrollHeight > f.clientHeight + 1 && scale > 0.6) {
+          scale -= 0.05;
+          f.querySelectorAll(".composer, .title, .egg").forEach((e) => (e.style.fontSize = ""));
+          f.querySelector(".composer").style.fontSize = 9.5 * scale + "pt";
+          f.querySelector(".title").style.fontSize = 7.5 * scale + "pt";
+          f.querySelector(".year").style.fontSize = 30 * Math.max(scale, 0.8) + "pt";
+        }
+        if (f.scrollHeight > f.clientHeight + 1) f.dataset.overflow = "1";
+      }
+      window.KZ_PRINT_READY = true;
     })();
   </script>
 </body>
