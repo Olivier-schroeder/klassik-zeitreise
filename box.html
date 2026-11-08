@@ -93,7 +93,7 @@
           [X(1), yL, X(2), yL], [X(0), yL, X(1), yL], [X(0), yL + W, X(1), yL + W], [X(3), yL, X(4), yL],
         ];
         const cx = (i) => X(i) + W / 2;
-        const imgH = Math.max(W * 0.63, Math.min(105, L - 85));
+        const imgH = (W - 4) * 1350 / 2075; // whole group, nobody cut off (drawing is 2075 x 1350 px)
         const midY = yb + L / 2;
         const qrSize = 26;
         // QR code to the game page, drawn as SVG squares.
@@ -111,7 +111,7 @@
   <text x="${cx(0)}" y="${yb + 22}" text-anchor="middle" font-family="Georgia, serif" font-size="9.5">Klassik-</text>
   <text x="${cx(0)}" y="${yb + 33}" text-anchor="middle" font-family="Georgia, serif" font-size="9.5">Zeitreise</text>
   <line x1="${X(0) + 14}" y1="${yb + 39}" x2="${X(1) - 14}" y2="${yb + 39}" stroke="#111" stroke-width="0.4"/>
-  ${hasPhoto ? `<image href="${PHOTO}" x="${X(0) + 2}" y="${midY - imgH / 2 + 4}" width="${W - 4}" height="${imgH}" preserveAspectRatio="xMidYMid slice"/>` : `<text x="${cx(0)}" y="${midY + 6}" text-anchor="middle" font-family="Georgia, serif" font-size="28">♪</text>`}
+  ${hasPhoto ? `<image href="${PHOTO}" x="${X(0) + 2}" y="${midY - imgH / 2 + 4}" width="${W - 4}" height="${imgH}" preserveAspectRatio="xMidYMid meet"/>` : `<text x="${cx(0)}" y="${midY + 6}" text-anchor="middle" font-family="Georgia, serif" font-size="28">♪</text>`}
   <text x="${cx(0)}" y="${yL - 22}" text-anchor="middle" font-family="system-ui, sans-serif" font-size="3.6" letter-spacing="0.6">DAS MUSIK-ZEITLEISTENSPIEL</text>
   <text x="${cx(0)}" y="${yL - 15}" text-anchor="middle" font-family="system-ui, sans-serif" font-size="3.2" fill="#444">${cards.length} Karten · 1040 bis heute</text>
   ${label ? `<text x="${cx(0)}" y="${yL - 8}" text-anchor="middle" font-family="system-ui, sans-serif" font-size="3" fill="#444">${label}</text>` : ""}
