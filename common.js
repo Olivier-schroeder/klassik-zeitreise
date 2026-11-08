@@ -201,29 +201,86 @@
       return (await r.json()).devices || [];
     },
 
-    // Plays one track from positionMs. Returns {ok} or {ok:false, reason, detail}.
-    // reason: "login" | "no_device" | "premium" | "error"
-    async play(uri, positionMs) {
-      const body = { uris: [uri], position_ms: Math.max(0, positionMs || 0) };
-      let r = await spotify.api("PUT", "/me/player/play", body);
-      if (r.ok) return { ok: true };
-      if (r.status === 401) return { ok: false, reason: "login" };
-      if (r.status === 404) {
-        // No active device: pick the phone/computer where Spotify is open.
-        const ds = (await spotify.devices()).filter((d) => !d.is_restricted);
-        const pick = ds.find((d) => d.is_active) || ds.find((d) => d.type === "Smartphone") || ds[0];
-        if (!pick) return { ok: false, reason: "no_device" };
-        r = await spotify.api("PUT", "/me/player/play?device_id=" + encodeURIComponent(pick.id), body);
-        if (r.ok) return { ok: true };
-      }
-      const detail = await r.text().catch(() => "");
-      if (r.status === 403) return { ok: false, reason: "premium", detail };
-      if (r.status === 404) return { ok: false, reason: "no_device", detail };
-      return { ok: false, reason: "error", detail: r.status + " " + detail };
+    // Which Spotify device should play? A device chosen by hand (remembered on this phone) wins;
+    // on a phone the smartphone comes first, so the music does not end up on a laptop or speaker
+    // that happens to be "active" on the same account.
+    chooseDevice(ds) {
+      const usable = ds.filter((d) => !d.is_restricted);
+      const saved = KZ.local.get("kz.device");
+      const byId = saved && usable.find((d) => d.id === saved.id);
+      if (byId) return byId;
+      const byName = saved && usable.find((d) => d.name === saved.name && d.type === saved.type);
+      if (byName) return byName;
+      const onPhone = /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent);
+      const phones = usable.filter((d) => d.type === "Smartphone" || d.type === "Tablet");
+      if (onPhone) return phones.find((d) => d.is_active) || (phones.length === 1 ? phones[0] : null) || phones[0] || usable.find((d) => d.is_active) || usable[0] || null;
+      return usable.find((d) => d.is_active) || usable.find((d) => d.type === "Computer") || usable[0] || null;
     },
 
-    async resume() {
-      const r = await spotify.api("PUT", "/me/player/play");
+    rememberDevice(d) {
+      if (d) KZ.local.set("kz.device", { id: d.id, name: d.name, type: d.type });
+      else KZ.local.del("kz.device");
+    },
+
+    async apiError(r) {
+      const text = await r.text().catch(() => "");
+      try {
+        const j = JSON.parse(text);
+        return (j.error && (j.error.message || j.error.reason)) || text;
+      } catch (e) {
+        return text;
+      }
+    },
+
+    // Plays one track from positionMs on the right device. Returns {ok, device} or {ok:false, reason, detail}.
+    // reason: "login" | "no_device" | "premium" | "not_playing" | "error"
+    async play(uri, positionMs) {
+      const ds = await spotify.devices();
+      const dev = spotify.chooseDevice(ds);
+      if (!dev) return { ok: false, reason: "no_device", devices: ds };
+      // A start position beyond the end of this recording would play nothing: start from 0 instead.
+      let pos = Math.max(0, positionMs || 0);
+      if (pos > 0) {
+        const id = uri.split(":").pop();
+        const tr = await spotify.api("GET", "/tracks/" + encodeURIComponent(id));
+        if (tr.ok) {
+          const t = await tr.json();
+          if (t.duration_ms && pos > t.duration_ms - 15000) pos = 0;
+        }
+      }
+      // Wake the device up first if it is not the active one (phones fall asleep in the background).
+      if (!dev.is_active) {
+        await spotify.api("PUT", "/me/player", { device_ids: [dev.id], play: false });
+        await new Promise((res) => setTimeout(res, 700));
+      }
+      const body = { uris: [uri], position_ms: pos };
+      const path = "/me/player/play?device_id=" + encodeURIComponent(dev.id);
+      let r = await spotify.api("PUT", path, body);
+      if (r.status === 404 || r.status === 502) {
+        await new Promise((res) => setTimeout(res, 1200));
+        r = await spotify.api("PUT", path, body);
+      }
+      if (r.status === 401) return { ok: false, reason: "login" };
+      if (!r.ok) {
+        const detail = await spotify.apiError(r);
+        if (r.status === 403) return { ok: false, reason: "premium", detail, device: dev };
+        if (r.status === 404) return { ok: false, reason: "no_device", detail, device: dev, devices: ds };
+        return { ok: false, reason: "error", detail: r.status + " " + detail, device: dev };
+      }
+      // Check that Spotify really plays it there.
+      for (let i = 0; i < 4; i++) {
+        await new Promise((res) => setTimeout(res, 700));
+        const st = await spotify.state();
+        // (Spotify may play a regional copy of the track, so the device and "is playing" are what counts.)
+        if (st && st.is_playing && (!st.device || st.device.id === dev.id)) return { ok: true, device: dev };
+        if (st && st.device && st.device.id !== dev.id && i === 3)
+          return { ok: false, reason: "not_playing", detail: "Spotify spielt auf „" + st.device.name + "“ statt auf „" + dev.name + "“.", device: dev, devices: ds };
+      }
+      return { ok: false, reason: "not_playing", detail: "Spotify meldet keine Wiedergabe auf „" + dev.name + "“.", device: dev, devices: ds };
+    },
+
+    async resume(deviceId) {
+      const r = await spotify.api("PUT", "/me/player/play" + (deviceId ? "?device_id=" + encodeURIComponent(deviceId) : ""));
       return r.ok;
     },
 

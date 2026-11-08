@@ -21,6 +21,8 @@
     problem: null, // {kind, text}
     revealed: false,
     audio: null,
+    device: null, // Spotify device the music plays on
+    devices: null, // device list while choosing one by hand
   };
 
   // ---------- rendering ----------
@@ -51,6 +53,9 @@
     });
     btn.innerHTML = S.playing ? ICON_PAUSE : ICON_PLAY;
     parts.push(btn, el("p", { class: "status", "aria-live": "polite" }, S.status));
+    if (S.mode === "spotify" && S.device && !S.devices)
+      parts.push(el("p", { class: "status device" }, "🔊 Spielt auf: " + S.device.name + " ", el("button", { class: "link", onclick: chooseDevice }, "anderes Gerät")));
+    if (S.devices) parts.push(devicePanel());
     if (S.problem) parts.push(problemPanel());
     if (!spotify.isLoggedIn() && !c.audio) parts.push(...spotifyBox());
 
@@ -106,12 +111,14 @@
   function problemPanel() {
     const p = S.problem;
     const kids = [el("p", {}, p.text)];
-    if (p.kind === "no_device") {
+    if (p.detail) kids.push(el("p", { style: "font-size:14px;opacity:.75" }, "Spotify sagt: " + p.detail));
+    if (p.kind === "no_device" || p.kind === "not_playing") {
       kids.push(
         el(
           "div",
           { class: "row" },
           el("a", { class: "btn", href: "spotify:" }, "Spotify öffnen"),
+          el("button", { class: "btn", onclick: chooseDevice }, "Gerät wählen"),
           el("button", { class: "btn btn-primary", onclick: () => start(true) }, "Nochmal versuchen")
         )
       );
@@ -124,6 +131,42 @@
 
   // Version tag from the script address (index.html loads app.js?v=…), to see on a phone which version runs.
   const VERSION = ((document.querySelector('script[src*="app.js"]') || {}).src || "").split("v=")[1] || "dev";
+
+  function devicePanel() {
+    const list = S.devices;
+    const kids = [el("p", {}, list.length ? "Auf welchem Gerät soll die Musik laufen?" : "Spotify findet gerade kein Gerät. Öffne die Spotify-App auf diesem Handy, starte kurz ein Lied und tippe dann auf „Aktualisieren“.")];
+    for (const d of list)
+      kids.push(
+        el(
+          "button",
+          {
+            class: "btn" + (S.device && S.device.id === d.id ? " btn-primary" : ""),
+            onclick: () => {
+              spotify.rememberDevice(d);
+              S.devices = null;
+              start(true);
+            },
+          },
+          d.name + " (" + ({ Smartphone: "Handy", Computer: "Computer", Speaker: "Lautsprecher", Tablet: "Tablet", TV: "Fernseher" }[d.type] || d.type) + ")"
+        )
+      );
+    kids.push(
+      el(
+        "div",
+        { class: "row" },
+        el("button", { class: "btn btn-ghost", onclick: chooseDevice }, "Aktualisieren"),
+        el("button", { class: "btn btn-ghost", onclick: () => { S.devices = null; render(); } }, "Schließen")
+      )
+    );
+    return el("div", { class: "panel stack" }, kids);
+  }
+
+  async function chooseDevice() {
+    S.devices = [];
+    render();
+    S.devices = (await spotify.devices()).filter((d) => !d.is_restricted);
+    render();
+  }
 
   function footerView() {
     const items = [el("div", { style: "font-size:12px;opacity:.6" }, "Version " + VERSION)];
@@ -194,6 +237,7 @@
       const uri = await spotify.resolveUri(c);
       if (!uri) throw new Error("Kein passender Titel auf Spotify gefunden.");
       const r = await spotify.play(uri, c.start_ms || 0);
+      if (r.device) S.device = r.device;
       if (r.ok) {
         Object.assign(S, { started: true, playing: true, status: "Läuft …" });
       } else {
@@ -214,12 +258,19 @@
     if (r.reason === "no_device")
       return {
         kind: "no_device",
+        detail: r.detail,
         text: "Spotify ist auf diesem Handy gerade nicht aktiv. Öffne kurz die Spotify-App, starte irgendein Lied und pausiere es, komm hierher zurück und tippe auf „Nochmal versuchen“.",
+      };
+    if (r.reason === "not_playing")
+      return {
+        kind: "not_playing",
+        text: "Die Musik startet nicht auf diesem Handy. " + (r.detail || "") + " Wähle das richtige Gerät oder öffne kurz die Spotify-App und versuche es nochmal.",
       };
     if (r.reason === "premium")
       return {
         kind: "premium",
-        text: "Spotify hat die Wiedergabe abgelehnt. Das Konto braucht Premium und muss für das Spiel freigeschaltet sein (README, Schritt 2).",
+        detail: r.detail,
+        text: "Spotify hat die Wiedergabe abgelehnt. Das Konto braucht Premium und muss für das Spiel freigeschaltet sein.",
       };
     if (r.reason === "login") return { kind: "login", text: "Die Spotify-Verbindung ist abgelaufen. Bitte neu verbinden." };
     return { kind: "error", text: "Spotify-Fehler: " + (r.detail || "unbekannt") };
@@ -242,7 +293,7 @@
       await spotify.pause();
       Object.assign(S, { playing: false, status: "Pausiert" });
     } else {
-      const ok = await spotify.resume();
+      const ok = await spotify.resume(S.device && S.device.id);
       if (ok) Object.assign(S, { playing: true, status: "Läuft …" });
       else {
         S.busy = false;
