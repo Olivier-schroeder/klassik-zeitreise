@@ -139,12 +139,16 @@
         code_challenge_method: "S256",
         code_challenge: b64url(new Uint8Array(digest)),
         state,
+        // Always show Spotify's dialog, so you see (and can change, "Nicht du?") which account gets connected.
+        show_dialog: "true",
       });
       location.assign(AUTH_URL + "?" + q);
     },
 
     logout() {
       KZ.local.del("kz.token");
+      KZ.local.del("kz.device");
+      KZ.session.del("kz.me");
     },
 
     // Call on page load. Returns {returnTo} after a login redirect, {error} on failure, else null.
@@ -213,7 +217,8 @@
       if (byName) return byName;
       const onPhone = /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent);
       const phones = usable.filter((d) => d.type === "Smartphone" || d.type === "Tablet");
-      if (onPhone) return phones.find((d) => d.is_active) || (phones.length === 1 ? phones[0] : null) || phones[0] || usable.find((d) => d.is_active) || usable[0] || null;
+      // On a phone never fall back to a TV or speaker somewhere else: that only happens when chosen by hand.
+      if (onPhone) return phones.find((d) => d.is_active) || phones[0] || null;
       return usable.find((d) => d.is_active) || usable.find((d) => d.type === "Computer") || usable[0] || null;
     },
 
@@ -234,10 +239,28 @@
 
     // Plays one track from positionMs on the right device. Returns {ok, device} or {ok:false, reason, detail}.
     // reason: "login" | "no_device" | "premium" | "not_playing" | "error"
+    isPhone: () => /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent),
+
+    // The Spotify account the game is connected with: {display_name, id, product}.
+    async me() {
+      const cached = KZ.session.get("kz.me");
+      if (cached) return cached;
+      const r = await spotify.api("GET", "/me");
+      if (!r.ok) return null;
+      const j = await r.json();
+      const me = { display_name: j.display_name || j.id, id: j.id, product: j.product };
+      KZ.session.set("kz.me", me);
+      return me;
+    },
+
     async play(uri, positionMs) {
       const ds = await spotify.devices();
       const dev = spotify.chooseDevice(ds);
-      if (!dev) return { ok: false, reason: "no_device", devices: ds };
+      if (!dev) {
+        const others = ds.filter((d) => !d.is_restricted);
+        // reason "no_phone": the account has devices (TV, speakers, laptop) but not this phone's Spotify app.
+        return { ok: false, reason: spotify.isPhone() && others.length ? "no_phone" : "no_device", devices: others, account: await spotify.me() };
+      }
       // A start position beyond the end of this recording would play nothing: start from 0 instead.
       let pos = Math.max(0, positionMs || 0);
       if (pos > 0) {

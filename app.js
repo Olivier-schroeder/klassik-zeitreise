@@ -22,6 +22,7 @@
     revealed: false,
     audio: null,
     device: null, // Spotify device the music plays on
+    account: null, // Spotify account the game is connected with
     devices: null, // device list while choosing one by hand
   };
 
@@ -123,6 +124,17 @@
         )
       );
     }
+    if (p.kind === "no_phone") {
+      kids.push(
+        el(
+          "div",
+          { class: "stack" },
+          el("a", { class: "btn btn-primary", href: "spotify:" }, "Spotify-App öffnen"),
+          el("button", { class: "btn", onclick: switchAccount }, "Mit anderem Spotify-Konto verbinden"),
+          el("button", { class: "btn btn-ghost", onclick: chooseDevice }, "Auf einem anderen Gerät abspielen")
+        )
+      );
+    }
     if (p.kind === "login") {
       kids.push(el("button", { class: "btn btn-primary", onclick: () => spotify.login(currentReturnUrl()) }, "Mit Spotify verbinden"));
     }
@@ -161,6 +173,18 @@
     return el("div", { class: "panel stack" }, kids);
   }
 
+  function switchAccount() {
+    spotify.logout();
+    S.account = null;
+    spotify.login(currentReturnUrl());
+  }
+
+  // Coming back from the Spotify app: try again automatically (the phone should now be listed).
+  document.addEventListener("visibilitychange", () => {
+    if (document.visibilityState === "visible" && S.card && S.problem && ["no_phone", "no_device", "not_playing"].includes(S.problem.kind) && !S.busy)
+      setTimeout(() => start(true), 800);
+  });
+
   async function chooseDevice() {
     S.devices = [];
     render();
@@ -175,7 +199,7 @@
         el(
           "div",
           {},
-          el("span", { class: "okline" }, "Spotify verbunden ✓ "),
+          el("span", { class: "okline" }, "Spotify verbunden" + (S.account ? " als „" + S.account.display_name + "“" : "") + " ✓ "),
           el(
             "button",
             {
@@ -261,6 +285,18 @@
         detail: r.detail,
         text: "Spotify ist auf diesem Handy gerade nicht aktiv. Öffne kurz die Spotify-App, starte irgendein Lied und pausiere es, komm hierher zurück und tippe auf „Nochmal versuchen“.",
       };
+    if (r.reason === "no_phone") {
+      const acc = r.account ? "„" + r.account.display_name + "“" : "dem verbundenen Konto";
+      return {
+        kind: "no_phone",
+        text:
+          "Spotify findet dieses Handy nicht. Das Spiel ist mit dem Spotify-Konto " + acc + " verbunden; Spotify kennt dort nur " +
+          (r.devices || []).map((d) => "„" + d.name + "“").join(", ") +
+          ". So klappt es: Die Spotify-App auf diesem Handy muss mit demselben Konto angemeldet und kurz geöffnet sein. " +
+          "Ist die App mit einem anderen Konto angemeldet, verbinde das Spiel mit diesem Konto (es muss in der Spotify-App des Spiels freigeschaltet sein). " +
+          "Nach dem Öffnen der App hierher zurückkommen: die Seite versucht es dann automatisch nochmal.",
+      };
+    }
     if (r.reason === "not_playing")
       return {
         kind: "not_playing",
@@ -373,6 +409,7 @@
     } catch (e) {
       S.problem = { kind: "error", text: e.message };
     }
+    if (spotify.isLoggedIn()) spotify.me().then((m) => { S.account = m; render(); });
     if (cardId) {
       const problem = S.problem;
       openCard(cardId, true);
