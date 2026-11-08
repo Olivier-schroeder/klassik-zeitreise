@@ -9,7 +9,7 @@
   <style>
     /* A4, 3 x 4 square cards per sheet, black and white. Print double-sided, "flip on long edge", scale 100%.
        Front: family drawing (woodcut) + QR code. Back: answer in a double frame.
-       The drawing lives in private/familie_linien.png (never published); without it the front shows the QR code only. */
+       The drawing lives in private/familie2_skizze.png (never published); without it the front shows the QR code only. */
     :root { --card: 63mm; --ink: #111; }
     @page { size: A4; margin: 0; }
     * { box-sizing: border-box; }
@@ -62,7 +62,7 @@
     (async function () {
       const KZ = window.KZ, el = KZ.el;
       const PER = 12, COLS = 3;
-      const PHOTO = "private/familie_linien.png";
+      const PHOTO = "private/familie2_skizze.png";
       const cards = await KZ.loadCards();
       const controls = document.getElementById("controls");
       const base = KZ.baseUrl();
@@ -74,7 +74,7 @@
       if (!hasPhoto) document.body.classList.add("no-photo");
       controls.append(el("div", { class: hasPhoto ? "ok" : "warn" }, hasPhoto
         ? `Familienbild gefunden. ${cards.length} Karten auf ${Math.ceil(cards.length / PER)} Blättern (${2 * Math.ceil(cards.length / PER)} Seiten).`
-        : "Ohne Familienbild (Datei private/familie_linien.png fehlt): Die Vorderseiten zeigen nur den QR-Code. Zum Drucken die Seite auf dem eigenen Computer öffnen."));
+        : "Ohne Familienbild (Datei private/familie2_skizze.png fehlt): Die Vorderseiten zeigen nur den QR-Code. Zum Drucken die Seite auf dem eigenen Computer öffnen."));
 
       function qrSvg(text) {
         const qr = qrcode(0, "M");

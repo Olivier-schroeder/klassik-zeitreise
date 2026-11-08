@@ -37,7 +37,7 @@
   <script>
     (async function () {
       const KZ = window.KZ;
-      const PHOTO = "private/familie_linien.png";
+      const PHOTO = "private/familie2_skizze.png";
       const cards = await KZ.loadCards();
       const hasPhoto = await new Promise((res) => { const i = new Image(); i.onload = () => res(true); i.onerror = () => res(false); i.src = PHOTO; });
       const params = new URLSearchParams(location.search);
@@ -60,7 +60,7 @@
         document.getElementById("info").innerHTML =
           `${cards.length} Karten × ${t.toFixed(2)} mm ≈ ${Math.round(cards.length * t)} mm Stapel → ` +
           (boxes === 1 ? `<b>eine Schachtel</b> für die 6,3-cm-Karten, innen etwa ${L} mm hoch.` : `<b>${boxes} Schachteln</b> à ${Math.ceil(cards.length / boxes)} Karten (innen ${L} mm hoch).`) +
-          (hasPhoto ? "" : " <i>(Familienbild nicht gefunden: Datei private/familie_linien.png)</i>");
+          (hasPhoto ? "" : " <i>(Familienbild nicht gefunden: Datei private/familie2_skizze.png)</i>");
 
         const sheets = document.getElementById("sheets");
         sheets.replaceChildren();
@@ -93,7 +93,7 @@
           [X(1), yL, X(2), yL], [X(0), yL, X(1), yL], [X(0), yL + W, X(1), yL + W], [X(3), yL, X(4), yL],
         ];
         const cx = (i) => X(i) + W / 2;
-        const imgH = (W - 4) * 1350 / 2075; // whole group, nobody cut off (drawing is 2075 x 1350 px)
+        const imgH = (W - 4) * 1435 / 2107; // whole group, nobody cut off (drawing is 2107 x 1435 px)
         const midY = yb + L / 2;
         const qrSize = 26;
         // QR code to the game page, drawn as SVG squares.
