@@ -279,8 +279,29 @@
       //  A  plain "play" on the active device (no device_id: some phones ignore commands that name them)
       //  B  "play" naming the device
       //  C  hand playback over with play:true, then plain "play"
+      //  D  play the track's album, starting at this track (phones treat albums like normal listening)
+      //  E  put the track in the queue and skip to it
+      const trackId = uri.split(":").pop();
+      let albumUri = null;
+      const album = async () => {
+        if (albumUri) return albumUri;
+        const tr = await spotify.api("GET", "/tracks/" + encodeURIComponent(trackId));
+        if (tr.ok) albumUri = ((await tr.json()).album || {}).uri || null;
+        return albumUri;
+      };
       const variants = {
         A: () => spotify.api("PUT", "/me/player/play", body),
+        D: async () => {
+          const a = await album();
+          if (!a) return { ok: false, status: 0, text: async () => "album unknown" };
+          return spotify.api("PUT", "/me/player/play", { context_uri: a, offset: { uri }, position_ms: pos });
+        },
+        E: async () => {
+          const q = await spotify.api("POST", "/me/player/queue?uri=" + encodeURIComponent(uri));
+          if (!q.ok) return q;
+          await wait(500);
+          return spotify.api("POST", "/me/player/next");
+        },
         B: () => spotify.api("PUT", withId, body),
         C: async () => {
           await spotify.api("PUT", "/me/player", { device_ids: [dev.id], play: true });
@@ -297,7 +318,7 @@
       const isOurs = (st) => st && st.item && (st.item.uri === uri || (st.item.linked_from && st.item.linked_from.uri === uri));
       KZ.expectUri = uri; // only so the log can say whether the loaded track is the right one
       let last = null, firstError = null;
-      for (const name of ["A", "B", "C"]) {
+      for (const name of ["A", "D", "E", "B", "C"]) {
         KZ.logNote("Versuch " + name);
         let r = await variants[name]();
         if (r.status === 401) return { ok: false, reason: "login" };
@@ -309,7 +330,7 @@
           }
           continue;
         }
-        for (let i = 1; i <= 4; i++) {
+        for (let i = 1; i <= 3; i++) {
           await wait(1000);
           const st = await spotify.state();
           last = st;
@@ -318,7 +339,7 @@
             return { ok: true, device: dev };
           }
           // Loaded our track but paused: a plain "resume" usually starts it.
-          if (st && !st.is_playing && isOurs(st) && (i === 1 || i === 3)) await resume();
+          if (st && !st.is_playing && isOurs(st) && i === 1) await resume();
         }
       }
       if (firstError && !last) {
