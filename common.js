@@ -195,6 +195,7 @@
           headers: Object.assign({ Authorization: "Bearer " + token }, body ? { "Content-Type": "application/json" } : {}),
           body: body ? JSON.stringify(body) : undefined,
         });
+        KZ.logApi(method, path, res);
         if (res.status !== 401) return res;
       }
     },
@@ -387,6 +388,31 @@
       return r.ok;
     },
   });
+
+  // Diagnostics: the last Spotify exchanges (method, path, status, short answer), shown under
+  // "Technische Details" when something goes wrong. No tokens or personal data beyond device names.
+  KZ.apiLog = [];
+  KZ.logApi = function (method, path, res) {
+    const t = new Date().toTimeString().slice(0, 8);
+    const entry = { t, line: method + " " + path.replace(/q=[^&]*/, "q=…").slice(0, 70) + " → " + res.status };
+    KZ.apiLog.push(entry);
+    if (KZ.apiLog.length > 40) KZ.apiLog.shift();
+    // Add a short summary of the answers that matter for playback.
+    if (/\/me\/player(\/devices)?$/.test(path) || /^\/me\/player\?/.test(path)) {
+      res.clone().text().then((txt) => {
+        try {
+          const j = JSON.parse(txt);
+          if (j.devices) entry.line += " · " + j.devices.map((d) => d.name + (d.is_active ? " (aktiv)" : "") + (d.is_restricted ? " (gesperrt)" : "")).join(", ");
+          else if (j.device) entry.line += " · " + (j.is_playing ? "spielt" : "pausiert") + " auf " + j.device.name;
+        } catch (e) {
+          if (txt) entry.line += " · " + txt.slice(0, 80);
+        }
+      }).catch(() => {});
+    } else if (!res.ok) {
+      res.clone().text().then((txt) => { if (txt) entry.line += " · " + txt.replace(/\s+/g, " ").slice(0, 120); }).catch(() => {});
+    }
+  };
+  KZ.apiLogText = () => KZ.apiLog.map((e) => e.t + "  " + e.line).join(String.fromCharCode(10));
 
   // Link that opens the Spotify app: Chrome on Android needs an intent link, iPhone understands "spotify:".
   KZ.spotifyAppUrl = () =>

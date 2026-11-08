@@ -138,6 +138,12 @@
     if (p.kind === "login") {
       kids.push(el("button", { class: "btn btn-primary", onclick: () => spotify.login(currentReturnUrl()) }, "Mit Spotify verbinden"));
     }
+    if (["no_phone", "no_device", "not_playing", "error", "premium"].includes(p.kind) && KZ.apiLog.length) {
+      const pre = el("pre", { style: "white-space:pre-wrap;font-size:11px;line-height:1.35;margin:6px 0 0;opacity:.85" }, KZ.apiLogText());
+      kids.push(el("details", {}, el("summary", { style: "font-size:14px;opacity:.75;cursor:pointer" }, "Technische Details (für Olivier)"),
+        el("p", { style: "font-size:12px;opacity:.7;margin:4px 0 0" }, (navigator.userAgent.match(/Android [\d.]+|iPhone OS [\d_]+|Windows NT [\d.]+|Mac OS X [\d_]+/) || [""])[0] + " · Version " + VERSION),
+        pre));
+    }
     return el("div", { class: "panel warn stack" }, kids);
   }
 
