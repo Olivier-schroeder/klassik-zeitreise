@@ -466,6 +466,11 @@
   };
   KZ.apiLogText = () => KZ.apiLog.map((e) => e.t + "  " + e.line).join(String.fromCharCode(10));
 
+  // A few seconds of silence, used to "wake up" Spotify on a phone (see app.js prepareSpotify).
+  KZ.SILENCE = ["spotify:track:5nX8GYWkbmCh4BYYRi5F7Y", "spotify:track:2Retu7fAHEAERBPKf0jtnX"];
+  // Spotify counts as prepared for 3 hours after the wake-up step.
+  KZ.spotifyPrepared = () => Date.now() - (KZ.local.get("kz.prepared") || 0) < 3 * 3600 * 1000;
+
   // Link that opens the Spotify app: Chrome on Android needs an intent link, iPhone understands "spotify:".
   KZ.spotifyAppUrl = () =>
     /Android/i.test(navigator.userAgent) ? "intent://open#Intent;scheme=spotify;package=com.spotify.music;end" : "spotify:";

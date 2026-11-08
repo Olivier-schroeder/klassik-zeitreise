@@ -40,6 +40,7 @@
       el("button", { class: "btn btn-primary", onclick: scan }, "Karte scannen")
     );
     parts.push(...spotifyBox());
+    if (spotify.isLoggedIn() && spotify.isPhone()) parts.push(preparePanel());
     return parts;
   }
 
@@ -55,7 +56,8 @@
     btn.innerHTML = S.playing ? ICON_PAUSE : ICON_PLAY;
     parts.push(btn, el("p", { class: "status", "aria-live": "polite" }, S.status));
     if (S.mode === "spotify" && S.device && !S.devices)
-      parts.push(el("p", { class: "status device" }, "🔊 Spielt auf: " + S.device.name + " ", el("button", { class: "link", onclick: chooseDevice }, "anderes Gerät")));
+      parts.push(el("p", { class: "status device" }, "🔊 Spielt auf: " + S.device.name + " ", el("button", { class: "link", onclick: chooseDevice }, "anderes Gerät"),
+        spotify.isPhone() ? [" · ", el("button", { class: "link", onclick: prepareSpotify }, "kein Ton?")] : null));
     if (S.devices) parts.push(devicePanel());
     if (S.problem) parts.push(problemPanel());
     if (!spotify.isLoggedIn() && !c.audio) parts.push(...spotifyBox());
@@ -179,6 +181,35 @@
     return el("div", { class: "panel stack" }, kids);
   }
 
+  // ---------- waking up Spotify on a phone ----------
+  // Android lets a background app continue audio, but not start it. Spotify then "plays" without
+  // sound until it was in the foreground once. So: start 30 s of silence and open the Spotify app
+  // (both inside the tap, which Android requires for opening an app); after coming back, every
+  // card plays with sound while Spotify stays in the background.
+  function preparePanel() {
+    if (KZ.spotifyPrepared())
+      return el("p", { class: "status" }, "Spotify ist vorbereitet ✓ ", el("button", { class: "link", onclick: prepareSpotify }, "nochmal"));
+    return el(
+      "div",
+      { class: "panel stack" },
+      el("p", {}, "Vor dem ersten Lied: Spotify einmal vorbereiten. Die Spotify-App öffnet sich kurz und spielt Stille. Dann hierher zurückkommen."),
+      el("button", { class: "btn btn-primary", onclick: prepareSpotify }, "Spotify vorbereiten")
+    );
+  }
+
+  function prepareSpotify() {
+    S.preparing = true;
+    // Start the silence (not awaited: the app has to be opened right now, inside the tap).
+    (async () => {
+      for (const uri of KZ.SILENCE) {
+        const r = await spotify.play(uri, 0);
+        if (r.ok) break;
+      }
+    })();
+    KZ.local.set("kz.prepared", Date.now());
+    setTimeout(() => (location.href = KZ.spotifyAppUrl()), 150);
+  }
+
   function switchAccount() {
     spotify.logout();
     S.account = null;
@@ -187,6 +218,11 @@
 
   // Coming back from the Spotify app: try again automatically (the phone should now be listed).
   document.addEventListener("visibilitychange", () => {
+    if (document.visibilityState === "visible" && S.preparing) {
+      S.preparing = false;
+      render();
+      return;
+    }
     if (document.visibilityState === "visible" && S.card && S.problem && ["no_phone", "no_device", "not_playing"].includes(S.problem.kind) && !S.busy)
       setTimeout(() => start(true), 800);
   });
