@@ -74,7 +74,7 @@
   const AUTH_URL = "https://accounts.spotify.com/authorize";
   const TOKEN_URL = "https://accounts.spotify.com/api/token";
   const API = "https://api.spotify.com/v1";
-  const SCOPES = "user-modify-playback-state user-read-playback-state user-read-private";
+  const SCOPES = "user-modify-playback-state user-read-playback-state user-read-private streaming user-read-email";
   const clientId = () => (CFG.SPOTIFY_CLIENT_ID || "").trim();
   // One redirect address for every page: the game's folder (index.html).
   const redirectUri = () => new URL("./", location.href).href;
@@ -255,6 +255,14 @@
     },
 
     async play(uri, positionMs) {
+      KZ.webPlayer.active = false;
+      // 1st choice: Spotify's player inside this web page (no app, no background limits),
+      // unless a device was chosen by hand.
+      if (!KZ.local.get("kz.device") && KZ.webPlayer.supported()) {
+        const r = await KZ.webPlayer.play(uri, positionMs);
+        if (r.ok) return r;
+        KZ.logNote("Browser-Player: " + (r.detail || "nicht verfügbar") + " → Fernsteuerung");
+      }
       const ds = await spotify.devices();
       const dev = spotify.chooseDevice(ds);
       if (!dev) {
@@ -353,11 +361,16 @@
     },
 
     async resume(deviceId) {
+      if (KZ.webPlayer.active) {
+        await KZ.webPlayer.player.resume();
+        return true;
+      }
       const r = await spotify.api("PUT", "/me/player/play" + (deviceId ? "?device_id=" + encodeURIComponent(deviceId) : ""));
       return r.ok;
     },
 
     async pause() {
+      if (KZ.webPlayer.active) return KZ.webPlayer.player.pause();
       await spotify.api("PUT", "/me/player/pause");
     },
 
@@ -424,6 +437,12 @@
 
     // Jumps forward/back in the current track (ms may be negative).
     async seekBy(ms) {
+      if (KZ.webPlayer.active) {
+        const st = await KZ.webPlayer.player.getCurrentState();
+        if (!st) return false;
+        await KZ.webPlayer.player.seek(Math.max(0, st.position + ms));
+        return true;
+      }
       const st = await spotify.state();
       if (!st || st.progress_ms == null) return false;
       const target = Math.max(0, st.progress_ms + ms);
@@ -465,6 +484,96 @@
     if (KZ.apiLog.length > 60) KZ.apiLog.shift();
   };
   KZ.apiLogText = () => KZ.apiLog.map((e) => e.t + "  " + e.line).join(String.fromCharCode(10));
+
+  // ---------- Spotify's player inside the page (Web Playback SDK) ----------
+  // The page itself becomes a Spotify device ("Klassik-Zeitreise") and plays through the phone's
+  // speaker or Bluetooth. Needs Premium and the "streaming" permission. If it cannot start
+  // (some phones/browsers), play() falls back to remote-controlling the Spotify app.
+  KZ.webPlayer = {
+    player: null,
+    deviceId: null,
+    active: false, // true while the current card plays in the browser
+    failed: null, // reason, if the SDK cannot be used on this device
+    supported: () => window.isSecureContext && !KZ.webPlayer.failed && "MediaKeys" in window,
+    // Must be called inside a tap: unlocks audio on phones.
+    activate() {
+      try {
+        if (KZ.webPlayer.player && KZ.webPlayer.player.activateElement) KZ.webPlayer.player.activateElement();
+      } catch (e) {}
+    },
+    loadSdk() {
+      if (KZ.webPlayer._sdk) return KZ.webPlayer._sdk;
+      KZ.webPlayer._sdk = new Promise((resolve, reject) => {
+        if (window.Spotify && window.Spotify.Player) return resolve();
+        window.onSpotifyWebPlaybackSDKReady = () => resolve();
+        const sc = document.createElement("script");
+        sc.src = "https://sdk.scdn.co/spotify-player.js";
+        sc.onerror = () => reject(new Error("SDK konnte nicht geladen werden"));
+        document.head.append(sc);
+      });
+      return KZ.webPlayer._sdk;
+    },
+    // Connects once; resolves to the device id or null (and remembers why it failed).
+    async ensure() {
+      const wp = KZ.webPlayer;
+      if (wp.deviceId) return wp.deviceId;
+      if (wp.failed) return null;
+      if (wp._connecting) return wp._connecting;
+      wp._connecting = (async () => {
+        try {
+          await wp.loadSdk();
+          const player = new window.Spotify.Player({
+            name: KZ.gameName,
+            getOAuthToken: (cb) => spotify.accessToken().then((t) => cb(t)),
+            volume: 1.0,
+          });
+          wp.player = player;
+          const id = await new Promise((resolve, reject) => {
+            const fail = (label) => ({ message }) => reject(new Error(label + ": " + message));
+            player.addListener("ready", ({ device_id }) => resolve(device_id));
+            player.addListener("initialization_error", fail("Initialisierung"));
+            player.addListener("authentication_error", fail("Anmeldung"));
+            player.addListener("account_error", fail("Konto"));
+            player.addListener("playback_error", ({ message }) => KZ.logNote("Browser-Player Wiedergabefehler: " + message));
+            player.addListener("not_ready", () => { wp.deviceId = null; });
+            player.addListener("autoplay_failed", () => KZ.logNote("Browser-Player: Autoplay blockiert (einmal ▶ tippen)"));
+            player.connect().then((ok) => { if (!ok) reject(new Error("connect() abgelehnt")); });
+            setTimeout(() => reject(new Error("keine Antwort nach 10 s")), 10000);
+          });
+          wp.deviceId = id;
+          KZ.logNote("Browser-Player bereit");
+          return id;
+        } catch (e) {
+          wp.failed = e.message || String(e);
+          KZ.logNote("Browser-Player nicht verfügbar: " + wp.failed);
+          try { if (wp.player) wp.player.disconnect(); } catch (x) {}
+          return null;
+        } finally {
+          wp._connecting = null;
+        }
+      })();
+      return wp._connecting;
+    },
+    async play(uri, positionMs) {
+      const wp = KZ.webPlayer;
+      const id = await wp.ensure();
+      if (!id) return { ok: false, detail: wp.failed };
+      const pos = Math.max(0, positionMs || 0);
+      const r = await spotify.api("PUT", "/me/player/play?device_id=" + encodeURIComponent(id), { uris: [uri], position_ms: pos });
+      if (!r.ok) return { ok: false, detail: "play → " + r.status + " " + (await spotify.apiError(r)) };
+      for (let i = 0; i < 8; i++) {
+        await new Promise((res) => setTimeout(res, 600));
+        const st = await wp.player.getCurrentState();
+        if (st && !st.paused) {
+          wp.active = true;
+          KZ.logNote("Erfolg: spielt im Browser");
+          return { ok: true, device: { id, name: "diesem Handy (Browser)", type: "Browser" } };
+        }
+        if (st && st.paused && i === 3) await wp.player.resume().catch(() => {});
+      }
+      return { ok: false, detail: "Browser-Player startet nicht (Autoplay?)" };
+    },
+  };
 
   // A few seconds of silence, used to "wake up" Spotify on a phone (see app.js prepareSpotify).
   KZ.SILENCE = ["spotify:track:5nX8GYWkbmCh4BYYRi5F7Y", "spotify:track:2Retu7fAHEAERBPKf0jtnX"];

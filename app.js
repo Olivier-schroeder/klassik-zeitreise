@@ -40,7 +40,7 @@
       el("button", { class: "btn btn-primary", onclick: scan }, "Karte scannen")
     );
     parts.push(...spotifyBox());
-    if (spotify.isLoggedIn() && spotify.isPhone()) parts.push(preparePanel());
+    if (spotify.isLoggedIn() && spotify.isPhone() && KZ.webPlayer.failed) parts.push(preparePanel());
     return parts;
   }
 
@@ -57,7 +57,7 @@
     parts.push(btn, el("p", { class: "status", "aria-live": "polite" }, S.status));
     if (S.mode === "spotify" && S.device && !S.devices)
       parts.push(el("p", { class: "status device" }, "🔊 Spielt auf: " + S.device.name + " ", el("button", { class: "link", onclick: chooseDevice }, "anderes Gerät"),
-        spotify.isPhone() ? [" · ", el("button", { class: "link", onclick: prepareSpotify }, "kein Ton?")] : null));
+        spotify.isPhone() && S.device.type !== "Browser" ? [" · ", el("button", { class: "link", onclick: prepareSpotify }, "kein Ton?")] : null));
     if (S.devices) parts.push(devicePanel());
     if (S.problem) parts.push(problemPanel());
     if (!spotify.isLoggedIn() && !c.audio) parts.push(...spotifyBox());
@@ -265,6 +265,7 @@
 
   // ---------- actions ----------
   function scan() {
+    KZ.webPlayer.activate(); // inside the tap: unlocks audio for the in-browser player
     stopAll();
     KZ.openScanner((text) => {
       const id = KZ.parseCardId(text);
@@ -288,6 +289,7 @@
   }
 
   async function start(fromBeginning) {
+    KZ.webPlayer.activate();
     const c = S.card;
     if (!c) return;
     S.problem = null;
@@ -355,6 +357,7 @@
   }
 
   async function toggle() {
+    KZ.webPlayer.activate();
     if (!S.card || S.busy) return;
     if (S.mode === "audio") {
       if (S.playing) {
@@ -451,7 +454,10 @@
     } catch (e) {
       S.problem = { kind: "error", text: e.message };
     }
-    if (spotify.isLoggedIn()) spotify.me().then((m) => { S.account = m; render(); });
+    if (spotify.isLoggedIn()) {
+      spotify.me().then((m) => { S.account = m; render(); });
+      if (KZ.webPlayer.supported()) KZ.webPlayer.ensure().then(() => render());
+    }
     if (cardId) {
       const problem = S.problem;
       openCard(cardId, true);
