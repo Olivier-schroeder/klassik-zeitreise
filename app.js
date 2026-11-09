@@ -22,6 +22,8 @@
     revealed: false,
     audio: null,
     device: null, // Spotify device the music plays on
+    uri: null, // Spotify track of the current card
+    resumeAt: 0, // position to continue from after a "pause"
     account: null, // Spotify account the game is connected with
     devices: null, // device list while choosing one by hand
   };
@@ -167,7 +169,7 @@
               start(true);
             },
           },
-          d.name + " (" + ({ Smartphone: "Handy", Computer: "Computer", Speaker: "Lautsprecher", Tablet: "Tablet", TV: "Fernseher" }[d.type] || d.type) + ")"
+          d.name === KZ.gameName ? "Dieses Handy (Browser-Player)" : d.name + " (" + ({ Smartphone: "Handy", Computer: "Computer", Speaker: "Lautsprecher", Tablet: "Tablet", TV: "Fernseher" }[d.type] || d.type) + ")"
         )
       );
     kids.push(
@@ -328,7 +330,8 @@
     try {
       const uri = await spotify.resolveUri(c);
       if (!uri) throw new Error("Kein passender Titel auf Spotify gefunden.");
-      const r = await spotify.play(uri, c.start_ms || 0);
+      S.uri = uri;
+      const r = await spotify.play(uri, fromBeginning === "resume" ? S.resumeAt : c.start_ms || 0, { remoteOnly: fromBeginning === "resume" && keepAlive() });
       if (r.device) S.device = r.device;
       if (r.ok) {
         Object.assign(S, { started: true, playing: true, status: "Läuft …" });
@@ -395,9 +398,14 @@
     S.busy = true;
     render();
     if (S.playing) {
-      await spotify.pause();
+      if (keepAlive()) await hush();
+      else await spotify.pause();
       Object.assign(S, { playing: false, status: "Pausiert" });
     } else {
+      if (keepAlive()) {
+        S.busy = false;
+        return start("resume");
+      }
       const ok = await spotify.resume(S.device && S.device.id);
       if (ok) Object.assign(S, { playing: true, status: "Läuft …" });
       else {
@@ -448,8 +456,27 @@
 
   function stopAll() {
     if (S.audio) S.audio.pause();
-    if (S.mode === "spotify" && S.playing) spotify.pause();
+    if (S.mode === "spotify" && S.playing) {
+      if (keepAlive()) hush();
+      else spotify.pause();
+    }
     S.playing = false;
+  }
+
+  // Remote-controlled Spotify app on a phone: never really pause it. A paused Spotify on Android
+  // comes back without sound when started from the background, so "pause" plays silence on repeat
+  // instead and remembers where the card was.
+  function keepAlive() {
+    return S.mode === "spotify" && S.device && (S.device.type === "Smartphone" || S.device.type === "Tablet");
+  }
+  async function hush() {
+    try {
+      const st = await spotify.state();
+      if (st && st.progress_ms != null) S.resumeAt = st.progress_ms;
+    } catch (e) {}
+    KZ.logNote("Pause = Stille (Spotify bleibt aktiv)");
+    const r = await spotify.play(KZ.SILENCE[0], 0, { remoteOnly: true });
+    if (!r.ok) await spotify.pause();
   }
 
   function reveal() {

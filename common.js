@@ -254,11 +254,14 @@
       return me;
     },
 
-    async play(uri, positionMs) {
+    // opts.remoteOnly: skip the in-browser player (used to keep a phone's Spotify app busy).
+    async play(uri, positionMs, opts = {}) {
       KZ.webPlayer.active = false;
       // 1st choice: Spotify's player inside this web page (no app, no background limits),
       // unless a device was chosen by hand.
-      if (!KZ.local.get("kz.device") && KZ.webPlayer.supported()) {
+      const saved = KZ.local.get("kz.device");
+      const savedIsBrowser = saved && (saved.id === KZ.webPlayer.deviceId || saved.name === KZ.gameName);
+      if (!opts.remoteOnly && (!saved || savedIsBrowser) && KZ.webPlayer.supported()) {
         const r = await KZ.webPlayer.play(uri, positionMs);
         if (r.ok) return r;
         KZ.logNote("Browser-Player: " + (r.detail || "nicht verfügbar") + " → Fernsteuerung");
@@ -326,7 +329,13 @@
       const isOurs = (st) => st && st.item && (st.item.uri === uri || (st.item.linked_from && st.item.linked_from.uri === uri));
       KZ.expectUri = uri; // only so the log can say whether the loaded track is the right one
       let last = null, firstError = null;
-      for (const name of ["A", "D", "E", "B", "C"]) {
+      // Order: the attempt that worked last time on this device first; on phones the album variant
+      // before the plain one (a plain "play" stops a phone's Spotify, and a stopped Spotify on
+      // Android starts again without sound).
+      let order = (dev.type === "Smartphone" || dev.type === "Tablet") ? ["D", "E", "A", "B", "C"] : ["A", "D", "E", "B", "C"];
+      const known = (KZ.local.get("kz.variant") || {})[dev.id];
+      if (known && order.includes(known)) order = [known, ...order.filter((n) => n !== known)];
+      for (const name of order) {
         KZ.logNote("Versuch " + name);
         let r = await variants[name]();
         if (r.status === 401) return { ok: false, reason: "login" };
@@ -342,8 +351,15 @@
           await wait(1000);
           const st = await spotify.state();
           last = st;
-          if (st && st.is_playing && (!st.device || st.device.id === dev.id)) {
+          // Success = our track is playing there (not the previous one, not the silence).
+          if (st && st.is_playing && (!st.device || st.device.id === dev.id) && (!st.item || isOurs(st))) {
             KZ.logNote("Erfolg mit Versuch " + name);
+            const kv = KZ.local.get("kz.variant") || {};
+            kv[dev.id] = name;
+            KZ.local.set("kz.variant", kv);
+            // Repeat this track, so Spotify never stops on its own (on Android a stopped Spotify
+            // comes back without sound when started from the background).
+            spotify.api("PUT", "/me/player/repeat?state=track").catch(() => {});
             return { ok: true, device: dev };
           }
           // Loaded our track but paused: a plain "resume" usually starts it.
@@ -574,6 +590,12 @@
       return { ok: false, detail: "Browser-Player startet nicht (Autoplay?)" };
     },
   };
+
+  // Earlier versions remembered a device chosen by hand before the browser player existed: forget it once.
+  if (!KZ.local.get("kz.migr10")) {
+    KZ.local.del("kz.device");
+    KZ.local.set("kz.migr10", 1);
+  }
 
   // A few seconds of silence, used to "wake up" Spotify on a phone (see app.js prepareSpotify).
   KZ.SILENCE = ["spotify:track:5nX8GYWkbmCh4BYYRi5F7Y", "spotify:track:2Retu7fAHEAERBPKf0jtnX"];
