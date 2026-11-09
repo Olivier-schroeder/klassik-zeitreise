@@ -25,13 +25,18 @@
     .empty::after { display: none; }
     .qr svg { width: 100%; height: 100%; display: block; }
 
-    /* ---------- front (design B) ---------- */
-    .front .img { position: absolute; left: 0; right: 0; top: 0; height: 27mm; border-bottom: 0.5mm solid var(--ink); overflow: hidden; }
+    /* ---------- front ("oben & unten"): drawing on top, upside-down copy below, QR in the middle ---------- */
+    .front .img { position: absolute; left: 0; width: 63mm; height: 18mm; overflow: hidden; }
+    .front .img.top { top: 0; }
+    .front .img.bottom { top: 45mm; }
     .front .img img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 0%; display: block; }
-    .front .qr { position: absolute; width: 25mm; height: 25mm; left: 50%; bottom: 7mm; transform: translateX(-50%); }
-    .front .name { position: absolute; bottom: 2.3mm; left: 0; right: 0; text-align: center; font: 700 6pt system-ui, sans-serif; letter-spacing: 0.3em; }
+    .front .img.bottom img { transform: rotate(180deg); }
+    .front .qr { position: absolute; left: 18mm; top: 18mm; width: 27mm; height: 27mm; padding: 2mm; background: #fff; }
+    .front .name { position: absolute; top: 42mm; font: 700 4.2pt system-ui, sans-serif; letter-spacing: 0.25em; white-space: nowrap; }
+    .front .name.l { left: 2.5mm; transform: rotate(-90deg); transform-origin: 0 0; }
+    .front .name.r { right: 2.5mm; transform: rotate(90deg); transform-origin: 100% 0; }
     body.no-photo .front .img { display: none; }
-    body.no-photo .front .qr { width: 36mm; height: 36mm; bottom: auto; top: 9mm; }
+    body.no-photo .front .qr { width: 36mm; height: 36mm; left: 13.5mm; top: 13.5mm; }
 
     /* ---------- back (design A) ---------- */
     .back .frame { position: absolute; inset: 2.5mm; border: 0.4mm solid #222; outline: 0.2mm solid #222; outline-offset: -1.3mm; border-radius: 1.5mm;
@@ -94,9 +99,11 @@
           const qr = el("div", { class: "qr" });
           qr.innerHTML = qrSvg(KZ.cardUrl(c.id));
           front.append(el("div", { class: "card front" },
-            hasPhoto ? el("div", { class: "img" }, el("img", { src: PHOTO, alt: "" })) : null,
+            hasPhoto ? el("div", { class: "img top" }, el("img", { src: PHOTO, alt: "" })) : null,
+            hasPhoto ? el("div", { class: "img bottom" }, el("img", { src: PHOTO, alt: "" })) : null,
             qr,
-            el("div", { class: "name" }, KZ.gameName.toUpperCase())));
+            el("div", { class: "name l" }, KZ.gameName.toUpperCase()),
+            el("div", { class: "name r" }, KZ.gameName.toUpperCase())));
         }
 
         // Back side: each row mirrored left-right so card n's back lands behind its front.
