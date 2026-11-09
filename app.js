@@ -234,8 +234,32 @@
     render();
   }
 
+  function playerStatus() {
+    const wp = KZ.webPlayer;
+    if (wp.deviceId) return "Browser-Player: bereit ✓";
+    if (wp.failed) {
+      const hint = /keysystem|EME|DRM|provision|MediaKey|Widevine/i.test(wp.failed)
+        ? " · Tipp: In Chrome Einstellungen → Website-Einstellungen → Geschützte Inhalte erlauben, dann Seite neu laden."
+        : "";
+      return "Browser-Player nicht verfügbar: " + wp.failed + hint;
+    }
+    return wp.supported() ? "Browser-Player: verbindet …" : "Browser-Player: von diesem Browser nicht unterstützt";
+  }
+
   function footerView() {
     const items = [el("div", { style: "font-size:12px;opacity:.6" }, "Version " + VERSION)];
+    if (spotify.isLoggedIn()) {
+      items.push(el("div", { style: "font-size:12px;opacity:.75;max-width:420px" }, playerStatus()));
+      items.push(
+        el(
+          "details",
+          { style: "font-size:12px;opacity:.75;max-width:420px;text-align:left" },
+          el("summary", { style: "cursor:pointer;text-align:center" }, "Technische Details"),
+          el("p", { style: "margin:4px 0" }, (navigator.userAgent.match(/Android [\d.]+|iPhone OS [\d_]+|Windows NT [\d.]+|Mac OS X [\d_]+/) || [""])[0] + " · Chrome " + ((navigator.userAgent.match(/Chrome\/(\d+)/) || [])[1] || "?") + " · MediaKeys: " + ("MediaKeys" in window ? "ja" : "nein")),
+          el("pre", { style: "white-space:pre-wrap;font-size:11px;line-height:1.35;margin:0" }, KZ.apiLogText() || "noch keine Einträge")
+        )
+      );
+    }
     if (spotify.isLoggedIn()) {
       items.push(
         el(
